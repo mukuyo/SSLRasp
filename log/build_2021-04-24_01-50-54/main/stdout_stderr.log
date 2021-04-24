@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found message_info: 0.0.0 (/home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ubuntu/SSLRasp/src/main/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/SSLRasp/build/main
+[35m[1mScanning dependencies of target main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main[0m
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /home/ubuntu/SSLRasp/install/main/lib/main/main
+-- Set runtime path of "/home/ubuntu/SSLRasp/install/main/lib/main/main" to ""
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.sh
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.dsv
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.bash
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.sh
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.zsh
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.dsv
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/package.dsv
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/packages/main
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig.cmake
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig-version.cmake
+-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/package.xml

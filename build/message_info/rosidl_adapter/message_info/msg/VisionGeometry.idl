@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/VisionGeometry.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "message_info/msg/FieldCircularArc.idl"
+#include "message_info/msg/FieldLineSegment.idl"
+
+module message_info {
+  module msg {
+    struct VisionGeometry {
+      double field_length;
+
+      double field_width;
+
+      double goal_width;
+
+      double goal_depth;
+
+      double field_arcs_radius;
+
+      double ball_speed;
+
+      double ball_slope;
+
+      double ball_intercept;
+
+      double robot_speed;
+
+      double robot_angular_velocity;
+
+      int32 boundary_width;
+
+      sequence<message_info::msg::FieldLineSegment> field_lines;
+
+      sequence<message_info::msg::FieldCircularArc> field_arcs;
+
+      geometry_msgs::msg::Pose2D goal_plus;
+
+      geometry_msgs::msg::Pose2D goal_minus;
+
+      geometry_msgs::msg::Pose2D goal_plus_half;
+
+      geometry_msgs::msg::Pose2D goal_minus_half;
+    };
+  };
+};

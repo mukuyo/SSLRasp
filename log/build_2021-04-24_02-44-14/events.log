@@ -1,0 +1,591 @@
+[0.000000] (-) TimerEvent: {}
+[0.001019] (message_info) JobQueued: {'identifier': 'message_info', 'dependencies': OrderedDict()}
+[0.001349] (real_sender) JobQueued: {'identifier': 'real_sender', 'dependencies': OrderedDict()}
+[0.002147] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict([('message_info', '/home/ubuntu/SSLRasp/install/message_info')])}
+[0.002713] (message_info) JobStarted: {'identifier': 'message_info'}
+[0.041904] (real_sender) JobStarted: {'identifier': 'real_sender'}
+[0.082389] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'cmake'}
+[0.085785] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'build'}
+[0.089231] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/SSLRasp/build/message_info', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/SSLRasp/build/message_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/SSLRasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/real_sender:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[0.099309] (-) TimerEvent: {}
+[0.204732] (-) TimerEvent: {}
+[0.305848] (-) TimerEvent: {}
+[0.381808] (message_info) StdoutLine: {'line': b'[  0%] Built target message_info__cpp\n'}
+[0.406050] (-) TimerEvent: {}
+[0.433845] (message_info) StdoutLine: {'line': b'[ 12%] Built target message_info__rosidl_generator_c\n'}
+[0.506265] (-) TimerEvent: {}
+[0.591858] (message_info) StdoutLine: {'line': b'[ 24%] Built target message_info__rosidl_typesupport_introspection_cpp\n'}
+[0.606501] (-) TimerEvent: {}
+[0.609427] (message_info) StdoutLine: {'line': b'[ 36%] Built target message_info__rosidl_typesupport_fastrtps_cpp\n'}
+[0.633061] (message_info) StdoutLine: {'line': b'[ 48%] Built target message_info__rosidl_typesupport_cpp\n'}
+[0.641615] (message_info) StdoutLine: {'line': b'[ 60%] Built target message_info__rosidl_typesupport_introspection_c\n'}
+[0.706742] (-) TimerEvent: {}
+[0.760239] (message_info) StdoutLine: {'line': b'[ 72%] Built target message_info__rosidl_typesupport_c\n'}
+[0.806929] (-) TimerEvent: {}
+[0.824710] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info__rosidl_typesupport_fastrtps_c\n'}
+[0.907177] (-) TimerEvent: {}
+[0.919535] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info\n'}
+[1.007353] (-) TimerEvent: {}
+[1.023833] (message_info) StdoutLine: {'line': b'[ 85%] Built target message_info__py\n'}
+[1.107565] (-) TimerEvent: {}
+[1.208558] (-) TimerEvent: {}
+[1.227856] (message_info) StdoutLine: {'line': b'[ 96%] Built target message_info__python\n'}
+[1.308992] (-) TimerEvent: {}
+[1.317873] (real_sender) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/real_sender', 'build', '--build-base', '/home/ubuntu/SSLRasp/build/real_sender/build', 'install', '--prefix', '/home/ubuntu/SSLRasp/install/real_sender', '--record', '/home/ubuntu/SSLRasp/build/real_sender/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/SSLRasp/src/real_sender', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.11 61163 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/SSLRasp/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/SSLRasp/install/real_sender:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/SSLRasp/build/real_sender', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.11 61163 192.168.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info'}, 'shell': False}
+[1.409234] (-) TimerEvent: {}
+[1.450215] (message_info) StdoutLine: {'line': b'[ 99%] Built target message_info__rosidl_typesupport_c__pyext\n'}
+[1.451636] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_introspection_c__pyext\n'}
+[1.454603] (message_info) StdoutLine: {'line': b'[ 99%] Built target message_info__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.509407] (-) TimerEvent: {}
+[1.610134] (-) TimerEvent: {}
+[1.710827] (-) TimerEvent: {}
+[1.811513] (-) TimerEvent: {}
+[1.912169] (-) TimerEvent: {}
+[2.012793] (-) TimerEvent: {}
+[2.109455] (message_info) CommandEnded: {'returncode': 0}
+[2.115540] (-) TimerEvent: {}
+[2.217735] (-) TimerEvent: {}
+[2.250868] (real_sender) StdoutLine: {'line': b'running egg_info\n'}
+[2.253520] (real_sender) StdoutLine: {'line': b'writing ../../build/real_sender/real_sender.egg-info/PKG-INFO\n'}
+[2.254783] (real_sender) StdoutLine: {'line': b'writing dependency_links to ../../build/real_sender/real_sender.egg-info/dependency_links.txt\n'}
+[2.255730] (real_sender) StdoutLine: {'line': b'writing entry points to ../../build/real_sender/real_sender.egg-info/entry_points.txt\n'}
+[2.256706] (real_sender) StdoutLine: {'line': b'writing requirements to ../../build/real_sender/real_sender.egg-info/requires.txt\n'}
+[2.257926] (real_sender) StdoutLine: {'line': b'writing top-level names to ../../build/real_sender/real_sender.egg-info/top_level.txt\n'}
+[2.317920] (-) TimerEvent: {}
+[2.403703] (real_sender) StdoutLine: {'line': b"reading manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'\n"}
+[2.407645] (real_sender) StdoutLine: {'line': b"writing manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'\n"}
+[2.408437] (real_sender) StdoutLine: {'line': b'running build\n'}
+[2.409162] (real_sender) StdoutLine: {'line': b'running build_py\n'}
+[2.410428] (real_sender) StdoutLine: {'line': b'copying python_programs/real_sender.py -> /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs\n'}
+[2.410940] (real_sender) StdoutLine: {'line': b'running install\n'}
+[2.413580] (real_sender) StdoutLine: {'line': b'running install_lib\n'}
+[2.418187] (real_sender) StdoutLine: {'line': b'copying /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs/real_sender.py -> /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs\n'}
+[2.418801] (-) TimerEvent: {}
+[2.421089] (real_sender) StdoutLine: {'line': b'byte-compiling /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs/real_sender.py to real_sender.cpython-38.pyc\n'}
+[2.427576] (real_sender) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.434031] (real_sender) StdoutLine: {'line': b"removing '/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/real_sender-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.435760] (real_sender) StdoutLine: {'line': b'Copying ../../build/real_sender/real_sender.egg-info to /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/real_sender-0.0.0-py3.8.egg-info\n'}
+[2.441908] (real_sender) StdoutLine: {'line': b'running install_scripts\n'}
+[2.515531] (real_sender) StdoutLine: {'line': b'Installing real_send script to /home/ubuntu/SSLRasp/install/real_sender/lib/real_sender\n'}
+[2.516925] (real_sender) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/SSLRasp/build/real_sender/install.log'\n"}
+[2.519077] (-) TimerEvent: {}
+[2.620250] (-) TimerEvent: {}
+[2.625285] (real_sender) CommandEnded: {'returncode': 0}
+[2.685274] (real_sender) JobEnded: {'identifier': 'real_sender', 'rc': 0}
+[2.720420] (-) TimerEvent: {}
+[2.821182] (-) TimerEvent: {}
+[2.921897] (-) TimerEvent: {}
+[3.022655] (-) TimerEvent: {}
+[3.123881] (-) TimerEvent: {}
+[3.224665] (-) TimerEvent: {}
+[3.325424] (-) TimerEvent: {}
+[3.426342] (-) TimerEvent: {}
+[3.527141] (-) TimerEvent: {}
+[3.628333] (-) TimerEvent: {}
+[3.729022] (-) TimerEvent: {}
+[3.829778] (-) TimerEvent: {}
+[3.930695] (-) TimerEvent: {}
+[4.031426] (-) TimerEvent: {}
+[4.132255] (-) TimerEvent: {}
+[4.150119] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'install'}
+[4.192715] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/SSLRasp/build/message_info'], 'cwd': '/home/ubuntu/SSLRasp/build/message_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/SSLRasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/real_sender:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[4.232506] (-) TimerEvent: {}
+[4.236909] (message_info) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.237647] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/rosidl_interfaces/message_info\n'}
+[4.238178] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.238597] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.239032] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.h\n'}
+[4.239477] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.h\n'}
+[4.239923] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.h\n'}
+[4.240302] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.h\n'}
+[4.240641] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.h\n'}
+[4.241037] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.h\n'}
+[4.241441] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.241882] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.h\n'}
+[4.242317] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.c\n'}
+[4.242766] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.c\n'}
+[4.243272] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.h\n'}
+[4.243764] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.h\n'}
+[4.244262] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.h\n'}
+[4.244763] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.h\n'}
+[4.245208] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.h\n'}
+[4.245595] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.c\n'}
+[4.246018] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.h\n'}
+[4.246437] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.h\n'}
+[4.246913] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.h\n'}
+[4.247328] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.c\n'}
+[4.247757] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.h\n'}
+[4.248213] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.h\n'}
+[4.248662] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.h\n'}
+[4.249044] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.c\n'}
+[4.249471] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.h\n'}
+[4.249889] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.h\n'}
+[4.250272] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.c\n'}
+[4.250698] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.h\n'}
+[4.251149] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.c\n'}
+[4.251576] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.h\n'}
+[4.251954] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.h\n'}
+[4.252443] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.h\n'}
+[4.252867] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.c\n'}
+[4.253281] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.h\n'}
+[4.253683] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.h\n'}
+[4.254107] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.h\n'}
+[4.254492] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.h\n'}
+[4.254925] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.h\n'}
+[4.255346] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.h\n'}
+[4.255722] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.h\n'}
+[4.256184] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.h\n'}
+[4.256651] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.h\n'}
+[4.257098] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.h\n'}
+[4.257529] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.h\n'}
+[4.257929] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.h\n'}
+[4.258344] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.h\n'}
+[4.258774] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.h\n'}
+[4.259205] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.c\n'}
+[4.259606] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.h\n'}
+[4.260032] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.h\n'}
+[4.260517] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.h\n'}
+[4.260948] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.h\n'}
+[4.261408] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.c\n'}
+[4.261846] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.h\n'}
+[4.262228] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.c\n'}
+[4.262685] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.h\n'}
+[4.263047] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.h\n'}
+[4.263492] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.h\n'}
+[4.263933] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.h\n'}
+[4.264373] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.c\n'}
+[4.264717] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.c\n'}
+[4.265160] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.c\n'}
+[4.265502] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.h\n'}
+[4.265880] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.c\n'}
+[4.266292] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.h\n'}
+[4.266705] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.h\n'}
+[4.267070] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.h\n'}
+[4.267373] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.h\n'}
+[4.267760] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.c\n'}
+[4.268176] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.c\n'}
+[4.268630] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.h\n'}
+[4.269007] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.h\n'}
+[4.269380] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.h\n'}
+[4.269798] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.h\n'}
+[4.270167] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.h\n'}
+[4.270586] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.h\n'}
+[4.270949] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.h\n'}
+[4.271306] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.c\n'}
+[4.271721] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.h\n'}
+[4.272094] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.h\n'}
+[4.272496] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.h\n'}
+[4.272916] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.c\n'}
+[4.273330] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.h\n'}
+[4.273673] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.273983] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.h\n'}
+[4.274328] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.h\n'}
+[4.274788] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.h\n'}
+[4.275130] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.h\n'}
+[4.275439] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.h\n'}
+[4.275746] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.h\n'}
+[4.276194] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.h\n'}
+[4.276735] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.h\n'}
+[4.277066] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.h\n'}
+[4.277434] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.h\n'}
+[4.277815] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.h\n'}
+[4.278231] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.h\n'}
+[4.278589] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.h\n'}
+[4.278955] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.sh\n'}
+[4.279369] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.dsv\n'}
+[4.279727] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so\n'}
+[4.280098] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.280576] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.280934] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.281316] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h\n'}
+[4.281741] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_c.h\n'}
+[4.282122] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_c.h\n'}
+[4.282498] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[4.282917] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[4.283280] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_c.h\n'}
+[4.283694] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[4.284037] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_c.h\n'}
+[4.284403] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_c.h\n'}
+[4.284725] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_c.h\n'}
+[4.285200] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.285559] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h\n'}
+[4.285869] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_c.h\n'}
+[4.286215] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.286633] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[4.287073] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[4.287463] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[4.287769] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.288230] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.288627] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.289036] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so\n'}
+[4.289394] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.289769] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.290186] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.290561] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.290974] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.291348] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.291745] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.292146] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.292598] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.292960] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.293331] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.293728] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.294104] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.294472] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.294893] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/dds_fastrtps\n'}
+[4.295258] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.295662] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.296072] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.296509] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.296942] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.297315] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.297687] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.298102] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.298468] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.298931] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.299278] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.299584] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.299902] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.300434] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h\n'}
+[4.300780] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.c\n'}
+[4.301090] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_c.h\n'}
+[4.301409] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.c\n'}
+[4.301737] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.c\n'}
+[4.302053] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_c.h\n'}
+[4.302488] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.c\n'}
+[4.302848] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[4.303157] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[4.303523] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.c\n'}
+[4.304004] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.c\n'}
+[4.304397] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_c.h\n'}
+[4.304867] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.c\n'}
+[4.305281] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.c\n'}
+[4.305723] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.c\n'}
+[4.306148] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.c\n'}
+[4.306456] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_c.h\n'}
+[4.306821] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.c\n'}
+[4.307204] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_c.h\n'}
+[4.307617] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h\n'}
+[4.308034] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.c\n'}
+[4.308456] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.c\n'}
+[4.308886] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_c.h\n'}
+[4.309303] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_c.h\n'}
+[4.309679] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.c\n'}
+[4.310085] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.c\n'}
+[4.310449] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h\n'}
+[4.310879] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_c.h\n'}
+[4.311288] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.c\n'}
+[4.311687] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h\n'}
+[4.312039] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_c.h\n'}
+[4.312503] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_c.h\n'}
+[4.312974] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_c.h\n'}
+[4.313354] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.c\n'}
+[4.313776] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_c.h\n'}
+[4.314182] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.c\n'}
+[4.314555] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_c.h\n'}
+[4.314979] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.c\n'}
+[4.315393] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.315769] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so\n'}
+[4.316224] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so\n'}
+[4.316674] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.317054] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.317472] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.hpp\n'}
+[4.317882] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.hpp\n'}
+[4.318258] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.hpp\n'}
+[4.318676] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.hpp\n'}
+[4.319044] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.hpp\n'}
+[4.319480] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.hpp\n'}
+[4.319907] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.320372] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__builder.hpp\n'}
+[4.320771] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__traits.hpp\n'}
+[4.321192] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.hpp\n'}
+[4.321618] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.hpp\n'}
+[4.322032] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__traits.hpp\n'}
+[4.322452] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__builder.hpp\n'}
+[4.322871] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__traits.hpp\n'}
+[4.323285] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__traits.hpp\n'}
+[4.323740] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__builder.hpp\n'}
+[4.324214] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.hpp\n'}
+[4.324671] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.hpp\n'}
+[4.324994] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__builder.hpp\n'}
+[4.325308] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__builder.hpp\n'}
+[4.325707] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__builder.hpp\n'}
+[4.326137] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.hpp\n'}
+[4.326511] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.hpp\n'}
+[4.326883] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__traits.hpp\n'}
+[4.327335] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__builder.hpp\n'}
+[4.327704] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__traits.hpp\n'}
+[4.328072] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__traits.hpp\n'}
+[4.328589] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__traits.hpp\n'}
+[4.328985] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__traits.hpp\n'}
+[4.329406] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__builder.hpp\n'}
+[4.329789] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.hpp\n'}
+[4.330213] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__builder.hpp\n'}
+[4.330591] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.hpp\n'}
+[4.330998] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__builder.hpp\n'}
+[4.331373] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__builder.hpp\n'}
+[4.331750] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.hpp\n'}
+[4.332197] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__builder.hpp\n'}
+[4.332580] (-) TimerEvent: {}
+[4.333016] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__builder.hpp\n'}
+[4.333645] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.hpp\n'}
+[4.334054] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__builder.hpp\n'}
+[4.334492] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__traits.hpp\n'}
+[4.334885] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.hpp\n'}
+[4.335398] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__builder.hpp\n'}
+[4.335869] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__builder.hpp\n'}
+[4.336348] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__traits.hpp\n'}
+[4.336723] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__traits.hpp\n'}
+[4.337060] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.hpp\n'}
+[4.337380] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.hpp\n'}
+[4.337881] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.hpp\n'}
+[4.338275] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__builder.hpp\n'}
+[4.338651] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__traits.hpp\n'}
+[4.338972] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.hpp\n'}
+[4.339294] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.hpp\n'}
+[4.339622] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.hpp\n'}
+[4.339944] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.hpp\n'}
+[4.340464] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__traits.hpp\n'}
+[4.340831] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.hpp\n'}
+[4.341141] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__traits.hpp\n'}
+[4.341473] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__traits.hpp\n'}
+[4.341945] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__traits.hpp\n'}
+[4.342415] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__builder.hpp\n'}
+[4.342902] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__builder.hpp\n'}
+[4.343331] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__traits.hpp\n'}
+[4.343800] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__traits.hpp\n'}
+[4.344245] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.hpp\n'}
+[4.344609] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.hpp\n'}
+[4.344905] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.hpp\n'}
+[4.345254] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.hpp\n'}
+[4.345673] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.hpp\n'}
+[4.346016] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.hpp\n'}
+[4.346312] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.hpp\n'}
+[4.346665] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.hpp\n'}
+[4.346969] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.hpp\n'}
+[4.347278] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.hpp\n'}
+[4.347608] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.hpp\n'}
+[4.347944] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.hpp\n'}
+[4.348337] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.hpp\n'}
+[4.348761] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[4.349150] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[4.349592] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[4.349962] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.350317] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.350660] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.cpp\n'}
+[4.351016] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.cpp\n'}
+[4.351365] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.351789] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.352216] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.352639] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.353087] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.353477] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.353847] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.cpp\n'}
+[4.354201] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.cpp\n'}
+[4.354596] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.354952] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.355315] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.cpp\n'}
+[4.355671] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.cpp\n'}
+[4.356021] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.cpp\n'}
+[4.356438] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.356848] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.cpp\n'}
+[4.357217] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.cpp\n'}
+[4.357584] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.cpp\n'}
+[4.357980] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.cpp\n'}
+[4.358371] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.358751] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.359160] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.cpp\n'}
+[4.359547] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.359923] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.cpp\n'}
+[4.360338] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.cpp\n'}
+[4.360689] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.cpp\n'}
+[4.361008] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.cpp\n'}
+[4.361334] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.cpp\n'}
+[4.361661] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.361953] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.362236] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.cpp\n'}
+[4.362546] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.cpp\n'}
+[4.362878] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.363206] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.363499] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.363789] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so\n'}
+[4.364076] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so\n'}
+[4.364420] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.sh\n'}
+[4.364717] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.dsv\n'}
+[4.365010] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py\n'}
+[4.432766] (-) TimerEvent: {}
+[4.493154] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg\n'}
+[4.493861] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py\n'}
+[4.494347] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event_s.c\n'}
+[4.494758] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/__init__.py\n'}
+[4.495184] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry.py\n'}
+[4.495616] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry_s.c\n'}
+[4.496033] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc_s.c\n'}
+[4.496509] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie.py\n'}
+[4.496896] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info.py\n'}
+[4.497305] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command.py\n'}
+[4.497716] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info.py\n'}
+[4.498185] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame_s.c\n'}
+[4.498574] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie_s.c\n'}
+[4.498996] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment.py\n'}
+[4.499400] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command_s.c\n'}
+[4.499804] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame.py\n'}
+[4.500212] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands_s.c\n'}
+[4.500664] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands.py\n'}
+[4.501093] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker.py\n'}
+[4.501495] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py\n'}
+[4.501873] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball.py\n'}
+[4.502362] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role_s.c\n'}
+[4.502894] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker_s.c\n'}
+[4.503314] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test.py\n'}
+[4.503639] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot.py\n'}
+[4.503959] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc.py\n'}
+[4.504324] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot_s.c\n'}
+[4.504673] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball_s.c\n'}
+[4.505141] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections_s.c\n'}
+[4.505477] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info_s.c\n'}
+[4.505786] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py\n'}
+[4.506090] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment_s.c\n'}
+[4.506391] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info_s.c\n'}
+[4.506697] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info_s.c\n'}
+[4.507034] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info_s.c\n'}
+[4.507337] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections.py\n'}
+[4.507634] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py\n'}
+[4.507952] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_s.c\n'}
+[4.508502] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role.py\n'}
+[4.508856] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test_s.c\n'}
+[4.509167] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.509478] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.511508] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.514096] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__python.so\n'}
+[4.515488] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.idl\n'}
+[4.516080] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.idl\n'}
+[4.516661] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.idl\n'}
+[4.517139] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.idl\n'}
+[4.517620] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.idl\n'}
+[4.518093] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.idl\n'}
+[4.518582] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.idl\n'}
+[4.519092] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.idl\n'}
+[4.519590] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.idl\n'}
+[4.520068] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.idl\n'}
+[4.520605] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.idl\n'}
+[4.521124] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.idl\n'}
+[4.521620] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.idl\n'}
+[4.522169] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.idl\n'}
+[4.522647] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.idl\n'}
+[4.523196] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.idl\n'}
+[4.523670] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.idl\n'}
+[4.524163] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.idl\n'}
+[4.524703] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.idl\n'}
+[4.525207] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.msg\n'}
+[4.525680] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.msg\n'}
+[4.526157] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.msg\n'}
+[4.526621] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.msg\n'}
+[4.527078] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.msg\n'}
+[4.527544] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.msg\n'}
+[4.528005] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.msg\n'}
+[4.528520] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.msg\n'}
+[4.528997] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.msg\n'}
+[4.529449] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.msg\n'}
+[4.529939] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.msg\n'}
+[4.530399] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.msg\n'}
+[4.530866] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.msg\n'}
+[4.531337] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.msg\n'}
+[4.531821] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.msg\n'}
+[4.532349] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.msg\n'}
+[4.532833] (-) TimerEvent: {}
+[4.533361] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.msg\n'}
+[4.533974] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.msg\n'}
+[4.534507] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.msg\n'}
+[4.534998] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info\n'}
+[4.535476] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info\n'}
+[4.535945] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.sh\n'}
+[4.536512] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.dsv\n'}
+[4.537068] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.sh\n'}
+[4.537567] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.dsv\n'}
+[4.538064] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.bash\n'}
+[4.538542] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.sh\n'}
+[4.539006] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.zsh\n'}
+[4.539491] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.dsv\n'}
+[4.539860] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.dsv\n'}
+[4.540905] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/packages/message_info\n'}
+[4.541994] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport.cmake\n'}
+[4.542588] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.543725] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.544364] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.545514] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport.cmake\n'}
+[4.546084] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.547127] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cppExport.cmake\n'}
+[4.548313] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.548917] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.550011] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport.cmake\n'}
+[4.550611] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.551169] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake-extras.cmake\n'}
+[4.551705] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.552257] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.552831] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.553356] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.553969] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.554565] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.555080] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig.cmake\n'}
+[4.555530] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig-version.cmake\n'}
+[4.556033] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.xml\n'}
+[4.563003] (message_info) CommandEnded: {'returncode': 0}
+[4.633144] (-) TimerEvent: {}
+[4.734353] (-) TimerEvent: {}
+[4.835103] (-) TimerEvent: {}
+[4.935850] (-) TimerEvent: {}
+[5.036626] (-) TimerEvent: {}
+[5.137389] (-) TimerEvent: {}
+[5.238129] (-) TimerEvent: {}
+[5.338844] (-) TimerEvent: {}
+[5.439754] (-) TimerEvent: {}
+[5.540675] (-) TimerEvent: {}
+[5.641410] (-) TimerEvent: {}
+[5.742343] (-) TimerEvent: {}
+[5.843102] (-) TimerEvent: {}
+[5.943856] (-) TimerEvent: {}
+[6.044678] (-) TimerEvent: {}
+[6.145521] (-) TimerEvent: {}
+[6.246791] (-) TimerEvent: {}
+[6.347605] (-) TimerEvent: {}
+[6.448362] (-) TimerEvent: {}
+[6.549677] (-) TimerEvent: {}
+[6.650749] (-) TimerEvent: {}
+[6.744479] (message_info) JobEnded: {'identifier': 'message_info', 'rc': 0}
+[6.754344] (-) TimerEvent: {}
+[6.754807] (main) JobStarted: {'identifier': 'main'}
+[6.785483] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[6.788660] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[6.790061] (main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/SSLRasp/build/main', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/SSLRasp/build/main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/SSLRasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/real_sender:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[6.854627] (-) TimerEvent: {}
+[6.955666] (-) TimerEvent: {}
+[7.057329] (-) TimerEvent: {}
+[7.089875] (main) StdoutLine: {'line': b'[100%] Built target main\n'}
+[7.132881] (main) CommandEnded: {'returncode': 0}
+[7.156791] (-) TimerEvent: {}
+[7.257779] (-) TimerEvent: {}
+[7.259595] (main) JobProgress: {'identifier': 'main', 'progress': 'install'}
+[7.260918] (main) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/SSLRasp/build/main'], 'cwd': '/home/ubuntu/SSLRasp/build/main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/SSLRasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/real_sender:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/home/ubuntu/SSLRasp/install/main:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[7.303506] (main) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.304792] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/lib/main/main\n'}
+[7.306145] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/package_run_dependencies/main\n'}
+[7.306659] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/parent_prefix_path/main\n'}
+[7.307113] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.sh\n'}
+[7.307544] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.dsv\n'}
+[7.307971] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.sh\n'}
+[7.308444] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.dsv\n'}
+[7.308941] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.bash\n'}
+[7.309369] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.sh\n'}
+[7.309783] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.zsh\n'}
+[7.310201] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.dsv\n'}
+[7.310559] (main) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/main/share/main/package.dsv\n'}
+[7.311077] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/packages/main\n'}
+[7.311524] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig.cmake\n'}
+[7.311932] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig-version.cmake\n'}
+[7.312449] (main) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/main/share/main/package.xml\n'}
+[7.317448] (main) CommandEnded: {'returncode': 0}
+[7.358008] (-) TimerEvent: {}
+[7.458903] (-) TimerEvent: {}
+[7.500312] (main) JobEnded: {'identifier': 'main', 'rc': 0}
+[7.503399] (-) EventReactorShutdown: {}

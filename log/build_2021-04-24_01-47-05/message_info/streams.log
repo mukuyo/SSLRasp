@@ -1,0 +1,703 @@
+[0.104s] Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/SSLRasp/src/message_info -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SSLRasp/install/message_info
+[1.419s] -- The C compiler identification is GNU 9.3.0
+[2.222s] -- The CXX compiler identification is GNU 9.3.0
+[2.257s] -- Check for working C compiler: /usr/bin/cc
+[2.625s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.632s] -- Detecting C compiler ABI info
+[2.948s] -- Detecting C compiler ABI info - done
+[2.992s] -- Detecting C compile features
+[2.994s] -- Detecting C compile features - done
+[3.007s] -- Check for working CXX compiler: /usr/bin/c++
+[3.343s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.348s] -- Detecting CXX compiler ABI info
+[3.688s] -- Detecting CXX compiler ABI info - done
+[3.731s] -- Detecting CXX compile features
+[3.733s] -- Detecting CXX compile features - done
+[3.767s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.921s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.921s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.994s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.095s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.936s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.181s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.018s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[7.118s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[7.216s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.740s] -- OpenSSL Version: 1.1.1f /usr/include /usr/lib/aarch64-linux-gnu/libssl.so;/usr/lib/aarch64-linux-gnu/libcrypto.so
+[7.869s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[9.226s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[11.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.956s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[11.975s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[12.099s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[12.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.101s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[12.101s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[12.197s] -- Found PythonExtra: .so  
+[12.650s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.920s] -- Added test 'lint_cmake' to check CMake code style
+[12.935s] -- Added test 'xmllint' to check XML markup files
+[12.977s] -- Configuring done
+[13.520s] -- Generating done
+[13.533s] -- Build files have been written to: /home/ubuntu/SSLRasp/build/message_info
+[13.574s] Invoked command in '/home/ubuntu/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/SSLRasp/src/message_info -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SSLRasp/install/message_info
+[13.586s] Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4
+[13.792s] [35m[1mScanning dependencies of target message_info__cpp[0m
+[13.796s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.846s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.428s] [  1%] Built target message_info__cpp
+[21.498s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.513s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.521s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.507s] [35m[1mScanning dependencies of target message_info__rosidl_generator_c[0m
+[22.632s] [  3%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_game_event__functions.c.o[0m
+[22.926s] [  4%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_team_info__functions.c.o[0m
+[23.129s] [  4%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee__functions.c.o[0m
+[23.342s] [  5%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_circular_arc__functions.c.o[0m
+[23.542s] [  6%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_line_segment__functions.c.o[0m
+[23.739s] [  6%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_geometry__functions.c.o[0m
+[23.948s] [  7%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_ball__functions.c.o[0m
+[24.160s] [  7%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_robot__functions.c.o[0m
+[24.391s] [  8%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_frame__functions.c.o[0m
+[24.602s] [  8%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_detections__functions.c.o[0m
+[24.809s] [  9%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_command__functions.c.o[0m
+[25.006s] [ 10%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_commands__functions.c.o[0m
+[25.214s] [ 10%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/test__functions.c.o[0m
+[25.414s] [ 11%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/ball_info__functions.c.o[0m
+[26.333s] [ 11%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goal_info__functions.c.o[0m
+[26.533s] [ 12%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/role__functions.c.o[0m
+[26.728s] [ 12%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/attacker__functions.c.o[0m
+[26.927s] [ 13%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goalie__functions.c.o[0m
+[27.166s] [ 14%] [32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/info__functions.c.o[0m
+[27.387s] [ 14%] [32m[1mLinking C shared library libmessage_info__rosidl_generator_c.so[0m
+[27.716s] [ 14%] Built target message_info__rosidl_generator_c
+[27.795s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.800s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_cpp[0m
+[27.931s] [ 15%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_game_event__type_support.cpp.o[0m
+[29.632s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_cpp[0m
+[29.775s] [ 16%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_game_event__type_support.cpp.o[0m
+[30.175s] [ 17%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_team_info__type_support.cpp.o[0m
+[30.294s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_cpp[0m
+[30.490s] [ 18%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_game_event__type_support.cpp.o[0m
+[31.474s] [ 18%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_team_info__type_support.cpp.o[0m
+[31.833s] [ 19%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee__type_support.cpp.o[0m
+[33.247s] [ 19%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_team_info__type_support.cpp.o[0m
+[33.453s] [ 20%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee__type_support.cpp.o[0m
+[33.616s] [ 20%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_circular_arc__type_support.cpp.o[0m
+[35.313s] [ 20%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_circular_arc__type_support.cpp.o[0m
+[35.389s] [ 21%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_line_segment__type_support.cpp.o[0m
+[36.277s] [ 22%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee__type_support.cpp.o[0m
+[36.387s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c[0m
+[36.556s] [ 23%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_game_event__type_support.c.o[0m
+[36.886s] [ 23%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_team_info__type_support.c.o[0m
+[37.102s] [ 24%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_line_segment__type_support.cpp.o[0m
+[37.141s] [ 25%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee__type_support.c.o[0m
+[37.147s] [ 25%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_geometry__type_support.cpp.o[0m
+[37.338s] [ 25%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_circular_arc__type_support.c.o[0m
+[37.534s] [ 26%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_line_segment__type_support.c.o[0m
+[37.728s] [ 26%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_geometry__type_support.c.o[0m
+[37.962s] [ 27%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_ball__type_support.c.o[0m
+[38.159s] [ 28%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_robot__type_support.c.o[0m
+[38.367s] [ 28%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_frame__type_support.c.o[0m
+[38.623s] [ 29%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_detections__type_support.c.o[0m
+[38.848s] [ 29%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_command__type_support.c.o[0m
+[38.894s] [ 30%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_geometry__type_support.cpp.o[0m
+[38.944s] [ 31%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_ball__type_support.cpp.o[0m
+[39.053s] [ 32%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_commands__type_support.c.o[0m
+[39.062s] [ 32%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_circular_arc__type_support.cpp.o[0m
+[39.248s] [ 32%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/test__type_support.c.o[0m
+[39.433s] [ 33%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/ball_info__type_support.c.o[0m
+[39.624s] [ 34%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goal_info__type_support.c.o[0m
+[39.821s] [ 34%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/role__type_support.c.o[0m
+[40.013s] [ 35%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/attacker__type_support.c.o[0m
+[40.218s] [ 35%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goalie__type_support.c.o[0m
+[40.420s] [ 36%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/info__type_support.c.o[0m
+[40.634s] [ 36%] [32m[1mLinking C shared library libmessage_info__rosidl_typesupport_introspection_c.so[0m
+[40.687s] [ 36%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_robot__type_support.cpp.o[0m
+[40.860s] [ 36%] Built target message_info__rosidl_typesupport_introspection_c
+[40.916s] [ 37%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_frame__type_support.cpp.o[0m
+[41.355s] [ 37%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_ball__type_support.cpp.o[0m
+[41.775s] [ 38%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_line_segment__type_support.cpp.o[0m
+[42.421s] [ 38%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_geometry__type_support.cpp.o[0m
+[42.717s] [ 39%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_detections__type_support.cpp.o[0m
+[43.075s] [ 40%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_robot__type_support.cpp.o[0m
+[44.409s] [ 40%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_frame__type_support.cpp.o[0m
+[44.501s] [ 40%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_command__type_support.cpp.o[0m
+[44.872s] [ 41%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_commands__type_support.cpp.o[0m
+[45.662s] [ 42%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_ball__type_support.cpp.o[0m
+[46.890s] [ 43%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_detections__type_support.cpp.o[0m
+[46.916s] [ 43%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_command__type_support.cpp.o[0m
+[46.941s] [ 43%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/test__type_support.cpp.o[0m
+[48.172s] [ 44%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_robot__type_support.cpp.o[0m
+[48.583s] [ 45%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/ball_info__type_support.cpp.o[0m
+[48.644s] [ 46%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_commands__type_support.cpp.o[0m
+[49.138s] [ 46%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goal_info__type_support.cpp.o[0m
+[50.288s] [ 47%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/test__type_support.cpp.o[0m
+[50.488s] [ 48%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/role__type_support.cpp.o[0m
+[50.852s] [ 48%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_frame__type_support.cpp.o[0m
+[50.914s] [ 49%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_detections__type_support.cpp.o[0m
+[52.044s] [ 49%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/ball_info__type_support.cpp.o[0m
+[52.206s] [ 50%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/attacker__type_support.cpp.o[0m
+[53.831s] [ 51%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goal_info__type_support.cpp.o[0m
+[53.980s] [ 51%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/role__type_support.cpp.o[0m
+[54.030s] [ 51%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goalie__type_support.cpp.o[0m
+[54.096s] [ 51%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_command__type_support.cpp.o[0m
+[55.552s] [ 52%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/info__type_support.cpp.o[0m
+[55.689s] [ 53%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/attacker__type_support.cpp.o[0m
+[55.710s] [ 53%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goalie__type_support.cpp.o[0m
+[56.719s] [ 54%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_commands__type_support.cpp.o[0m
+[57.319s] [ 54%] [32m[1mLinking CXX shared library libmessage_info__rosidl_typesupport_cpp.so[0m
+[57.384s] [ 54%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/test__type_support.cpp.o[0m
+[57.412s] [ 55%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/info__type_support.cpp.o[0m
+[57.568s] [ 55%] Built target message_info__rosidl_typesupport_cpp
+[57.613s] [ 56%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/ball_info__type_support.cpp.o[0m
+[59.386s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[59.901s] [ 58%] [32m[1mLinking CXX shared library libmessage_info__rosidl_typesupport_introspection_cpp.so[0m
+[60.086s] [ 59%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[60.420s] [ 59%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/role__type_support.cpp.o[0m
+[60.425s] [ 59%] Built target message_info__rosidl_typesupport_introspection_cpp
+[60.472s] [ 60%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/attacker__type_support.cpp.o[0m
+[62.697s] [ 60%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goalie__type_support.cpp.o[0m
+[63.017s] [ 61%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/info__type_support.cpp.o[0m
+[65.425s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_c[0m
+[65.526s] [ 61%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_game_event__type_support.cpp.o[0m
+[65.529s] [ 62%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_team_info__type_support.cpp.o[0m
+[65.540s] [ 62%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee__type_support.cpp.o[0m
+[65.720s] [ 63%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_line_segment__type_support.cpp.o[0m
+[65.722s] [ 64%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_circular_arc__type_support.cpp.o[0m
+[65.741s] [ 64%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_geometry__type_support.cpp.o[0m
+[65.768s] [ 64%] [32m[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_cpp.so[0m
+[65.899s] [ 65%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_ball__type_support.cpp.o[0m
+[65.903s] [ 65%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_robot__type_support.cpp.o[0m
+[65.933s] [ 66%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_frame__type_support.cpp.o[0m
+[66.090s] [ 66%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_detections__type_support.cpp.o[0m
+[66.101s] [ 67%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_command__type_support.cpp.o[0m
+[66.134s] [ 68%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_commands__type_support.cpp.o[0m
+[66.337s] [ 68%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/test__type_support.cpp.o[0m
+[66.352s] [ 69%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/ball_info__type_support.cpp.o[0m
+[66.367s] [ 69%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goal_info__type_support.cpp.o[0m
+[66.470s] [ 69%] Built target message_info__rosidl_typesupport_fastrtps_cpp
+[66.519s] [ 70%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/role__type_support.cpp.o[0m
+[66.540s] [ 71%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/attacker__type_support.cpp.o[0m
+[66.542s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[66.558s] [ 72%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goalie__type_support.cpp.o[0m
+[66.705s] [ 73%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/info__type_support.cpp.o[0m
+[67.121s] [ 73%] [32m[1mLinking CXX shared library libmessage_info__rosidl_typesupport_c.so[0m
+[67.322s] [ 73%] Built target message_info__rosidl_typesupport_c
+[72.642s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c[0m
+[72.888s] [ 74%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_game_event__type_support_c.cpp.o[0m
+[72.891s] [ 74%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_team_info__type_support_c.cpp.o[0m
+[72.899s] [ 75%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee__type_support_c.cpp.o[0m
+[72.902s] [ 75%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_circular_arc__type_support_c.cpp.o[0m
+[75.048s] [ 76%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_line_segment__type_support_c.cpp.o[0m
+[75.072s] [ 76%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_geometry__type_support_c.cpp.o[0m
+[75.118s] [ 77%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_ball__type_support_c.cpp.o[0m
+[75.218s] [ 77%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_robot__type_support_c.cpp.o[0m
+[77.243s] [ 78%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_frame__type_support_c.cpp.o[0m
+[77.294s] [ 79%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_detections__type_support_c.cpp.o[0m
+[77.305s] [ 79%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_command__type_support_c.cpp.o[0m
+[77.489s] [ 80%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_commands__type_support_c.cpp.o[0m
+[79.436s] [ 80%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/test__type_support_c.cpp.o[0m
+[79.438s] [ 81%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/ball_info__type_support_c.cpp.o[0m
+[79.497s] [ 81%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goal_info__type_support_c.cpp.o[0m
+[79.813s] [ 82%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/role__type_support_c.cpp.o[0m
+[81.547s] [ 83%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/attacker__type_support_c.cpp.o[0m
+[81.559s] [ 83%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goalie__type_support_c.cpp.o[0m
+[81.755s] [ 84%] [32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/info__type_support_c.cpp.o[0m
+[83.758s] [ 84%] [32m[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_c.so[0m
+[84.162s] [ 84%] Built target message_info__rosidl_typesupport_fastrtps_c
+[84.206s] [35m[1mScanning dependencies of target message_info[0m
+[84.256s] [ 84%] Built target message_info
+[84.301s] [35m[1mScanning dependencies of target message_info__py[0m
+[84.356s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[97.125s] [ 85%] Built target message_info__py
+[97.169s] [35m[1mScanning dependencies of target message_info__python[0m
+[97.916s] [ 86%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_game_event_s.c.o[0m
+[97.917s] [ 86%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_team_info_s.c.o[0m
+[97.923s] [ 86%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_s.c.o[0m
+[97.928s] [ 87%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_circular_arc_s.c.o[0m
+[98.752s] [ 88%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_line_segment_s.c.o[0m
+[98.766s] [ 88%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_geometry_s.c.o[0m
+[98.783s] [ 89%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_ball_s.c.o[0m
+[98.809s] [ 89%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_robot_s.c.o[0m
+[99.277s] [ 90%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_frame_s.c.o[0m
+[99.279s] [ 90%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_detections_s.c.o[0m
+[99.325s] [ 91%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_command_s.c.o[0m
+[99.369s] [ 92%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_commands_s.c.o[0m
+[99.798s] [ 92%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_test_s.c.o[0m
+[99.862s] [ 93%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_ball_info_s.c.o[0m
+[99.894s] [ 93%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goal_info_s.c.o[0m
+[99.913s] [ 94%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_role_s.c.o[0m
+[100.295s] [ 94%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_attacker_s.c.o[0m
+[100.347s] [ 95%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goalie_s.c.o[0m
+[100.450s] [ 96%] [32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_info_s.c.o[0m
+[100.925s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/message_info/libmessage_info__python.so[0m
+[101.198s] [ 96%] Built target message_info__python
+[101.244s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c__pyext[0m
+[101.245s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_c__pyext[0m
+[101.247s] [35m[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c__pyext[0m
+[101.359s] [ 97%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c.o[0m
+[101.383s] [ 98%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[101.403s] [ 99%] [32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[102.254s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[102.382s] [100%] [32m[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[102.405s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[102.502s] [100%] Built target message_info__rosidl_typesupport_c__pyext
+[102.666s] [100%] Built target message_info__rosidl_typesupport_introspection_c__pyext
+[102.818s] [100%] Built target message_info__rosidl_typesupport_fastrtps_c__pyext
+[102.868s] Invoked command in '/home/ubuntu/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4
+[104.866s] Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/message_info
+[104.901s] -- Install configuration: ""
+[104.902s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/rosidl_interfaces/message_info
+[104.904s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[104.904s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[104.905s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.h
+[104.906s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.h
+[104.907s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.h
+[104.907s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.h
+[104.908s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.h
+[104.909s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.h
+[104.910s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[104.911s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.h
+[104.912s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.c
+[104.913s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.c
+[104.914s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.h
+[104.915s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.h
+[104.916s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.h
+[104.917s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.h
+[104.918s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.h
+[104.919s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.c
+[104.919s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.h
+[104.920s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.h
+[104.921s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.h
+[104.922s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.c
+[104.923s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.h
+[104.924s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.h
+[104.925s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.h
+[104.926s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.c
+[104.927s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.h
+[104.928s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.h
+[104.929s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.c
+[104.929s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.h
+[104.930s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.c
+[104.931s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.h
+[104.932s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.h
+[104.933s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.h
+[104.935s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.c
+[104.935s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.h
+[104.936s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.h
+[104.937s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.h
+[104.938s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.h
+[104.939s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.h
+[104.940s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.h
+[104.941s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.h
+[104.942s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.h
+[104.943s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.h
+[104.944s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.h
+[104.945s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.h
+[104.946s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.h
+[104.947s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.h
+[104.948s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.h
+[104.948s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.c
+[104.949s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.h
+[104.950s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.h
+[104.951s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.h
+[104.952s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.h
+[104.953s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.c
+[104.954s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.h
+[104.955s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.c
+[104.956s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.h
+[104.957s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.h
+[104.958s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.h
+[104.959s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.h
+[104.960s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.c
+[104.961s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.c
+[104.962s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.c
+[104.963s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.h
+[104.964s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.c
+[104.964s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.h
+[104.965s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.h
+[104.966s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.h
+[104.967s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.h
+[104.968s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.c
+[104.969s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.c
+[104.970s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.h
+[104.971s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.h
+[104.972s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.h
+[104.973s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.h
+[104.974s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.h
+[104.975s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.h
+[104.975s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.h
+[104.976s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.c
+[104.977s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.h
+[104.978s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.h
+[104.979s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.h
+[104.980s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.c
+[104.981s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.h
+[104.982s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_generator_c__visibility_control.h
+[104.983s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.h
+[104.984s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.h
+[104.984s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.h
+[104.985s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.h
+[104.986s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.h
+[104.987s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.h
+[104.988s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.h
+[104.989s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.h
+[104.989s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.h
+[104.990s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.h
+[104.991s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.h
+[104.992s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.h
+[104.993s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.h
+[104.994s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.sh
+[104.995s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.dsv
+[104.997s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so
+[105.000s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so" to ""
+[105.000s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[105.001s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[105.001s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[105.001s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h
+[105.003s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_c.h
+[105.003s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_c.h
+[105.004s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_c.h
+[105.006s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_c.h
+[105.007s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_c.h
+[105.008s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_c.h
+[105.009s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_c.h
+[105.010s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_c.h
+[105.011s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_c.h
+[105.012s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+[105.013s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h
+[105.014s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_c.h
+[105.015s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h
+[105.016s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+[105.017s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[105.018s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_c.h
+[105.019s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_c.h
+[105.020s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_c.h
+[105.021s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[105.023s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so
+[105.026s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so" to ""
+[105.026s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[105.027s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[105.027s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[105.027s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_cpp.hpp
+[105.028s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_cpp.hpp
+[105.029s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[105.030s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_cpp.hpp
+[105.032s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[105.033s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_cpp.hpp
+[105.034s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_cpp.hpp
+[105.035s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp
+[105.036s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp
+[105.037s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[105.038s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp
+[105.039s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/dds_fastrtps
+[105.040s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[105.041s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_cpp.hpp
+[105.042s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_cpp.hpp
+[105.043s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp
+[105.044s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[105.045s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+[105.047s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[105.048s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_cpp.hpp
+[105.049s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[105.050s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so
+[105.055s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so" to ""
+[105.056s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[105.056s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[105.056s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[105.057s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+[105.058s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.c
+[105.059s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_c.h
+[105.060s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.c
+[105.061s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.c
+[105.062s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_c.h
+[105.063s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.c
+[105.064s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_c.h
+[105.065s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_c.h
+[105.066s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.c
+[105.067s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.c
+[105.068s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_c.h
+[105.069s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.c
+[105.070s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.c
+[105.071s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.c
+[105.072s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.c
+[105.073s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_c.h
+[105.074s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.c
+[105.076s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_c.h
+[105.077s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h
+[105.078s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.c
+[105.079s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.c
+[105.080s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_c.h
+[105.081s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_c.h
+[105.082s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.c
+[105.083s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.c
+[105.084s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h
+[105.085s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_c.h
+[105.086s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.c
+[105.087s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h
+[105.088s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_c.h
+[105.089s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_c.h
+[105.090s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_c.h
+[105.091s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.c
+[105.092s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_c.h
+[105.093s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.c
+[105.095s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_c.h
+[105.096s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.c
+[105.097s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[105.098s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so
+[105.101s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so" to ""
+[105.102s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so
+[105.104s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so" to ""
+[105.105s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[105.105s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[105.105s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.hpp
+[105.106s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.hpp
+[105.107s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.hpp
+[105.108s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.hpp
+[105.109s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.hpp
+[105.110s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.hpp
+[105.111s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[105.111s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__builder.hpp
+[105.112s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__traits.hpp
+[105.113s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.hpp
+[105.114s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.hpp
+[105.115s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__traits.hpp
+[105.116s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__builder.hpp
+[105.117s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__traits.hpp
+[105.118s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__traits.hpp
+[105.119s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__builder.hpp
+[105.120s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.hpp
+[105.121s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.hpp
+[105.122s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__builder.hpp
+[105.123s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__builder.hpp
+[105.124s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__builder.hpp
+[105.125s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.hpp
+[105.126s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.hpp
+[105.127s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__traits.hpp
+[105.128s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__builder.hpp
+[105.129s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__traits.hpp
+[105.130s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__traits.hpp
+[105.131s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__traits.hpp
+[105.131s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__traits.hpp
+[105.132s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__builder.hpp
+[105.133s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.hpp
+[105.134s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__builder.hpp
+[105.135s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.hpp
+[105.136s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__builder.hpp
+[105.137s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__builder.hpp
+[105.138s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.hpp
+[105.139s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__builder.hpp
+[105.140s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__builder.hpp
+[105.141s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.hpp
+[105.142s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__builder.hpp
+[105.143s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__traits.hpp
+[105.144s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.hpp
+[105.145s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__builder.hpp
+[105.146s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__builder.hpp
+[105.147s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__traits.hpp
+[105.148s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__traits.hpp
+[105.149s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.hpp
+[105.150s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.hpp
+[105.151s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.hpp
+[105.152s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__builder.hpp
+[105.153s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__traits.hpp
+[105.154s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.hpp
+[105.155s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.hpp
+[105.156s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.hpp
+[105.157s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.hpp
+[105.158s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__traits.hpp
+[105.159s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.hpp
+[105.159s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__traits.hpp
+[105.160s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__traits.hpp
+[105.161s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__traits.hpp
+[105.162s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__builder.hpp
+[105.163s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__builder.hpp
+[105.164s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__traits.hpp
+[105.165s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__traits.hpp
+[105.166s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.hpp
+[105.167s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.hpp
+[105.168s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.hpp
+[105.169s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.hpp
+[105.169s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.hpp
+[105.170s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.hpp
+[105.171s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.hpp
+[105.172s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.hpp
+[105.173s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.hpp
+[105.173s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.hpp
+[105.174s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.hpp
+[105.175s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.hpp
+[105.176s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.hpp
+[105.177s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info
+[105.178s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg
+[105.178s] -- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail
+[105.179s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+[105.180s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp
+[105.181s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.cpp
+[105.182s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.cpp
+[105.183s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_cpp.hpp
+[105.184s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_cpp.hpp
+[105.185s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_cpp.hpp
+[105.186s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_cpp.hpp
+[105.188s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_cpp.hpp
+[105.189s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[105.190s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.cpp
+[105.191s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.cpp
+[105.192s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_cpp.hpp
+[105.193s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_cpp.hpp
+[105.194s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.cpp
+[105.195s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.cpp
+[105.196s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.cpp
+[105.197s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_cpp.hpp
+[105.198s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.cpp
+[105.199s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.cpp
+[105.200s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.cpp
+[105.201s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.cpp
+[105.202s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_cpp.hpp
+[105.203s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_cpp.hpp
+[105.204s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.cpp
+[105.205s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp
+[105.207s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.cpp
+[105.208s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.cpp
+[105.209s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.cpp
+[105.210s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.cpp
+[105.211s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.cpp
+[105.212s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp
+[105.213s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_cpp.hpp
+[105.214s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.cpp
+[105.215s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.cpp
+[105.216s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp
+[105.217s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[105.218s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_cpp.hpp
+[105.220s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so
+[105.225s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so" to ""
+[105.226s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so
+[105.228s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so" to ""
+[105.229s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.sh
+[105.230s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.dsv
+[105.231s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py
+[105.361s] Compiling '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py'...
+[105.384s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg
+[105.385s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py
+[105.386s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event_s.c
+[105.387s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/__init__.py
+[105.388s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry.py
+[105.389s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry_s.c
+[105.390s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc_s.c
+[105.391s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie.py
+[105.392s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info.py
+[105.393s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command.py
+[105.395s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info.py
+[105.396s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame_s.c
+[105.397s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie_s.c
+[105.398s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment.py
+[105.399s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command_s.c
+[105.400s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame.py
+[105.401s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands_s.c
+[105.401s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands.py
+[105.403s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker.py
+[105.403s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py
+[105.404s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball.py
+[105.405s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role_s.c
+[105.406s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker_s.c
+[105.407s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test.py
+[105.408s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot.py
+[105.409s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc.py
+[105.410s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot_s.c
+[105.411s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball_s.c
+[105.412s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections_s.c
+[105.413s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info_s.c
+[105.414s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py
+[105.415s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment_s.c
+[105.416s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info_s.c
+[105.417s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info_s.c
+[105.418s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info_s.c
+[105.419s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections.py
+[105.420s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py
+[105.420s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_s.c
+[105.421s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role.py
+[105.422s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test_s.c
+[105.424s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[105.428s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[105.429s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[105.432s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[105.433s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[105.437s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[105.437s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__python.so
+[105.441s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__python.so" to ""
+[105.441s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.idl
+[105.443s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.idl
+[105.444s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.idl
+[105.445s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.idl
+[105.446s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.idl
+[105.447s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.idl
+[105.449s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.idl
+[105.450s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.idl
+[105.451s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.idl
+[105.452s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.idl
+[105.453s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.idl
+[105.455s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.idl
+[105.456s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.idl
+[105.457s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.idl
+[105.458s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.idl
+[105.459s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.idl
+[105.460s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.idl
+[105.462s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.idl
+[105.463s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.idl
+[105.464s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.msg
+[105.465s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.msg
+[105.466s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.msg
+[105.467s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.msg
+[105.468s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.msg
+[105.470s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.msg
+[105.471s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.msg
+[105.472s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.msg
+[105.473s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.msg
+[105.474s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.msg
+[105.475s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.msg
+[105.476s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.msg
+[105.478s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.msg
+[105.479s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.msg
+[105.480s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.msg
+[105.481s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.msg
+[105.482s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.msg
+[105.483s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.msg
+[105.484s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.msg
+[105.486s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info
+[105.487s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info
+[105.489s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.sh
+[105.490s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.dsv
+[105.491s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.sh
+[105.492s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.dsv
+[105.493s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.bash
+[105.495s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.sh
+[105.496s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.zsh
+[105.497s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.dsv
+[105.498s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.dsv
+[105.500s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/packages/message_info
+[105.501s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport.cmake
+[105.503s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport-noconfig.cmake
+[105.504s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport.cmake
+[105.506s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[105.507s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport.cmake
+[105.509s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport-noconfig.cmake
+[105.510s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cppExport.cmake
+[105.512s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport.cmake
+[105.514s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[105.515s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport.cmake
+[105.517s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport-noconfig.cmake
+[105.518s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake-extras.cmake
+[105.519s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.521s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_libraries-extras.cmake
+[105.522s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_targets-extras.cmake
+[105.523s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.525s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[105.526s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[105.527s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig.cmake
+[105.528s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig-version.cmake
+[105.529s] -- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.xml
+[105.542s] Invoked command in '/home/ubuntu/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/message_info

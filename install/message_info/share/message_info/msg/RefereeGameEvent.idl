@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/RefereeGameEvent.msg
+// generated code does not contain a copyright notice
+
+
+module message_info {
+  module msg {
+    @verbatim (language="comment", text=
+      " This msg file is copied from 'game_event.proto'")
+    struct RefereeGameEvent {
+      @verbatim (language="comment", text=
+        " the game event type that happened")
+      uint8 game_event_type;
+
+      @verbatim (language="comment", text=
+        " information about an originator")
+      uint8 originator_team;
+
+      uint32 originator_bot_id;
+
+      @verbatim (language="comment", text=
+        " a message describing further details of this game event")
+      string message;
+    };
+  };
+};

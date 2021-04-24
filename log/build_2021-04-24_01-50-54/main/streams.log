@@ -1,0 +1,50 @@
+[0.046s] Invoking command in '/home/ubuntu/SSLRasp/build/main': AMENT_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/SSLRasp/install/message_info/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/main -- -j4 -l4
+[0.159s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.037s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.228s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.359s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.929s] -- Found message_info: 0.0.0 (/home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake)
+[3.878s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.890s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.168s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.173s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.174s] -- Configured cppcheck include dirs: /home/ubuntu/SSLRasp/src/main/include
+[4.174s] -- Configured cppcheck exclude dirs and/or files: 
+[4.177s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.178s] -- Configured cpplint exclude dirs and/or files: 
+[4.180s] -- Added test 'lint_cmake' to check CMake code style
+[4.184s] -- Added test 'uncrustify' to check C / C++ code style
+[4.184s] -- Configured uncrustify additional arguments: 
+[4.186s] -- Added test 'xmllint' to check XML markup files
+[4.207s] -- Configuring done
+[4.245s] -- Generating done
+[4.252s] -- Build files have been written to: /home/ubuntu/SSLRasp/build/main
+[4.368s] [35m[1mScanning dependencies of target main[0m
+[4.869s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[11.800s] [100%] [32m[1mLinking CXX executable main[0m
+[12.327s] [100%] Built target main
+[12.371s] Invoked command in '/home/ubuntu/SSLRasp/build/main' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/SSLRasp/install/message_info/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/main -- -j4 -l4
+[12.499s] Invoking command in '/home/ubuntu/SSLRasp/build/main': AMENT_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/SSLRasp/install/message_info/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/main
+[12.536s] -- Install configuration: ""
+[12.537s] -- Installing: /home/ubuntu/SSLRasp/install/main/lib/main/main
+[12.539s] -- Set runtime path of "/home/ubuntu/SSLRasp/install/main/lib/main/main" to ""
+[12.540s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[12.541s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[12.543s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.sh
+[12.544s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/ament_prefix_path.dsv
+[12.545s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.sh
+[12.546s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/environment/path.dsv
+[12.547s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.bash
+[12.548s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.sh
+[12.549s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.zsh
+[12.549s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/local_setup.dsv
+[12.550s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/package.dsv
+[12.552s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/ament_index/resource_index/packages/main
+[12.553s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig.cmake
+[12.554s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/cmake/mainConfig-version.cmake
+[12.555s] -- Installing: /home/ubuntu/SSLRasp/install/main/share/main/package.xml
+[12.566s] Invoked command in '/home/ubuntu/SSLRasp/build/main' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/SSLRasp/install/message_info/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/main

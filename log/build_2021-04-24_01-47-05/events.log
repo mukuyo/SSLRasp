@@ -1,0 +1,2046 @@
+[0.000000] (-) TimerEvent: {}
+[0.000991] (message_info) JobQueued: {'identifier': 'message_info', 'dependencies': OrderedDict()}
+[0.001355] (real_sender) JobQueued: {'identifier': 'real_sender', 'dependencies': OrderedDict()}
+[0.002162] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict([('message_info', '/home/ubuntu/SSLRasp/install/message_info')])}
+[0.002727] (message_info) JobStarted: {'identifier': 'message_info'}
+[0.060922] (real_sender) JobStarted: {'identifier': 'real_sender'}
+[0.100511] (-) TimerEvent: {}
+[0.102322] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'cmake'}
+[0.103322] (message_info) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/SSLRasp/src/message_info', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/SSLRasp/install/message_info'], 'cwd': '/home/ubuntu/SSLRasp/build/message_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.200834] (-) TimerEvent: {}
+[0.302037] (-) TimerEvent: {}
+[0.402998] (-) TimerEvent: {}
+[0.560554] (-) TimerEvent: {}
+[0.661261] (-) TimerEvent: {}
+[0.761980] (-) TimerEvent: {}
+[0.862666] (-) TimerEvent: {}
+[0.963409] (-) TimerEvent: {}
+[1.064244] (-) TimerEvent: {}
+[1.133371] (real_sender) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/real_sender', 'build', '--build-base', '/home/ubuntu/SSLRasp/build/real_sender/build', 'install', '--prefix', '/home/ubuntu/SSLRasp/install/real_sender', '--record', '/home/ubuntu/SSLRasp/build/real_sender/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/SSLRasp/src/real_sender', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.11 61163 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/SSLRasp/build/real_sender', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.11 61163 192.168.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.164452] (-) TimerEvent: {}
+[1.265226] (-) TimerEvent: {}
+[1.366111] (-) TimerEvent: {}
+[1.421892] (message_info) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.466307] (-) TimerEvent: {}
+[1.567060] (-) TimerEvent: {}
+[1.667768] (-) TimerEvent: {}
+[1.768474] (-) TimerEvent: {}
+[1.869205] (-) TimerEvent: {}
+[1.969904] (-) TimerEvent: {}
+[2.070813] (-) TimerEvent: {}
+[2.125707] (real_sender) StdoutLine: {'line': b'running egg_info\n'}
+[2.128919] (real_sender) StdoutLine: {'line': b'creating ../../build/real_sender/real_sender.egg-info\n'}
+[2.129831] (real_sender) StdoutLine: {'line': b'writing ../../build/real_sender/real_sender.egg-info/PKG-INFO\n'}
+[2.131069] (real_sender) StdoutLine: {'line': b'writing dependency_links to ../../build/real_sender/real_sender.egg-info/dependency_links.txt\n'}
+[2.131989] (real_sender) StdoutLine: {'line': b'writing entry points to ../../build/real_sender/real_sender.egg-info/entry_points.txt\n'}
+[2.132994] (real_sender) StdoutLine: {'line': b'writing requirements to ../../build/real_sender/real_sender.egg-info/requires.txt\n'}
+[2.133777] (real_sender) StdoutLine: {'line': b'writing top-level names to ../../build/real_sender/real_sender.egg-info/top_level.txt\n'}
+[2.147496] (real_sender) StdoutLine: {'line': b"writing manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'\n"}
+[2.171064] (-) TimerEvent: {}
+[2.225450] (message_info) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.260133] (message_info) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.271221] (-) TimerEvent: {}
+[2.328246] (real_sender) StdoutLine: {'line': b"reading manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'\n"}
+[2.332135] (real_sender) StdoutLine: {'line': b"writing manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'\n"}
+[2.333028] (real_sender) StdoutLine: {'line': b'running build\n'}
+[2.333959] (real_sender) StdoutLine: {'line': b'running build_py\n'}
+[2.334687] (real_sender) StdoutLine: {'line': b'creating /home/ubuntu/SSLRasp/build/real_sender/build\n'}
+[2.335373] (real_sender) StdoutLine: {'line': b'creating /home/ubuntu/SSLRasp/build/real_sender/build/lib\n'}
+[2.335859] (real_sender) StdoutLine: {'line': b'creating /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs\n'}
+[2.336255] (real_sender) StdoutLine: {'line': b'copying python_programs/__init__.py -> /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs\n'}
+[2.336630] (real_sender) StdoutLine: {'line': b'copying python_programs/real_sender.py -> /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs\n'}
+[2.342779] (real_sender) StdoutLine: {'line': b'running install\n'}
+[2.347951] (real_sender) StdoutLine: {'line': b'running install_lib\n'}
+[2.354517] (real_sender) StdoutLine: {'line': b'creating /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs\n'}
+[2.355286] (real_sender) StdoutLine: {'line': b'copying /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs/__init__.py -> /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs\n'}
+[2.355939] (real_sender) StdoutLine: {'line': b'copying /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs/real_sender.py -> /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs\n'}
+[2.358243] (real_sender) StdoutLine: {'line': b'byte-compiling /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs/__init__.py to __init__.cpython-38.pyc\n'}
+[2.363498] (real_sender) StdoutLine: {'line': b'byte-compiling /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs/real_sender.py to real_sender.cpython-38.pyc\n'}
+[2.365147] (real_sender) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.371421] (-) TimerEvent: {}
+[2.375203] (real_sender) StdoutLine: {'line': b'Copying ../../build/real_sender/real_sender.egg-info to /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/real_sender-0.0.0-py3.8.egg-info\n'}
+[2.381608] (real_sender) StdoutLine: {'line': b'running install_scripts\n'}
+[2.471565] (-) TimerEvent: {}
+[2.478246] (real_sender) StdoutLine: {'line': b'Installing real_send script to /home/ubuntu/SSLRasp/install/real_sender/lib/real_sender\n'}
+[2.479663] (real_sender) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/SSLRasp/build/real_sender/install.log'\n"}
+[2.571927] (-) TimerEvent: {}
+[2.595747] (real_sender) CommandEnded: {'returncode': 0}
+[2.628149] (message_info) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.634721] (message_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.672107] (-) TimerEvent: {}
+[2.692045] (real_sender) JobEnded: {'identifier': 'real_sender', 'rc': 0}
+[2.772325] (-) TimerEvent: {}
+[2.873162] (-) TimerEvent: {}
+[2.951492] (message_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.973341] (-) TimerEvent: {}
+[2.994807] (message_info) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.996847] (message_info) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.009756] (message_info) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.073547] (-) TimerEvent: {}
+[3.174426] (-) TimerEvent: {}
+[3.275268] (-) TimerEvent: {}
+[3.346439] (message_info) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.350964] (message_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.375419] (-) TimerEvent: {}
+[3.476194] (-) TimerEvent: {}
+[3.576964] (-) TimerEvent: {}
+[3.677813] (-) TimerEvent: {}
+[3.691156] (message_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.733928] (message_info) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.735804] (message_info) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.769779] (message_info) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.777956] (-) TimerEvent: {}
+[3.878699] (-) TimerEvent: {}
+[3.924055] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[3.924762] (message_info) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.978827] (-) TimerEvent: {}
+[4.079532] (-) TimerEvent: {}
+[4.180198] (-) TimerEvent: {}
+[4.280874] (-) TimerEvent: {}
+[4.381538] (-) TimerEvent: {}
+[4.482162] (-) TimerEvent: {}
+[4.582761] (-) TimerEvent: {}
+[4.683462] (-) TimerEvent: {}
+[4.784354] (-) TimerEvent: {}
+[4.885043] (-) TimerEvent: {}
+[4.985785] (-) TimerEvent: {}
+[4.996878] (message_info) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.027587] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.085931] (-) TimerEvent: {}
+[5.097878] (message_info) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.186094] (-) TimerEvent: {}
+[5.286779] (-) TimerEvent: {}
+[5.387447] (-) TimerEvent: {}
+[5.488113] (-) TimerEvent: {}
+[5.589068] (-) TimerEvent: {}
+[5.690107] (-) TimerEvent: {}
+[5.790945] (-) TimerEvent: {}
+[5.891767] (-) TimerEvent: {}
+[5.938666] (message_info) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.991943] (-) TimerEvent: {}
+[6.092657] (-) TimerEvent: {}
+[6.184545] (message_info) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.192785] (-) TimerEvent: {}
+[6.293436] (-) TimerEvent: {}
+[6.394094] (-) TimerEvent: {}
+[6.494774] (-) TimerEvent: {}
+[6.595477] (-) TimerEvent: {}
+[6.696200] (-) TimerEvent: {}
+[6.796905] (-) TimerEvent: {}
+[6.837610] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.897135] (-) TimerEvent: {}
+[6.997848] (-) TimerEvent: {}
+[7.020848] (message_info) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[7.098026] (-) TimerEvent: {}
+[7.121135] (message_info) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[7.198190] (-) TimerEvent: {}
+[7.219527] (message_info) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[7.298359] (-) TimerEvent: {}
+[7.399092] (-) TimerEvent: {}
+[7.499812] (-) TimerEvent: {}
+[7.600526] (-) TimerEvent: {}
+[7.701226] (-) TimerEvent: {}
+[7.742656] (message_info) StdoutLine: {'line': b'-- OpenSSL Version: 1.1.1f /usr/include /usr/lib/aarch64-linux-gnu/libssl.so;/usr/lib/aarch64-linux-gnu/libcrypto.so\n'}
+[7.801383] (-) TimerEvent: {}
+[7.872226] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[7.901535] (-) TimerEvent: {}
+[8.002239] (-) TimerEvent: {}
+[8.102892] (-) TimerEvent: {}
+[8.203492] (-) TimerEvent: {}
+[8.304076] (-) TimerEvent: {}
+[8.404684] (-) TimerEvent: {}
+[8.505398] (-) TimerEvent: {}
+[8.606140] (-) TimerEvent: {}
+[8.706877] (-) TimerEvent: {}
+[8.807769] (-) TimerEvent: {}
+[8.908568] (-) TimerEvent: {}
+[9.009498] (-) TimerEvent: {}
+[9.110168] (-) TimerEvent: {}
+[9.210818] (-) TimerEvent: {}
+[9.228798] (message_info) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[9.310993] (-) TimerEvent: {}
+[9.411713] (-) TimerEvent: {}
+[9.512426] (-) TimerEvent: {}
+[9.613078] (-) TimerEvent: {}
+[9.713774] (-) TimerEvent: {}
+[9.814471] (-) TimerEvent: {}
+[9.915159] (-) TimerEvent: {}
+[10.016016] (-) TimerEvent: {}
+[10.116713] (-) TimerEvent: {}
+[10.217427] (-) TimerEvent: {}
+[10.318192] (-) TimerEvent: {}
+[10.419075] (-) TimerEvent: {}
+[10.519796] (-) TimerEvent: {}
+[10.620602] (-) TimerEvent: {}
+[10.721315] (-) TimerEvent: {}
+[10.821968] (-) TimerEvent: {}
+[10.922657] (-) TimerEvent: {}
+[11.023337] (-) TimerEvent: {}
+[11.107116] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.123505] (-) TimerEvent: {}
+[11.224224] (-) TimerEvent: {}
+[11.324908] (-) TimerEvent: {}
+[11.425662] (-) TimerEvent: {}
+[11.526313] (-) TimerEvent: {}
+[11.626948] (-) TimerEvent: {}
+[11.727630] (-) TimerEvent: {}
+[11.828269] (-) TimerEvent: {}
+[11.844972] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.928554] (-) TimerEvent: {}
+[11.959397] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[11.978081] (message_info) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[12.028684] (-) TimerEvent: {}
+[12.102352] (message_info) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[12.103264] (message_info) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.103842] (message_info) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[12.104358] (message_info) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[12.128833] (-) TimerEvent: {}
+[12.200293] (message_info) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.228996] (-) TimerEvent: {}
+[12.329674] (-) TimerEvent: {}
+[12.430317] (-) TimerEvent: {}
+[12.531163] (-) TimerEvent: {}
+[12.632390] (-) TimerEvent: {}
+[12.653057] (message_info) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[12.732562] (-) TimerEvent: {}
+[12.833389] (-) TimerEvent: {}
+[12.895987] (message_info) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.923104] (message_info) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.933530] (-) TimerEvent: {}
+[12.937993] (message_info) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.979767] (message_info) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.033699] (-) TimerEvent: {}
+[13.134407] (-) TimerEvent: {}
+[13.235123] (-) TimerEvent: {}
+[13.335811] (-) TimerEvent: {}
+[13.436499] (-) TimerEvent: {}
+[13.522731] (message_info) StdoutLine: {'line': b'-- Generating done\n'}
+[13.536364] (message_info) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/SSLRasp/build/message_info\n'}
+[13.537198] (-) TimerEvent: {}
+[13.576791] (message_info) CommandEnded: {'returncode': 0}
+[13.578852] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'build'}
+[13.581635] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/SSLRasp/build/message_info', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/SSLRasp/build/message_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.637458] (-) TimerEvent: {}
+[13.738360] (-) TimerEvent: {}
+[13.795035] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__cpp\x1b[0m\n'}
+[13.799411] (message_info) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.838567] (-) TimerEvent: {}
+[13.848788] (message_info) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.938786] (-) TimerEvent: {}
+[14.039582] (-) TimerEvent: {}
+[14.140342] (-) TimerEvent: {}
+[14.241178] (-) TimerEvent: {}
+[14.342171] (-) TimerEvent: {}
+[14.443022] (-) TimerEvent: {}
+[14.543968] (-) TimerEvent: {}
+[14.644660] (-) TimerEvent: {}
+[14.745393] (-) TimerEvent: {}
+[14.846062] (-) TimerEvent: {}
+[14.946761] (-) TimerEvent: {}
+[15.047429] (-) TimerEvent: {}
+[15.148215] (-) TimerEvent: {}
+[15.249083] (-) TimerEvent: {}
+[15.349798] (-) TimerEvent: {}
+[15.450539] (-) TimerEvent: {}
+[15.551295] (-) TimerEvent: {}
+[15.652361] (-) TimerEvent: {}
+[15.753147] (-) TimerEvent: {}
+[15.870161] (-) TimerEvent: {}
+[15.970852] (-) TimerEvent: {}
+[16.071601] (-) TimerEvent: {}
+[16.172297] (-) TimerEvent: {}
+[16.273056] (-) TimerEvent: {}
+[16.374151] (-) TimerEvent: {}
+[16.474891] (-) TimerEvent: {}
+[16.575550] (-) TimerEvent: {}
+[16.676231] (-) TimerEvent: {}
+[16.776909] (-) TimerEvent: {}
+[16.877649] (-) TimerEvent: {}
+[16.978334] (-) TimerEvent: {}
+[17.079072] (-) TimerEvent: {}
+[17.179883] (-) TimerEvent: {}
+[17.280591] (-) TimerEvent: {}
+[17.381558] (-) TimerEvent: {}
+[17.482229] (-) TimerEvent: {}
+[17.582852] (-) TimerEvent: {}
+[17.683550] (-) TimerEvent: {}
+[17.784317] (-) TimerEvent: {}
+[17.884966] (-) TimerEvent: {}
+[17.985684] (-) TimerEvent: {}
+[18.086353] (-) TimerEvent: {}
+[18.186998] (-) TimerEvent: {}
+[18.287686] (-) TimerEvent: {}
+[18.388353] (-) TimerEvent: {}
+[18.488997] (-) TimerEvent: {}
+[18.589661] (-) TimerEvent: {}
+[18.690264] (-) TimerEvent: {}
+[18.790945] (-) TimerEvent: {}
+[18.891643] (-) TimerEvent: {}
+[18.992292] (-) TimerEvent: {}
+[19.092963] (-) TimerEvent: {}
+[19.193631] (-) TimerEvent: {}
+[19.294297] (-) TimerEvent: {}
+[19.394950] (-) TimerEvent: {}
+[19.495608] (-) TimerEvent: {}
+[19.596257] (-) TimerEvent: {}
+[19.696930] (-) TimerEvent: {}
+[19.797637] (-) TimerEvent: {}
+[19.898354] (-) TimerEvent: {}
+[19.999473] (-) TimerEvent: {}
+[20.100709] (-) TimerEvent: {}
+[20.201783] (-) TimerEvent: {}
+[20.303692] (-) TimerEvent: {}
+[20.405230] (-) TimerEvent: {}
+[20.507126] (-) TimerEvent: {}
+[20.609022] (-) TimerEvent: {}
+[20.710259] (-) TimerEvent: {}
+[20.811200] (-) TimerEvent: {}
+[20.912273] (-) TimerEvent: {}
+[21.013366] (-) TimerEvent: {}
+[21.114514] (-) TimerEvent: {}
+[21.216114] (-) TimerEvent: {}
+[21.317795] (-) TimerEvent: {}
+[21.418821] (-) TimerEvent: {}
+[21.430683] (message_info) StdoutLine: {'line': b'[  1%] Built target message_info__cpp\n'}
+[21.501421] (message_info) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[21.516169] (message_info) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.519109] (-) TimerEvent: {}
+[21.523819] (message_info) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.619333] (-) TimerEvent: {}
+[21.720294] (-) TimerEvent: {}
+[21.821788] (-) TimerEvent: {}
+[21.922759] (-) TimerEvent: {}
+[22.023704] (-) TimerEvent: {}
+[22.124764] (-) TimerEvent: {}
+[22.227113] (-) TimerEvent: {}
+[22.327969] (-) TimerEvent: {}
+[22.428875] (-) TimerEvent: {}
+[22.510196] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_generator_c\x1b[0m\n'}
+[22.529112] (-) TimerEvent: {}
+[22.630351] (-) TimerEvent: {}
+[22.635248] (message_info) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_game_event__functions.c.o\x1b[0m\n'}
+[22.730530] (-) TimerEvent: {}
+[22.831787] (-) TimerEvent: {}
+[22.928764] (message_info) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_team_info__functions.c.o\x1b[0m\n'}
+[22.932027] (-) TimerEvent: {}
+[23.033252] (-) TimerEvent: {}
+[23.132581] (message_info) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee__functions.c.o\x1b[0m\n'}
+[23.133249] (-) TimerEvent: {}
+[23.234386] (-) TimerEvent: {}
+[23.335614] (-) TimerEvent: {}
+[23.344781] (message_info) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_circular_arc__functions.c.o\x1b[0m\n'}
+[23.435836] (-) TimerEvent: {}
+[23.536690] (-) TimerEvent: {}
+[23.544658] (message_info) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_line_segment__functions.c.o\x1b[0m\n'}
+[23.636916] (-) TimerEvent: {}
+[23.737811] (-) TimerEvent: {}
+[23.742416] (message_info) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_geometry__functions.c.o\x1b[0m\n'}
+[23.838013] (-) TimerEvent: {}
+[23.938889] (-) TimerEvent: {}
+[23.951614] (message_info) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_ball__functions.c.o\x1b[0m\n'}
+[24.039257] (-) TimerEvent: {}
+[24.140595] (-) TimerEvent: {}
+[24.162712] (message_info) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_robot__functions.c.o\x1b[0m\n'}
+[24.240909] (-) TimerEvent: {}
+[24.342288] (-) TimerEvent: {}
+[24.393740] (message_info) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_frame__functions.c.o\x1b[0m\n'}
+[24.442541] (-) TimerEvent: {}
+[24.543603] (-) TimerEvent: {}
+[24.605567] (message_info) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_detections__functions.c.o\x1b[0m\n'}
+[24.643814] (-) TimerEvent: {}
+[24.745054] (-) TimerEvent: {}
+[24.811895] (message_info) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_command__functions.c.o\x1b[0m\n'}
+[24.845332] (-) TimerEvent: {}
+[24.946534] (-) TimerEvent: {}
+[25.008851] (message_info) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_commands__functions.c.o\x1b[0m\n'}
+[25.046732] (-) TimerEvent: {}
+[25.147907] (-) TimerEvent: {}
+[25.216682] (message_info) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/test__functions.c.o\x1b[0m\n'}
+[25.248163] (-) TimerEvent: {}
+[25.349518] (-) TimerEvent: {}
+[25.416733] (message_info) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/ball_info__functions.c.o\x1b[0m\n'}
+[25.449735] (-) TimerEvent: {}
+[25.551038] (-) TimerEvent: {}
+[25.651911] (-) TimerEvent: {}
+[25.753146] (-) TimerEvent: {}
+[25.854352] (-) TimerEvent: {}
+[26.336134] (message_info) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goal_info__functions.c.o\x1b[0m\n'}
+[26.336946] (-) TimerEvent: {}
+[26.439248] (-) TimerEvent: {}
+[26.536302] (message_info) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/role__functions.c.o\x1b[0m\n'}
+[26.539443] (-) TimerEvent: {}
+[26.640326] (-) TimerEvent: {}
+[26.731216] (message_info) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/attacker__functions.c.o\x1b[0m\n'}
+[26.740549] (-) TimerEvent: {}
+[26.841393] (-) TimerEvent: {}
+[26.930224] (message_info) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goalie__functions.c.o\x1b[0m\n'}
+[26.941564] (-) TimerEvent: {}
+[27.042437] (-) TimerEvent: {}
+[27.143490] (-) TimerEvent: {}
+[27.169315] (message_info) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/info__functions.c.o\x1b[0m\n'}
+[27.243712] (-) TimerEvent: {}
+[27.344839] (-) TimerEvent: {}
+[27.390293] (message_info) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmessage_info__rosidl_generator_c.so\x1b[0m\n'}
+[27.445050] (-) TimerEvent: {}
+[27.545993] (-) TimerEvent: {}
+[27.647208] (-) TimerEvent: {}
+[27.719522] (message_info) StdoutLine: {'line': b'[ 14%] Built target message_info__rosidl_generator_c\n'}
+[27.747414] (-) TimerEvent: {}
+[27.798257] (message_info) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[27.803479] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_cpp\x1b[0m\n'}
+[27.847624] (-) TimerEvent: {}
+[27.934574] (message_info) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[27.947796] (-) TimerEvent: {}
+[28.049056] (-) TimerEvent: {}
+[28.151618] (-) TimerEvent: {}
+[28.252939] (-) TimerEvent: {}
+[28.354150] (-) TimerEvent: {}
+[28.454937] (-) TimerEvent: {}
+[28.556092] (-) TimerEvent: {}
+[28.657257] (-) TimerEvent: {}
+[28.758291] (-) TimerEvent: {}
+[28.859483] (-) TimerEvent: {}
+[28.960432] (-) TimerEvent: {}
+[29.061438] (-) TimerEvent: {}
+[29.162507] (-) TimerEvent: {}
+[29.263391] (-) TimerEvent: {}
+[29.364265] (-) TimerEvent: {}
+[29.465366] (-) TimerEvent: {}
+[29.566385] (-) TimerEvent: {}
+[29.634845] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[29.666609] (-) TimerEvent: {}
+[29.767501] (-) TimerEvent: {}
+[29.778233] (message_info) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[29.867729] (-) TimerEvent: {}
+[29.968627] (-) TimerEvent: {}
+[30.069575] (-) TimerEvent: {}
+[30.170451] (-) TimerEvent: {}
+[30.177973] (message_info) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[30.270704] (-) TimerEvent: {}
+[30.297586] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[30.370955] (-) TimerEvent: {}
+[30.471967] (-) TimerEvent: {}
+[30.492533] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[30.572220] (-) TimerEvent: {}
+[30.673165] (-) TimerEvent: {}
+[30.774199] (-) TimerEvent: {}
+[30.875239] (-) TimerEvent: {}
+[30.976713] (-) TimerEvent: {}
+[31.078357] (-) TimerEvent: {}
+[31.179915] (-) TimerEvent: {}
+[31.280903] (-) TimerEvent: {}
+[31.381873] (-) TimerEvent: {}
+[31.477308] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[31.482118] (-) TimerEvent: {}
+[31.583098] (-) TimerEvent: {}
+[31.684073] (-) TimerEvent: {}
+[31.785144] (-) TimerEvent: {}
+[31.835716] (message_info) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee__type_support.cpp.o\x1b[0m\n'}
+[31.885393] (-) TimerEvent: {}
+[31.986230] (-) TimerEvent: {}
+[32.087102] (-) TimerEvent: {}
+[32.188060] (-) TimerEvent: {}
+[32.289058] (-) TimerEvent: {}
+[32.390101] (-) TimerEvent: {}
+[32.491004] (-) TimerEvent: {}
+[32.591962] (-) TimerEvent: {}
+[32.692902] (-) TimerEvent: {}
+[32.793884] (-) TimerEvent: {}
+[32.894816] (-) TimerEvent: {}
+[32.995858] (-) TimerEvent: {}
+[33.096788] (-) TimerEvent: {}
+[33.197748] (-) TimerEvent: {}
+[33.249879] (message_info) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[33.297978] (-) TimerEvent: {}
+[33.398971] (-) TimerEvent: {}
+[33.456048] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee__type_support.cpp.o\x1b[0m\n'}
+[33.499253] (-) TimerEvent: {}
+[33.600471] (-) TimerEvent: {}
+[33.619503] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[33.700732] (-) TimerEvent: {}
+[33.801573] (-) TimerEvent: {}
+[33.902470] (-) TimerEvent: {}
+[34.003399] (-) TimerEvent: {}
+[34.104334] (-) TimerEvent: {}
+[34.205418] (-) TimerEvent: {}
+[34.306410] (-) TimerEvent: {}
+[34.407624] (-) TimerEvent: {}
+[34.508603] (-) TimerEvent: {}
+[34.609591] (-) TimerEvent: {}
+[34.710685] (-) TimerEvent: {}
+[34.812039] (-) TimerEvent: {}
+[34.913327] (-) TimerEvent: {}
+[35.014424] (-) TimerEvent: {}
+[35.115479] (-) TimerEvent: {}
+[35.216626] (-) TimerEvent: {}
+[35.316117] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[35.317493] (-) TimerEvent: {}
+[35.392103] (message_info) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[35.417709] (-) TimerEvent: {}
+[35.518647] (-) TimerEvent: {}
+[35.619847] (-) TimerEvent: {}
+[35.720827] (-) TimerEvent: {}
+[35.821887] (-) TimerEvent: {}
+[35.922946] (-) TimerEvent: {}
+[36.045318] (-) TimerEvent: {}
+[36.146375] (-) TimerEvent: {}
+[36.247531] (-) TimerEvent: {}
+[36.280179] (message_info) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee__type_support.cpp.o\x1b[0m\n'}
+[36.347790] (-) TimerEvent: {}
+[36.389584] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[36.448045] (-) TimerEvent: {}
+[36.549040] (-) TimerEvent: {}
+[36.559034] (message_info) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_game_event__type_support.c.o\x1b[0m\n'}
+[36.649706] (-) TimerEvent: {}
+[36.751023] (-) TimerEvent: {}
+[36.852573] (-) TimerEvent: {}
+[36.889317] (message_info) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_team_info__type_support.c.o\x1b[0m\n'}
+[36.952846] (-) TimerEvent: {}
+[37.053834] (-) TimerEvent: {}
+[37.104476] (message_info) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[37.143973] (message_info) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee__type_support.c.o\x1b[0m\n'}
+[37.149598] (message_info) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[37.154090] (-) TimerEvent: {}
+[37.255021] (-) TimerEvent: {}
+[37.340529] (message_info) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_circular_arc__type_support.c.o\x1b[0m\n'}
+[37.355437] (-) TimerEvent: {}
+[37.456619] (-) TimerEvent: {}
+[37.537227] (message_info) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_line_segment__type_support.c.o\x1b[0m\n'}
+[37.556940] (-) TimerEvent: {}
+[37.658752] (-) TimerEvent: {}
+[37.730864] (message_info) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_geometry__type_support.c.o\x1b[0m\n'}
+[37.759025] (-) TimerEvent: {}
+[37.860101] (-) TimerEvent: {}
+[37.961212] (-) TimerEvent: {}
+[37.964577] (message_info) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_ball__type_support.c.o\x1b[0m\n'}
+[38.061625] (-) TimerEvent: {}
+[38.162429] (message_info) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_robot__type_support.c.o\x1b[0m\n'}
+[38.163297] (-) TimerEvent: {}
+[38.264395] (-) TimerEvent: {}
+[38.365577] (-) TimerEvent: {}
+[38.369639] (message_info) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_frame__type_support.c.o\x1b[0m\n'}
+[38.465833] (-) TimerEvent: {}
+[38.567047] (-) TimerEvent: {}
+[38.626198] (message_info) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_detections__type_support.c.o\x1b[0m\n'}
+[38.667292] (-) TimerEvent: {}
+[38.768492] (-) TimerEvent: {}
+[38.850589] (message_info) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[38.868716] (-) TimerEvent: {}
+[38.897225] (message_info) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[38.946833] (message_info) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[38.969036] (-) TimerEvent: {}
+[39.055796] (message_info) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_commands__type_support.c.o\x1b[0m\n'}
+[39.064644] (message_info) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[39.069223] (-) TimerEvent: {}
+[39.170099] (-) TimerEvent: {}
+[39.251392] (message_info) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/test__type_support.c.o\x1b[0m\n'}
+[39.270332] (-) TimerEvent: {}
+[39.371431] (-) TimerEvent: {}
+[39.435527] (message_info) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/ball_info__type_support.c.o\x1b[0m\n'}
+[39.471682] (-) TimerEvent: {}
+[39.572815] (-) TimerEvent: {}
+[39.626632] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goal_info__type_support.c.o\x1b[0m\n'}
+[39.673116] (-) TimerEvent: {}
+[39.774399] (-) TimerEvent: {}
+[39.823679] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/role__type_support.c.o\x1b[0m\n'}
+[39.874661] (-) TimerEvent: {}
+[39.975775] (-) TimerEvent: {}
+[40.015393] (message_info) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/attacker__type_support.c.o\x1b[0m\n'}
+[40.076068] (-) TimerEvent: {}
+[40.177244] (-) TimerEvent: {}
+[40.220558] (message_info) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goalie__type_support.c.o\x1b[0m\n'}
+[40.277513] (-) TimerEvent: {}
+[40.378680] (-) TimerEvent: {}
+[40.422526] (message_info) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/info__type_support.c.o\x1b[0m\n'}
+[40.478955] (-) TimerEvent: {}
+[40.580642] (-) TimerEvent: {}
+[40.637017] (message_info) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking C shared library libmessage_info__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[40.680876] (-) TimerEvent: {}
+[40.690286] (message_info) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[40.781150] (-) TimerEvent: {}
+[40.862563] (message_info) StdoutLine: {'line': b'[ 36%] Built target message_info__rosidl_typesupport_introspection_c\n'}
+[40.881445] (-) TimerEvent: {}
+[40.919217] (message_info) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[40.981673] (-) TimerEvent: {}
+[41.086998] (-) TimerEvent: {}
+[41.189013] (-) TimerEvent: {}
+[41.291015] (-) TimerEvent: {}
+[41.357803] (message_info) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[41.391293] (-) TimerEvent: {}
+[41.492425] (-) TimerEvent: {}
+[41.593489] (-) TimerEvent: {}
+[41.695140] (-) TimerEvent: {}
+[41.777444] (message_info) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[41.795389] (-) TimerEvent: {}
+[41.896478] (-) TimerEvent: {}
+[41.997649] (-) TimerEvent: {}
+[42.098690] (-) TimerEvent: {}
+[42.199831] (-) TimerEvent: {}
+[42.300914] (-) TimerEvent: {}
+[42.402038] (-) TimerEvent: {}
+[42.423671] (message_info) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[42.502289] (-) TimerEvent: {}
+[42.603222] (-) TimerEvent: {}
+[42.704201] (-) TimerEvent: {}
+[42.720373] (message_info) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[42.804474] (-) TimerEvent: {}
+[42.905506] (-) TimerEvent: {}
+[43.006535] (-) TimerEvent: {}
+[43.077960] (message_info) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[43.106800] (-) TimerEvent: {}
+[43.207888] (-) TimerEvent: {}
+[43.308879] (-) TimerEvent: {}
+[43.410000] (-) TimerEvent: {}
+[43.511270] (-) TimerEvent: {}
+[43.612468] (-) TimerEvent: {}
+[43.713584] (-) TimerEvent: {}
+[43.814993] (-) TimerEvent: {}
+[43.916208] (-) TimerEvent: {}
+[44.017202] (-) TimerEvent: {}
+[44.118308] (-) TimerEvent: {}
+[44.219440] (-) TimerEvent: {}
+[44.320519] (-) TimerEvent: {}
+[44.411591] (message_info) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[44.420797] (-) TimerEvent: {}
+[44.503662] (message_info) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[44.521033] (-) TimerEvent: {}
+[44.622065] (-) TimerEvent: {}
+[44.723161] (-) TimerEvent: {}
+[44.824457] (-) TimerEvent: {}
+[44.874994] (message_info) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[44.924674] (-) TimerEvent: {}
+[45.025626] (-) TimerEvent: {}
+[45.126770] (-) TimerEvent: {}
+[45.228025] (-) TimerEvent: {}
+[45.329392] (-) TimerEvent: {}
+[45.430468] (-) TimerEvent: {}
+[45.531734] (-) TimerEvent: {}
+[45.633261] (-) TimerEvent: {}
+[45.665113] (message_info) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[45.733488] (-) TimerEvent: {}
+[45.834436] (-) TimerEvent: {}
+[45.935529] (-) TimerEvent: {}
+[46.036621] (-) TimerEvent: {}
+[46.137805] (-) TimerEvent: {}
+[46.238874] (-) TimerEvent: {}
+[46.340610] (-) TimerEvent: {}
+[46.442178] (-) TimerEvent: {}
+[46.543752] (-) TimerEvent: {}
+[46.645104] (-) TimerEvent: {}
+[46.746017] (-) TimerEvent: {}
+[46.846796] (-) TimerEvent: {}
+[46.892583] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[46.919179] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_command__type_support.cpp.o\x1b[0m\n'}
+[46.943682] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/test__type_support.cpp.o\x1b[0m\n'}
+[46.947105] (-) TimerEvent: {}
+[47.048685] (-) TimerEvent: {}
+[47.149597] (-) TimerEvent: {}
+[47.250636] (-) TimerEvent: {}
+[47.351800] (-) TimerEvent: {}
+[47.452944] (-) TimerEvent: {}
+[47.554093] (-) TimerEvent: {}
+[47.655206] (-) TimerEvent: {}
+[47.756223] (-) TimerEvent: {}
+[47.857388] (-) TimerEvent: {}
+[47.958403] (-) TimerEvent: {}
+[48.059471] (-) TimerEvent: {}
+[48.160599] (-) TimerEvent: {}
+[48.175017] (message_info) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[48.260860] (-) TimerEvent: {}
+[48.361938] (-) TimerEvent: {}
+[48.463150] (-) TimerEvent: {}
+[48.564540] (-) TimerEvent: {}
+[48.586018] (message_info) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/ball_info__type_support.cpp.o\x1b[0m\n'}
+[48.647335] (message_info) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[48.664815] (-) TimerEvent: {}
+[48.765978] (-) TimerEvent: {}
+[48.867057] (-) TimerEvent: {}
+[48.968253] (-) TimerEvent: {}
+[49.069405] (-) TimerEvent: {}
+[49.140702] (message_info) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goal_info__type_support.cpp.o\x1b[0m\n'}
+[49.169631] (-) TimerEvent: {}
+[49.270678] (-) TimerEvent: {}
+[49.371640] (-) TimerEvent: {}
+[49.472660] (-) TimerEvent: {}
+[49.573753] (-) TimerEvent: {}
+[49.674724] (-) TimerEvent: {}
+[49.775673] (-) TimerEvent: {}
+[49.876684] (-) TimerEvent: {}
+[49.977795] (-) TimerEvent: {}
+[50.078909] (-) TimerEvent: {}
+[50.180157] (-) TimerEvent: {}
+[50.281234] (-) TimerEvent: {}
+[50.290670] (message_info) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/test__type_support.cpp.o\x1b[0m\n'}
+[50.381572] (-) TimerEvent: {}
+[50.482706] (-) TimerEvent: {}
+[50.490811] (message_info) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/role__type_support.cpp.o\x1b[0m\n'}
+[50.582998] (-) TimerEvent: {}
+[50.684206] (-) TimerEvent: {}
+[50.785302] (-) TimerEvent: {}
+[50.854849] (message_info) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[50.885540] (-) TimerEvent: {}
+[50.917035] (message_info) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[50.985752] (-) TimerEvent: {}
+[51.114538] (-) TimerEvent: {}
+[51.215594] (-) TimerEvent: {}
+[51.316645] (-) TimerEvent: {}
+[51.418026] (-) TimerEvent: {}
+[51.518992] (-) TimerEvent: {}
+[51.619936] (-) TimerEvent: {}
+[51.720915] (-) TimerEvent: {}
+[51.821922] (-) TimerEvent: {}
+[51.922961] (-) TimerEvent: {}
+[52.025016] (-) TimerEvent: {}
+[52.046704] (message_info) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/ball_info__type_support.cpp.o\x1b[0m\n'}
+[52.125347] (-) TimerEvent: {}
+[52.208827] (message_info) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/attacker__type_support.cpp.o\x1b[0m\n'}
+[52.225607] (-) TimerEvent: {}
+[52.326719] (-) TimerEvent: {}
+[52.427701] (-) TimerEvent: {}
+[52.528702] (-) TimerEvent: {}
+[52.630018] (-) TimerEvent: {}
+[52.731318] (-) TimerEvent: {}
+[52.832321] (-) TimerEvent: {}
+[52.933575] (-) TimerEvent: {}
+[53.034700] (-) TimerEvent: {}
+[53.135817] (-) TimerEvent: {}
+[53.236825] (-) TimerEvent: {}
+[53.337839] (-) TimerEvent: {}
+[53.438864] (-) TimerEvent: {}
+[53.540087] (-) TimerEvent: {}
+[53.641405] (-) TimerEvent: {}
+[53.742786] (-) TimerEvent: {}
+[53.833776] (message_info) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goal_info__type_support.cpp.o\x1b[0m\n'}
+[53.843214] (-) TimerEvent: {}
+[53.944734] (-) TimerEvent: {}
+[53.982280] (message_info) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/role__type_support.cpp.o\x1b[0m\n'}
+[54.032994] (message_info) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goalie__type_support.cpp.o\x1b[0m\n'}
+[54.045022] (-) TimerEvent: {}
+[54.098703] (message_info) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[54.145361] (-) TimerEvent: {}
+[54.246262] (-) TimerEvent: {}
+[54.347181] (-) TimerEvent: {}
+[54.448171] (-) TimerEvent: {}
+[54.549220] (-) TimerEvent: {}
+[54.650481] (-) TimerEvent: {}
+[54.751677] (-) TimerEvent: {}
+[54.852751] (-) TimerEvent: {}
+[54.953973] (-) TimerEvent: {}
+[55.055026] (-) TimerEvent: {}
+[55.156129] (-) TimerEvent: {}
+[55.257132] (-) TimerEvent: {}
+[55.358216] (-) TimerEvent: {}
+[55.459222] (-) TimerEvent: {}
+[55.555387] (message_info) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/info__type_support.cpp.o\x1b[0m\n'}
+[55.559501] (-) TimerEvent: {}
+[55.660647] (-) TimerEvent: {}
+[55.691831] (message_info) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/attacker__type_support.cpp.o\x1b[0m\n'}
+[55.712524] (message_info) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goalie__type_support.cpp.o\x1b[0m\n'}
+[55.760907] (-) TimerEvent: {}
+[55.861969] (-) TimerEvent: {}
+[55.962867] (-) TimerEvent: {}
+[56.063948] (-) TimerEvent: {}
+[56.164967] (-) TimerEvent: {}
+[56.266051] (-) TimerEvent: {}
+[56.367338] (-) TimerEvent: {}
+[56.468466] (-) TimerEvent: {}
+[56.569487] (-) TimerEvent: {}
+[56.670477] (-) TimerEvent: {}
+[56.721532] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[56.770732] (-) TimerEvent: {}
+[56.871950] (-) TimerEvent: {}
+[56.973582] (-) TimerEvent: {}
+[57.074699] (-) TimerEvent: {}
+[57.175661] (-) TimerEvent: {}
+[57.276828] (-) TimerEvent: {}
+[57.321442] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[57.377045] (-) TimerEvent: {}
+[57.386621] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[57.415442] (message_info) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/info__type_support.cpp.o\x1b[0m\n'}
+[57.477397] (-) TimerEvent: {}
+[57.571298] (message_info) StdoutLine: {'line': b'[ 55%] Built target message_info__rosidl_typesupport_cpp\n'}
+[57.577497] (-) TimerEvent: {}
+[57.615607] (message_info) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/ball_info__type_support.cpp.o\x1b[0m\n'}
+[57.677716] (-) TimerEvent: {}
+[57.778620] (-) TimerEvent: {}
+[57.879612] (-) TimerEvent: {}
+[57.980772] (-) TimerEvent: {}
+[58.081941] (-) TimerEvent: {}
+[58.183084] (-) TimerEvent: {}
+[58.284111] (-) TimerEvent: {}
+[58.385085] (-) TimerEvent: {}
+[58.486158] (-) TimerEvent: {}
+[58.587324] (-) TimerEvent: {}
+[58.688400] (-) TimerEvent: {}
+[58.789480] (-) TimerEvent: {}
+[58.890673] (-) TimerEvent: {}
+[58.991869] (-) TimerEvent: {}
+[59.092947] (-) TimerEvent: {}
+[59.194243] (-) TimerEvent: {}
+[59.295570] (-) TimerEvent: {}
+[59.388408] (message_info) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[59.395873] (-) TimerEvent: {}
+[59.497088] (-) TimerEvent: {}
+[59.598297] (-) TimerEvent: {}
+[59.699453] (-) TimerEvent: {}
+[59.800561] (-) TimerEvent: {}
+[59.901692] (-) TimerEvent: {}
+[59.904402] (message_info) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[60.002019] (-) TimerEvent: {}
+[60.089036] (message_info) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o\x1b[0m\n'}
+[60.102211] (-) TimerEvent: {}
+[60.203029] (-) TimerEvent: {}
+[60.303915] (-) TimerEvent: {}
+[60.404847] (-) TimerEvent: {}
+[60.422755] (message_info) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/role__type_support.cpp.o\x1b[0m\n'}
+[60.427807] (message_info) StdoutLine: {'line': b'[ 59%] Built target message_info__rosidl_typesupport_introspection_cpp\n'}
+[60.475093] (message_info) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/attacker__type_support.cpp.o\x1b[0m\n'}
+[60.505187] (-) TimerEvent: {}
+[60.606389] (-) TimerEvent: {}
+[60.707597] (-) TimerEvent: {}
+[60.809100] (-) TimerEvent: {}
+[60.910142] (-) TimerEvent: {}
+[61.011156] (-) TimerEvent: {}
+[61.112197] (-) TimerEvent: {}
+[61.213255] (-) TimerEvent: {}
+[61.314241] (-) TimerEvent: {}
+[61.415718] (-) TimerEvent: {}
+[61.517576] (-) TimerEvent: {}
+[61.619200] (-) TimerEvent: {}
+[61.721124] (-) TimerEvent: {}
+[61.822709] (-) TimerEvent: {}
+[61.924392] (-) TimerEvent: {}
+[62.025986] (-) TimerEvent: {}
+[62.127021] (-) TimerEvent: {}
+[62.228199] (-) TimerEvent: {}
+[62.329345] (-) TimerEvent: {}
+[62.430462] (-) TimerEvent: {}
+[62.531727] (-) TimerEvent: {}
+[62.633179] (-) TimerEvent: {}
+[62.700242] (message_info) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goalie__type_support.cpp.o\x1b[0m\n'}
+[62.733433] (-) TimerEvent: {}
+[62.834602] (-) TimerEvent: {}
+[62.936142] (-) TimerEvent: {}
+[63.020221] (message_info) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/info__type_support.cpp.o\x1b[0m\n'}
+[63.036334] (-) TimerEvent: {}
+[63.137895] (-) TimerEvent: {}
+[63.239213] (-) TimerEvent: {}
+[63.340635] (-) TimerEvent: {}
+[63.442256] (-) TimerEvent: {}
+[63.543605] (-) TimerEvent: {}
+[63.644947] (-) TimerEvent: {}
+[63.746493] (-) TimerEvent: {}
+[63.847947] (-) TimerEvent: {}
+[63.949350] (-) TimerEvent: {}
+[64.050727] (-) TimerEvent: {}
+[64.152107] (-) TimerEvent: {}
+[64.253575] (-) TimerEvent: {}
+[64.354912] (-) TimerEvent: {}
+[64.456275] (-) TimerEvent: {}
+[64.557967] (-) TimerEvent: {}
+[64.659326] (-) TimerEvent: {}
+[64.760633] (-) TimerEvent: {}
+[64.862194] (-) TimerEvent: {}
+[64.963688] (-) TimerEvent: {}
+[65.064692] (-) TimerEvent: {}
+[65.165860] (-) TimerEvent: {}
+[65.266980] (-) TimerEvent: {}
+[65.368673] (-) TimerEvent: {}
+[65.427771] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_c\x1b[0m\n'}
+[65.468886] (-) TimerEvent: {}
+[65.529215] (message_info) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[65.531858] (message_info) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[65.542769] (message_info) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee__type_support.cpp.o\x1b[0m\n'}
+[65.569181] (-) TimerEvent: {}
+[65.670474] (-) TimerEvent: {}
+[65.722410] (message_info) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[65.725007] (message_info) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[65.743455] (message_info) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[65.770586] (message_info) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[65.771506] (-) TimerEvent: {}
+[65.872586] (-) TimerEvent: {}
+[65.902387] (message_info) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[65.905835] (message_info) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[65.935824] (message_info) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[65.972905] (-) TimerEvent: {}
+[66.074222] (-) TimerEvent: {}
+[66.092825] (message_info) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[66.103573] (message_info) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[66.136905] (message_info) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[66.174501] (-) TimerEvent: {}
+[66.275750] (-) TimerEvent: {}
+[66.339360] (message_info) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/test__type_support.cpp.o\x1b[0m\n'}
+[66.354839] (message_info) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/ball_info__type_support.cpp.o\x1b[0m\n'}
+[66.369944] (message_info) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goal_info__type_support.cpp.o\x1b[0m\n'}
+[66.375982] (-) TimerEvent: {}
+[66.472535] (message_info) StdoutLine: {'line': b'[ 69%] Built target message_info__rosidl_typesupport_fastrtps_cpp\n'}
+[66.476501] (-) TimerEvent: {}
+[66.522476] (message_info) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/role__type_support.cpp.o\x1b[0m\n'}
+[66.543130] (message_info) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/attacker__type_support.cpp.o\x1b[0m\n'}
+[66.544661] (message_info) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[66.560866] (message_info) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goalie__type_support.cpp.o\x1b[0m\n'}
+[66.576797] (-) TimerEvent: {}
+[66.678113] (-) TimerEvent: {}
+[66.707869] (message_info) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/info__type_support.cpp.o\x1b[0m\n'}
+[66.778276] (-) TimerEvent: {}
+[66.878994] (-) TimerEvent: {}
+[66.979695] (-) TimerEvent: {}
+[67.080376] (-) TimerEvent: {}
+[67.124525] (message_info) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_c.so\x1b[0m\n'}
+[67.180569] (-) TimerEvent: {}
+[67.281390] (-) TimerEvent: {}
+[67.324950] (message_info) StdoutLine: {'line': b'[ 73%] Built target message_info__rosidl_typesupport_c\n'}
+[67.381582] (-) TimerEvent: {}
+[67.482276] (-) TimerEvent: {}
+[67.582931] (-) TimerEvent: {}
+[67.683672] (-) TimerEvent: {}
+[67.784339] (-) TimerEvent: {}
+[67.885004] (-) TimerEvent: {}
+[67.985753] (-) TimerEvent: {}
+[68.086599] (-) TimerEvent: {}
+[68.187386] (-) TimerEvent: {}
+[68.288114] (-) TimerEvent: {}
+[68.388751] (-) TimerEvent: {}
+[68.489404] (-) TimerEvent: {}
+[68.590069] (-) TimerEvent: {}
+[68.690725] (-) TimerEvent: {}
+[68.791318] (-) TimerEvent: {}
+[68.891955] (-) TimerEvent: {}
+[68.992606] (-) TimerEvent: {}
+[69.093384] (-) TimerEvent: {}
+[69.194313] (-) TimerEvent: {}
+[69.294949] (-) TimerEvent: {}
+[69.395624] (-) TimerEvent: {}
+[69.496344] (-) TimerEvent: {}
+[69.597023] (-) TimerEvent: {}
+[69.697660] (-) TimerEvent: {}
+[69.798330] (-) TimerEvent: {}
+[69.898976] (-) TimerEvent: {}
+[69.999658] (-) TimerEvent: {}
+[70.100306] (-) TimerEvent: {}
+[70.200941] (-) TimerEvent: {}
+[70.301638] (-) TimerEvent: {}
+[70.402288] (-) TimerEvent: {}
+[70.502883] (-) TimerEvent: {}
+[70.603481] (-) TimerEvent: {}
+[70.704144] (-) TimerEvent: {}
+[70.804800] (-) TimerEvent: {}
+[70.905473] (-) TimerEvent: {}
+[71.006090] (-) TimerEvent: {}
+[71.106729] (-) TimerEvent: {}
+[71.207340] (-) TimerEvent: {}
+[71.307964] (-) TimerEvent: {}
+[71.408609] (-) TimerEvent: {}
+[71.509323] (-) TimerEvent: {}
+[71.609946] (-) TimerEvent: {}
+[71.710591] (-) TimerEvent: {}
+[71.811241] (-) TimerEvent: {}
+[71.911856] (-) TimerEvent: {}
+[72.012498] (-) TimerEvent: {}
+[72.113176] (-) TimerEvent: {}
+[72.213921] (-) TimerEvent: {}
+[72.315002] (-) TimerEvent: {}
+[72.416045] (-) TimerEvent: {}
+[72.517776] (-) TimerEvent: {}
+[72.618776] (-) TimerEvent: {}
+[72.644994] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[72.718928] (-) TimerEvent: {}
+[72.819587] (-) TimerEvent: {}
+[72.890778] (message_info) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_game_event__type_support_c.cpp.o\x1b[0m\n'}
+[72.892652] (message_info) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_team_info__type_support_c.cpp.o\x1b[0m\n'}
+[72.901466] (message_info) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee__type_support_c.cpp.o\x1b[0m\n'}
+[72.904688] (message_info) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_circular_arc__type_support_c.cpp.o\x1b[0m\n'}
+[72.919914] (-) TimerEvent: {}
+[73.021113] (-) TimerEvent: {}
+[73.121981] (-) TimerEvent: {}
+[73.222896] (-) TimerEvent: {}
+[73.324003] (-) TimerEvent: {}
+[73.424960] (-) TimerEvent: {}
+[73.525960] (-) TimerEvent: {}
+[73.627047] (-) TimerEvent: {}
+[73.728429] (-) TimerEvent: {}
+[73.829467] (-) TimerEvent: {}
+[73.930428] (-) TimerEvent: {}
+[74.031363] (-) TimerEvent: {}
+[74.132427] (-) TimerEvent: {}
+[74.233489] (-) TimerEvent: {}
+[74.334567] (-) TimerEvent: {}
+[74.435866] (-) TimerEvent: {}
+[74.537507] (-) TimerEvent: {}
+[74.638881] (-) TimerEvent: {}
+[74.739946] (-) TimerEvent: {}
+[74.840977] (-) TimerEvent: {}
+[74.942019] (-) TimerEvent: {}
+[75.043261] (-) TimerEvent: {}
+[75.050989] (message_info) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_line_segment__type_support_c.cpp.o\x1b[0m\n'}
+[75.074509] (message_info) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_geometry__type_support_c.cpp.o\x1b[0m\n'}
+[75.120715] (message_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_ball__type_support_c.cpp.o\x1b[0m\n'}
+[75.143521] (-) TimerEvent: {}
+[75.220934] (message_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_robot__type_support_c.cpp.o\x1b[0m\n'}
+[75.243748] (-) TimerEvent: {}
+[75.344609] (-) TimerEvent: {}
+[75.445534] (-) TimerEvent: {}
+[75.546493] (-) TimerEvent: {}
+[75.647597] (-) TimerEvent: {}
+[75.748816] (-) TimerEvent: {}
+[75.849922] (-) TimerEvent: {}
+[75.951113] (-) TimerEvent: {}
+[76.052358] (-) TimerEvent: {}
+[76.153346] (-) TimerEvent: {}
+[76.254404] (-) TimerEvent: {}
+[76.355487] (-) TimerEvent: {}
+[76.456943] (-) TimerEvent: {}
+[76.558114] (-) TimerEvent: {}
+[76.659372] (-) TimerEvent: {}
+[76.760769] (-) TimerEvent: {}
+[76.862169] (-) TimerEvent: {}
+[76.963233] (-) TimerEvent: {}
+[77.064286] (-) TimerEvent: {}
+[77.165232] (-) TimerEvent: {}
+[77.245569] (message_info) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_frame__type_support_c.cpp.o\x1b[0m\n'}
+[77.265470] (-) TimerEvent: {}
+[77.296505] (message_info) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_detections__type_support_c.cpp.o\x1b[0m\n'}
+[77.307887] (message_info) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[77.365668] (-) TimerEvent: {}
+[77.466508] (-) TimerEvent: {}
+[77.492445] (message_info) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_commands__type_support_c.cpp.o\x1b[0m\n'}
+[77.566762] (-) TimerEvent: {}
+[77.667763] (-) TimerEvent: {}
+[77.768852] (-) TimerEvent: {}
+[77.869902] (-) TimerEvent: {}
+[77.970918] (-) TimerEvent: {}
+[78.072057] (-) TimerEvent: {}
+[78.173254] (-) TimerEvent: {}
+[78.274234] (-) TimerEvent: {}
+[78.375308] (-) TimerEvent: {}
+[78.476443] (-) TimerEvent: {}
+[78.577570] (-) TimerEvent: {}
+[78.678881] (-) TimerEvent: {}
+[78.780002] (-) TimerEvent: {}
+[78.881462] (-) TimerEvent: {}
+[78.982997] (-) TimerEvent: {}
+[79.084183] (-) TimerEvent: {}
+[79.185184] (-) TimerEvent: {}
+[79.286213] (-) TimerEvent: {}
+[79.387458] (-) TimerEvent: {}
+[79.438915] (message_info) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[79.441337] (message_info) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/ball_info__type_support_c.cpp.o\x1b[0m\n'}
+[79.487706] (-) TimerEvent: {}
+[79.499778] (message_info) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goal_info__type_support_c.cpp.o\x1b[0m\n'}
+[79.587916] (-) TimerEvent: {}
+[79.689021] (-) TimerEvent: {}
+[79.791239] (-) TimerEvent: {}
+[79.816089] (message_info) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/role__type_support_c.cpp.o\x1b[0m\n'}
+[79.891506] (-) TimerEvent: {}
+[79.992583] (-) TimerEvent: {}
+[80.093575] (-) TimerEvent: {}
+[80.194590] (-) TimerEvent: {}
+[80.295711] (-) TimerEvent: {}
+[80.396859] (-) TimerEvent: {}
+[80.497932] (-) TimerEvent: {}
+[80.599034] (-) TimerEvent: {}
+[80.700015] (-) TimerEvent: {}
+[80.801308] (-) TimerEvent: {}
+[80.902407] (-) TimerEvent: {}
+[81.003400] (-) TimerEvent: {}
+[81.104921] (-) TimerEvent: {}
+[81.206844] (-) TimerEvent: {}
+[81.307993] (-) TimerEvent: {}
+[81.409047] (-) TimerEvent: {}
+[81.510036] (-) TimerEvent: {}
+[81.549921] (message_info) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/attacker__type_support_c.cpp.o\x1b[0m\n'}
+[81.562125] (message_info) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goalie__type_support_c.cpp.o\x1b[0m\n'}
+[81.610261] (-) TimerEvent: {}
+[81.711229] (-) TimerEvent: {}
+[81.757915] (message_info) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/info__type_support_c.cpp.o\x1b[0m\n'}
+[81.811479] (-) TimerEvent: {}
+[81.912413] (-) TimerEvent: {}
+[82.013611] (-) TimerEvent: {}
+[82.115732] (-) TimerEvent: {}
+[82.217391] (-) TimerEvent: {}
+[82.318726] (-) TimerEvent: {}
+[82.420562] (-) TimerEvent: {}
+[82.522031] (-) TimerEvent: {}
+[82.623644] (-) TimerEvent: {}
+[82.724995] (-) TimerEvent: {}
+[82.826474] (-) TimerEvent: {}
+[82.927843] (-) TimerEvent: {}
+[83.029378] (-) TimerEvent: {}
+[83.131331] (-) TimerEvent: {}
+[83.232691] (-) TimerEvent: {}
+[83.334167] (-) TimerEvent: {}
+[83.435814] (-) TimerEvent: {}
+[83.538477] (-) TimerEvent: {}
+[83.639248] (-) TimerEvent: {}
+[83.740054] (-) TimerEvent: {}
+[83.761086] (message_info) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[83.840373] (-) TimerEvent: {}
+[83.941352] (-) TimerEvent: {}
+[84.042207] (-) TimerEvent: {}
+[84.142942] (-) TimerEvent: {}
+[84.165552] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info__rosidl_typesupport_fastrtps_c\n'}
+[84.209477] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info\x1b[0m\n'}
+[84.243121] (-) TimerEvent: {}
+[84.259283] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info\n'}
+[84.304046] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__py\x1b[0m\n'}
+[84.343309] (-) TimerEvent: {}
+[84.359125] (message_info) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[84.443478] (-) TimerEvent: {}
+[84.544197] (-) TimerEvent: {}
+[84.644968] (-) TimerEvent: {}
+[84.745732] (-) TimerEvent: {}
+[84.846438] (-) TimerEvent: {}
+[84.947123] (-) TimerEvent: {}
+[85.047819] (-) TimerEvent: {}
+[85.148508] (-) TimerEvent: {}
+[85.249229] (-) TimerEvent: {}
+[85.349994] (-) TimerEvent: {}
+[85.451090] (-) TimerEvent: {}
+[85.551966] (-) TimerEvent: {}
+[85.652763] (-) TimerEvent: {}
+[85.753523] (-) TimerEvent: {}
+[85.854350] (-) TimerEvent: {}
+[85.955199] (-) TimerEvent: {}
+[86.055884] (-) TimerEvent: {}
+[86.156489] (-) TimerEvent: {}
+[86.257109] (-) TimerEvent: {}
+[86.357778] (-) TimerEvent: {}
+[86.458430] (-) TimerEvent: {}
+[86.559084] (-) TimerEvent: {}
+[86.660026] (-) TimerEvent: {}
+[86.760692] (-) TimerEvent: {}
+[86.861336] (-) TimerEvent: {}
+[86.961945] (-) TimerEvent: {}
+[87.062580] (-) TimerEvent: {}
+[87.163227] (-) TimerEvent: {}
+[87.263854] (-) TimerEvent: {}
+[87.364487] (-) TimerEvent: {}
+[87.465111] (-) TimerEvent: {}
+[87.565751] (-) TimerEvent: {}
+[87.666381] (-) TimerEvent: {}
+[87.767037] (-) TimerEvent: {}
+[87.867702] (-) TimerEvent: {}
+[87.968330] (-) TimerEvent: {}
+[88.068976] (-) TimerEvent: {}
+[88.169662] (-) TimerEvent: {}
+[88.270356] (-) TimerEvent: {}
+[88.370985] (-) TimerEvent: {}
+[88.471590] (-) TimerEvent: {}
+[88.572236] (-) TimerEvent: {}
+[88.672925] (-) TimerEvent: {}
+[88.773549] (-) TimerEvent: {}
+[88.874138] (-) TimerEvent: {}
+[88.974767] (-) TimerEvent: {}
+[89.075396] (-) TimerEvent: {}
+[89.175999] (-) TimerEvent: {}
+[89.276608] (-) TimerEvent: {}
+[89.377287] (-) TimerEvent: {}
+[89.477896] (-) TimerEvent: {}
+[89.578509] (-) TimerEvent: {}
+[89.679148] (-) TimerEvent: {}
+[89.779748] (-) TimerEvent: {}
+[89.880383] (-) TimerEvent: {}
+[89.980992] (-) TimerEvent: {}
+[90.081640] (-) TimerEvent: {}
+[90.182246] (-) TimerEvent: {}
+[90.282880] (-) TimerEvent: {}
+[90.383584] (-) TimerEvent: {}
+[90.484209] (-) TimerEvent: {}
+[90.584830] (-) TimerEvent: {}
+[90.685471] (-) TimerEvent: {}
+[90.786046] (-) TimerEvent: {}
+[90.886628] (-) TimerEvent: {}
+[90.987262] (-) TimerEvent: {}
+[91.087916] (-) TimerEvent: {}
+[91.188591] (-) TimerEvent: {}
+[91.289256] (-) TimerEvent: {}
+[91.389973] (-) TimerEvent: {}
+[91.490609] (-) TimerEvent: {}
+[91.591233] (-) TimerEvent: {}
+[91.691991] (-) TimerEvent: {}
+[91.792655] (-) TimerEvent: {}
+[91.893307] (-) TimerEvent: {}
+[91.993937] (-) TimerEvent: {}
+[92.094560] (-) TimerEvent: {}
+[92.195154] (-) TimerEvent: {}
+[92.295809] (-) TimerEvent: {}
+[92.396435] (-) TimerEvent: {}
+[92.497088] (-) TimerEvent: {}
+[92.597724] (-) TimerEvent: {}
+[92.698346] (-) TimerEvent: {}
+[92.799028] (-) TimerEvent: {}
+[92.899684] (-) TimerEvent: {}
+[93.000446] (-) TimerEvent: {}
+[93.101222] (-) TimerEvent: {}
+[93.201886] (-) TimerEvent: {}
+[93.302593] (-) TimerEvent: {}
+[93.403459] (-) TimerEvent: {}
+[93.504123] (-) TimerEvent: {}
+[93.604789] (-) TimerEvent: {}
+[93.705465] (-) TimerEvent: {}
+[93.806114] (-) TimerEvent: {}
+[93.906763] (-) TimerEvent: {}
+[94.007421] (-) TimerEvent: {}
+[94.108056] (-) TimerEvent: {}
+[94.208690] (-) TimerEvent: {}
+[94.309385] (-) TimerEvent: {}
+[94.410025] (-) TimerEvent: {}
+[94.510660] (-) TimerEvent: {}
+[94.611351] (-) TimerEvent: {}
+[94.711984] (-) TimerEvent: {}
+[94.812648] (-) TimerEvent: {}
+[94.913342] (-) TimerEvent: {}
+[95.013984] (-) TimerEvent: {}
+[95.114624] (-) TimerEvent: {}
+[95.215264] (-) TimerEvent: {}
+[95.315918] (-) TimerEvent: {}
+[95.416569] (-) TimerEvent: {}
+[95.517194] (-) TimerEvent: {}
+[95.617819] (-) TimerEvent: {}
+[95.718390] (-) TimerEvent: {}
+[95.818977] (-) TimerEvent: {}
+[95.919538] (-) TimerEvent: {}
+[96.020124] (-) TimerEvent: {}
+[96.120725] (-) TimerEvent: {}
+[96.221334] (-) TimerEvent: {}
+[96.321918] (-) TimerEvent: {}
+[96.422610] (-) TimerEvent: {}
+[96.523625] (-) TimerEvent: {}
+[96.624890] (-) TimerEvent: {}
+[96.827390] (-) TimerEvent: {}
+[96.929051] (-) TimerEvent: {}
+[97.030205] (-) TimerEvent: {}
+[97.128100] (message_info) StdoutLine: {'line': b'[ 85%] Built target message_info__py\n'}
+[97.130382] (-) TimerEvent: {}
+[97.172151] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__python\x1b[0m\n'}
+[97.230561] (-) TimerEvent: {}
+[97.331381] (-) TimerEvent: {}
+[97.432177] (-) TimerEvent: {}
+[97.532833] (-) TimerEvent: {}
+[97.633563] (-) TimerEvent: {}
+[97.734611] (-) TimerEvent: {}
+[97.835608] (-) TimerEvent: {}
+[97.918165] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_game_event_s.c.o\x1b[0m\n'}
+[97.919718] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_team_info_s.c.o\x1b[0m\n'}
+[97.925927] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_s.c.o\x1b[0m\n'}
+[97.931434] (message_info) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_circular_arc_s.c.o\x1b[0m\n'}
+[97.935798] (-) TimerEvent: {}
+[98.036556] (-) TimerEvent: {}
+[98.137606] (-) TimerEvent: {}
+[98.238516] (-) TimerEvent: {}
+[98.339364] (-) TimerEvent: {}
+[98.440446] (-) TimerEvent: {}
+[98.541526] (-) TimerEvent: {}
+[98.642569] (-) TimerEvent: {}
+[98.744170] (-) TimerEvent: {}
+[98.755495] (message_info) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_line_segment_s.c.o\x1b[0m\n'}
+[98.769364] (message_info) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_geometry_s.c.o\x1b[0m\n'}
+[98.785919] (message_info) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_ball_s.c.o\x1b[0m\n'}
+[98.811838] (message_info) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_robot_s.c.o\x1b[0m\n'}
+[98.844474] (-) TimerEvent: {}
+[98.945406] (-) TimerEvent: {}
+[99.046357] (-) TimerEvent: {}
+[99.147281] (-) TimerEvent: {}
+[99.248721] (-) TimerEvent: {}
+[99.279278] (message_info) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_frame_s.c.o\x1b[0m\n'}
+[99.281985] (message_info) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_detections_s.c.o\x1b[0m\n'}
+[99.327422] (message_info) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_command_s.c.o\x1b[0m\n'}
+[99.348983] (-) TimerEvent: {}
+[99.372339] (message_info) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_commands_s.c.o\x1b[0m\n'}
+[99.449230] (-) TimerEvent: {}
+[99.550181] (-) TimerEvent: {}
+[99.651133] (-) TimerEvent: {}
+[99.752206] (-) TimerEvent: {}
+[99.800640] (message_info) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_test_s.c.o\x1b[0m\n'}
+[99.852601] (-) TimerEvent: {}
+[99.865072] (message_info) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_ball_info_s.c.o\x1b[0m\n'}
+[99.897245] (message_info) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goal_info_s.c.o\x1b[0m\n'}
+[99.916175] (message_info) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_role_s.c.o\x1b[0m\n'}
+[99.952934] (-) TimerEvent: {}
+[100.053892] (-) TimerEvent: {}
+[100.154791] (-) TimerEvent: {}
+[100.255820] (-) TimerEvent: {}
+[100.297824] (message_info) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_attacker_s.c.o\x1b[0m\n'}
+[100.349912] (message_info) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goalie_s.c.o\x1b[0m\n'}
+[100.356173] (-) TimerEvent: {}
+[100.452579] (message_info) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_info_s.c.o\x1b[0m\n'}
+[100.456366] (-) TimerEvent: {}
+[100.557341] (-) TimerEvent: {}
+[100.658720] (-) TimerEvent: {}
+[100.760271] (-) TimerEvent: {}
+[100.861461] (-) TimerEvent: {}
+[100.927713] (message_info) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/libmessage_info__python.so\x1b[0m\n'}
+[100.961597] (-) TimerEvent: {}
+[101.062391] (-) TimerEvent: {}
+[101.163364] (-) TimerEvent: {}
+[101.201348] (message_info) StdoutLine: {'line': b'[ 96%] Built target message_info__python\n'}
+[101.247457] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[101.248266] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[101.249792] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[101.263535] (-) TimerEvent: {}
+[101.362441] (message_info) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[101.363716] (-) TimerEvent: {}
+[101.386411] (message_info) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[101.406280] (message_info) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[101.463971] (-) TimerEvent: {}
+[101.565215] (-) TimerEvent: {}
+[101.666542] (-) TimerEvent: {}
+[101.813641] (-) TimerEvent: {}
+[101.915392] (-) TimerEvent: {}
+[102.016892] (-) TimerEvent: {}
+[102.118275] (-) TimerEvent: {}
+[102.219027] (-) TimerEvent: {}
+[102.256923] (message_info) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[102.319240] (-) TimerEvent: {}
+[102.384549] (message_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[102.407543] (message_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[102.419499] (-) TimerEvent: {}
+[102.503980] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_c__pyext\n'}
+[102.519865] (-) TimerEvent: {}
+[102.621445] (-) TimerEvent: {}
+[102.669071] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_introspection_c__pyext\n'}
+[102.721659] (-) TimerEvent: {}
+[102.820711] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_fastrtps_c__pyext\n'}
+[102.821777] (-) TimerEvent: {}
+[102.871348] (message_info) CommandEnded: {'returncode': 0}
+[102.922067] (-) TimerEvent: {}
+[103.022966] (-) TimerEvent: {}
+[103.123708] (-) TimerEvent: {}
+[103.224965] (-) TimerEvent: {}
+[103.325773] (-) TimerEvent: {}
+[103.426534] (-) TimerEvent: {}
+[103.527284] (-) TimerEvent: {}
+[103.628028] (-) TimerEvent: {}
+[103.728850] (-) TimerEvent: {}
+[103.829902] (-) TimerEvent: {}
+[103.930671] (-) TimerEvent: {}
+[104.031448] (-) TimerEvent: {}
+[104.132344] (-) TimerEvent: {}
+[104.233112] (-) TimerEvent: {}
+[104.333956] (-) TimerEvent: {}
+[104.434996] (-) TimerEvent: {}
+[104.535690] (-) TimerEvent: {}
+[104.636363] (-) TimerEvent: {}
+[104.737063] (-) TimerEvent: {}
+[104.819481] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'install'}
+[104.837479] (-) TimerEvent: {}
+[104.863942] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/SSLRasp/build/message_info'], 'cwd': '/home/ubuntu/SSLRasp/build/message_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[104.904652] (message_info) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[104.905706] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/rosidl_interfaces/message_info\n'}
+[104.906987] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[104.907597] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[104.908206] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.h\n'}
+[104.909088] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.h\n'}
+[104.909942] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.h\n'}
+[104.910756] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.h\n'}
+[104.911554] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.h\n'}
+[104.912358] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.h\n'}
+[104.913147] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[104.914459] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.h\n'}
+[104.915410] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.c\n'}
+[104.916296] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.c\n'}
+[104.917258] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.h\n'}
+[104.918236] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.h\n'}
+[104.919155] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.h\n'}
+[104.920025] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.h\n'}
+[104.920928] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.h\n'}
+[104.921851] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.c\n'}
+[104.922754] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.h\n'}
+[104.923649] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.h\n'}
+[104.924619] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.h\n'}
+[104.925572] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.c\n'}
+[104.926512] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.h\n'}
+[104.927395] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.h\n'}
+[104.928311] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.h\n'}
+[104.929207] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.c\n'}
+[104.930145] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.h\n'}
+[104.931020] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.h\n'}
+[104.931949] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.c\n'}
+[104.932817] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.h\n'}
+[104.933826] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.c\n'}
+[104.934738] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.h\n'}
+[104.935676] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.h\n'}
+[104.936645] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.h\n'}
+[104.937498] (-) TimerEvent: {}
+[104.938040] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.c\n'}
+[104.938702] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.h\n'}
+[104.939595] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.h\n'}
+[104.940624] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.h\n'}
+[104.941671] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.h\n'}
+[104.942575] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.h\n'}
+[104.943566] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.h\n'}
+[104.944518] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.h\n'}
+[104.945446] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.h\n'}
+[104.946311] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.h\n'}
+[104.947168] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.h\n'}
+[104.948077] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.h\n'}
+[104.948974] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.h\n'}
+[104.949932] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.h\n'}
+[104.950887] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.h\n'}
+[104.951772] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.c\n'}
+[104.952712] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.h\n'}
+[104.953641] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.h\n'}
+[104.954582] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.h\n'}
+[104.955498] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.h\n'}
+[104.956407] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.c\n'}
+[104.957383] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.h\n'}
+[104.958340] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.c\n'}
+[104.959332] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.h\n'}
+[104.960256] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.h\n'}
+[104.961137] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.h\n'}
+[104.962119] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.h\n'}
+[104.963051] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.c\n'}
+[104.963979] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.c\n'}
+[104.964964] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.c\n'}
+[104.965941] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.h\n'}
+[104.966879] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.c\n'}
+[104.967777] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.h\n'}
+[104.968656] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.h\n'}
+[104.969579] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.h\n'}
+[104.970516] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.h\n'}
+[104.971407] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.c\n'}
+[104.972379] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.c\n'}
+[104.973374] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.h\n'}
+[104.974245] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.h\n'}
+[104.975124] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.h\n'}
+[104.976032] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.h\n'}
+[104.976906] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.h\n'}
+[104.977830] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.h\n'}
+[104.978747] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.h\n'}
+[104.979673] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.c\n'}
+[104.980556] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.h\n'}
+[104.981552] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.h\n'}
+[104.982486] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.h\n'}
+[104.983341] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.c\n'}
+[104.984279] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.h\n'}
+[104.985254] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_generator_c__visibility_control.h\n'}
+[104.986214] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.h\n'}
+[104.987019] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.h\n'}
+[104.987806] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.h\n'}
+[104.988625] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.h\n'}
+[104.989502] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.h\n'}
+[104.990309] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.h\n'}
+[104.991118] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.h\n'}
+[104.991909] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.h\n'}
+[104.992736] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.h\n'}
+[104.993585] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.h\n'}
+[104.994407] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.h\n'}
+[104.995220] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.h\n'}
+[104.996046] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.h\n'}
+[104.997611] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.sh\n'}
+[104.998710] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/library_path.dsv\n'}
+[105.000142] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so\n'}
+[105.002851] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so" to ""\n'}
+[105.003439] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[105.003926] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[105.004244] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[105.004646] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h\n'}
+[105.005817] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_c.h\n'}
+[105.006826] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_c.h\n'}
+[105.007847] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[105.008895] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[105.009957] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_c.h\n'}
+[105.010992] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[105.012014] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_c.h\n'}
+[105.013007] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_c.h\n'}
+[105.014074] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_c.h\n'}
+[105.015096] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h\n'}
+[105.016111] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h\n'}
+[105.017099] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_c.h\n'}
+[105.018212] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h\n'}
+[105.019215] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[105.020204] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[105.021236] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[105.022303] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_c.h\n'}
+[105.023317] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_c.h\n'}
+[105.024304] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[105.025827] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so\n'}
+[105.028857] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[105.029478] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[105.029960] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[105.030288] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[105.030680] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.031654] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.032717] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.033811] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.034855] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.035885] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.036884] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.037593] (-) TimerEvent: {}
+[105.038118] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.039325] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.040320] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.041532] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.042476] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/dds_fastrtps\n'}
+[105.043446] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.044563] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.045637] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.046686] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.047748] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.048765] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.049867] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.050902] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[105.051972] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[105.053536] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so\n'}
+[105.058308] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[105.058903] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[105.059377] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[105.059691] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[105.060075] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h\n'}
+[105.061158] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.c\n'}
+[105.062188] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_c.h\n'}
+[105.063183] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.c\n'}
+[105.064328] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.c\n'}
+[105.065390] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_c.h\n'}
+[105.066437] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.c\n'}
+[105.067372] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[105.068391] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[105.069441] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.c\n'}
+[105.070394] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.c\n'}
+[105.071464] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_c.h\n'}
+[105.072463] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.c\n'}
+[105.073531] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.c\n'}
+[105.074582] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.c\n'}
+[105.075603] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.c\n'}
+[105.076712] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_c.h\n'}
+[105.077781] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.c\n'}
+[105.078904] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_c.h\n'}
+[105.080001] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h\n'}
+[105.081061] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.c\n'}
+[105.082127] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.c\n'}
+[105.083158] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_c.h\n'}
+[105.084227] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_c.h\n'}
+[105.085256] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.c\n'}
+[105.086265] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.c\n'}
+[105.087248] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h\n'}
+[105.088318] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_c.h\n'}
+[105.089379] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.c\n'}
+[105.090496] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h\n'}
+[105.091506] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_c.h\n'}
+[105.092527] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_c.h\n'}
+[105.093653] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_c.h\n'}
+[105.094680] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.c\n'}
+[105.095718] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_c.h\n'}
+[105.096791] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.c\n'}
+[105.097885] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_c.h\n'}
+[105.098916] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.c\n'}
+[105.099951] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[105.101521] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so\n'}
+[105.104314] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so" to ""\n'}
+[105.104888] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so\n'}
+[105.107436] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so" to ""\n'}
+[105.107971] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[105.108385] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[105.108792] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/ball_info.hpp\n'}
+[105.109625] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.hpp\n'}
+[105.110447] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.hpp\n'}
+[105.111270] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_robot.hpp\n'}
+[105.112120] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.hpp\n'}
+[105.113005] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.hpp\n'}
+[105.113864] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[105.114781] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__builder.hpp\n'}
+[105.115802] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__traits.hpp\n'}
+[105.116735] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.hpp\n'}
+[105.117733] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.hpp\n'}
+[105.118739] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__traits.hpp\n'}
+[105.119673] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__builder.hpp\n'}
+[105.120650] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__traits.hpp\n'}
+[105.121628] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__traits.hpp\n'}
+[105.122537] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__builder.hpp\n'}
+[105.123507] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.hpp\n'}
+[105.124396] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.hpp\n'}
+[105.125396] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__builder.hpp\n'}
+[105.126289] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__builder.hpp\n'}
+[105.127220] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__builder.hpp\n'}
+[105.128185] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.hpp\n'}
+[105.129207] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.hpp\n'}
+[105.130177] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__traits.hpp\n'}
+[105.131081] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__builder.hpp\n'}
+[105.131986] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__traits.hpp\n'}
+[105.132959] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__traits.hpp\n'}
+[105.133884] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__traits.hpp\n'}
+[105.134803] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__traits.hpp\n'}
+[105.135734] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__builder.hpp\n'}
+[105.136685] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.hpp\n'}
+[105.137719] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__builder.hpp\n'}
+[105.138130] (-) TimerEvent: {}
+[105.138672] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.hpp\n'}
+[105.139680] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__builder.hpp\n'}
+[105.140583] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__builder.hpp\n'}
+[105.141681] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.hpp\n'}
+[105.142669] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__builder.hpp\n'}
+[105.143614] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__builder.hpp\n'}
+[105.144569] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.hpp\n'}
+[105.145526] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__builder.hpp\n'}
+[105.146432] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__traits.hpp\n'}
+[105.147359] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.hpp\n'}
+[105.148278] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__builder.hpp\n'}
+[105.149430] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__builder.hpp\n'}
+[105.150421] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__traits.hpp\n'}
+[105.151322] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__traits.hpp\n'}
+[105.152242] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.hpp\n'}
+[105.153178] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.hpp\n'}
+[105.154139] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.hpp\n'}
+[105.155125] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__builder.hpp\n'}
+[105.156048] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__traits.hpp\n'}
+[105.156930] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.hpp\n'}
+[105.157907] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.hpp\n'}
+[105.158852] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.hpp\n'}
+[105.159893] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.hpp\n'}
+[105.160883] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__traits.hpp\n'}
+[105.161858] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.hpp\n'}
+[105.162826] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__traits.hpp\n'}
+[105.163726] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__traits.hpp\n'}
+[105.164670] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__traits.hpp\n'}
+[105.165742] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__builder.hpp\n'}
+[105.166660] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__builder.hpp\n'}
+[105.167589] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__traits.hpp\n'}
+[105.168496] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__traits.hpp\n'}
+[105.169439] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_ball.hpp\n'}
+[105.170313] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detection_frame.hpp\n'}
+[105.171134] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/attacker.hpp\n'}
+[105.171926] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_command.hpp\n'}
+[105.172731] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.hpp\n'}
+[105.173584] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.hpp\n'}
+[105.174388] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.hpp\n'}
+[105.175222] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/test.hpp\n'}
+[105.176010] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/robot_commands.hpp\n'}
+[105.176817] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/role.hpp\n'}
+[105.177656] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.hpp\n'}
+[105.178506] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.hpp\n'}
+[105.179352] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/vision_detections.hpp\n'}
+[105.180564] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info\n'}
+[105.181077] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg\n'}
+[105.181540] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[105.182043] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.183255] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.184339] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.cpp\n'}
+[105.185386] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.cpp\n'}
+[105.186444] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.187535] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.188628] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.189744] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.191044] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.192113] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.193137] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.cpp\n'}
+[105.194156] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.cpp\n'}
+[105.195184] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.196248] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.197297] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.cpp\n'}
+[105.198380] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.cpp\n'}
+[105.199397] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.cpp\n'}
+[105.200451] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.201601] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.cpp\n'}
+[105.202589] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.cpp\n'}
+[105.203591] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.cpp\n'}
+[105.204593] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.cpp\n'}
+[105.205680] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.206775] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.207821] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.cpp\n'}
+[105.208849] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.209921] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.cpp\n'}
+[105.210992] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.cpp\n'}
+[105.212055] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.cpp\n'}
+[105.213030] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.cpp\n'}
+[105.214106] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.cpp\n'}
+[105.215185] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.216242] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.217341] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.cpp\n'}
+[105.218403] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.cpp\n'}
+[105.219374] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.220495] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.221667] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[105.223283] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so\n'}
+[105.228233] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[105.228884] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so\n'}
+[105.231438] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so" to ""\n'}
+[105.232021] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.sh\n'}
+[105.233164] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/pythonpath.dsv\n'}
+[105.234680] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py\n'}
+[105.238302] (-) TimerEvent: {}
+[105.339006] (-) TimerEvent: {}
+[105.364137] (message_info) StdoutLine: {'line': b"Compiling '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py'...\n"}
+[105.387003] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg\n'}
+[105.387914] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py\n'}
+[105.389034] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event_s.c\n'}
+[105.390138] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/__init__.py\n'}
+[105.391197] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry.py\n'}
+[105.392409] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry_s.c\n'}
+[105.393630] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc_s.c\n'}
+[105.394692] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie.py\n'}
+[105.395729] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info.py\n'}
+[105.396766] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command.py\n'}
+[105.397914] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info.py\n'}
+[105.398953] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame_s.c\n'}
+[105.400052] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie_s.c\n'}
+[105.400935] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment.py\n'}
+[105.401947] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command_s.c\n'}
+[105.402884] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame.py\n'}
+[105.403892] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands_s.c\n'}
+[105.404833] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands.py\n'}
+[105.405844] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker.py\n'}
+[105.406773] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py\n'}
+[105.407764] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball.py\n'}
+[105.408685] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role_s.c\n'}
+[105.409632] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker_s.c\n'}
+[105.410528] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test.py\n'}
+[105.411419] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot.py\n'}
+[105.412372] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc.py\n'}
+[105.413406] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot_s.c\n'}
+[105.414380] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball_s.c\n'}
+[105.415292] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections_s.c\n'}
+[105.416209] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info_s.c\n'}
+[105.417128] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py\n'}
+[105.418163] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment_s.c\n'}
+[105.419073] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info_s.c\n'}
+[105.419980] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info_s.c\n'}
+[105.420877] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info_s.c\n'}
+[105.421938] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections.py\n'}
+[105.422880] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py\n'}
+[105.423795] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_s.c\n'}
+[105.424715] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role.py\n'}
+[105.425679] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test_s.c\n'}
+[105.427520] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[105.431052] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[105.432035] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[105.435561] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[105.436460] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[105.439133] (-) TimerEvent: {}
+[105.439847] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[105.440563] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__python.so\n'}
+[105.443968] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/SSLRasp/install/message_info/lib/libmessage_info__python.so" to ""\n'}
+[105.444621] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.idl\n'}
+[105.445995] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.idl\n'}
+[105.447173] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.idl\n'}
+[105.448321] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.idl\n'}
+[105.449549] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.idl\n'}
+[105.450756] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.idl\n'}
+[105.451945] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.idl\n'}
+[105.453107] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.idl\n'}
+[105.454342] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.idl\n'}
+[105.455516] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.idl\n'}
+[105.456671] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.idl\n'}
+[105.457891] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.idl\n'}
+[105.459030] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.idl\n'}
+[105.460176] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.idl\n'}
+[105.461402] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.idl\n'}
+[105.462581] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.idl\n'}
+[105.463695] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.idl\n'}
+[105.464826] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.idl\n'}
+[105.466093] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.idl\n'}
+[105.467236] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.msg\n'}
+[105.468329] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.msg\n'}
+[105.469458] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.msg\n'}
+[105.470580] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.msg\n'}
+[105.471748] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.msg\n'}
+[105.472864] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.msg\n'}
+[105.474078] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.msg\n'}
+[105.475196] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.msg\n'}
+[105.476317] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.msg\n'}
+[105.477411] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.msg\n'}
+[105.478576] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.msg\n'}
+[105.479681] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.msg\n'}
+[105.480801] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Test.msg\n'}
+[105.481908] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/BallInfo.msg\n'}
+[105.482994] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.msg\n'}
+[105.484076] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Role.msg\n'}
+[105.485149] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.msg\n'}
+[105.486233] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.msg\n'}
+[105.487325] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.msg\n'}
+[105.488858] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info\n'}
+[105.490546] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info\n'}
+[105.491836] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.sh\n'}
+[105.493072] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.dsv\n'}
+[105.494344] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.sh\n'}
+[105.495521] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/path.dsv\n'}
+[105.496679] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.bash\n'}
+[105.497890] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.sh\n'}
+[105.499042] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.zsh\n'}
+[105.500189] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/local_setup.dsv\n'}
+[105.501351] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.dsv\n'}
+[105.502820] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/packages/message_info\n'}
+[105.504467] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport.cmake\n'}
+[105.505898] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport-noconfig.cmake\n'}
+[105.507484] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport.cmake\n'}
+[105.508955] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[105.510706] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport.cmake\n'}
+[105.512105] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[105.513713] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cppExport.cmake\n'}
+[105.515332] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[105.516821] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[105.518477] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport.cmake\n'}
+[105.519883] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[105.521224] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake-extras.cmake\n'}
+[105.522488] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[105.523797] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[105.525154] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[105.526526] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[105.527850] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[105.529199] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[105.530525] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig.cmake\n'}
+[105.531443] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig-version.cmake\n'}
+[105.532640] (message_info) StdoutLine: {'line': b'-- Installing: /home/ubuntu/SSLRasp/install/message_info/share/message_info/package.xml\n'}
+[105.539336] (-) TimerEvent: {}
+[105.540542] (message_info) CommandEnded: {'returncode': 0}
+[105.639656] (-) TimerEvent: {}
+[105.740717] (-) TimerEvent: {}
+[105.841757] (-) TimerEvent: {}
+[105.942541] (-) TimerEvent: {}
+[106.043252] (-) TimerEvent: {}
+[106.143975] (-) TimerEvent: {}
+[106.244797] (-) TimerEvent: {}
+[106.345800] (-) TimerEvent: {}
+[106.447060] (-) TimerEvent: {}
+[106.547877] (-) TimerEvent: {}
+[106.648606] (-) TimerEvent: {}
+[106.749369] (-) TimerEvent: {}
+[106.850316] (-) TimerEvent: {}
+[106.951066] (-) TimerEvent: {}
+[107.052196] (-) TimerEvent: {}
+[107.153408] (-) TimerEvent: {}
+[107.254139] (-) TimerEvent: {}
+[107.354862] (-) TimerEvent: {}
+[107.455598] (-) TimerEvent: {}
+[107.556291] (-) TimerEvent: {}
+[107.599224] (message_info) JobEnded: {'identifier': 'message_info', 'rc': 0}
+[107.609567] (main) JobStarted: {'identifier': 'main'}
+[107.637967] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[107.639033] (main) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/SSLRasp/src/main', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/SSLRasp/install/main'], 'cwd': '/home/ubuntu/SSLRasp/build/main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy')]), 'shell': False}
+[107.656524] (-) TimerEvent: {}
+[107.757445] (-) TimerEvent: {}
+[107.858581] (-) TimerEvent: {}
+[107.901824] (main) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[107.958776] (-) TimerEvent: {}
+[108.059722] (-) TimerEvent: {}
+[108.137611] (main) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[108.156757] (main) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[108.159849] (-) TimerEvent: {}
+[108.260660] (-) TimerEvent: {}
+[108.361708] (-) TimerEvent: {}
+[108.457871] (main) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[108.461599] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[108.462277] (-) TimerEvent: {}
+[108.563104] (-) TimerEvent: {}
+[108.664048] (-) TimerEvent: {}
+[108.764869] (-) TimerEvent: {}
+[108.765679] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[108.808587] (main) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[108.809820] (main) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[108.819212] (main) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[108.865085] (-) TimerEvent: {}
+[108.965955] (-) TimerEvent: {}
+[109.066869] (-) TimerEvent: {}
+[109.158905] (main) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[109.163398] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[109.166998] (-) TimerEvent: {}
+[109.267868] (-) TimerEvent: {}
+[109.368713] (-) TimerEvent: {}
+[109.469491] (-) TimerEvent: {}
+[109.505814] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[109.550624] (main) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[109.552448] (main) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[109.569627] (-) TimerEvent: {}
+[109.574540] (main) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[109.669901] (-) TimerEvent: {}
+[109.701863] (main) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[109.702496] (main) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[109.770007] (-) TimerEvent: {}
+[109.870689] (-) TimerEvent: {}
+[109.971330] (-) TimerEvent: {}
+[110.072019] (-) TimerEvent: {}
+[110.172620] (-) TimerEvent: {}
+[110.273239] (-) TimerEvent: {}
+[110.373863] (-) TimerEvent: {}
+[110.474503] (-) TimerEvent: {}
+[110.575184] (-) TimerEvent: {}
+[110.675854] (-) TimerEvent: {}
+[110.684915] (main) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[110.776026] (-) TimerEvent: {}
+[110.876748] (-) TimerEvent: {}
+[110.977426] (-) TimerEvent: {}
+[111.063744] (main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[111.077525] (-) TimerEvent: {}
+[111.123180] (main) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[111.177696] (-) TimerEvent: {}
+[111.278346] (-) TimerEvent: {}
+[111.379030] (-) TimerEvent: {}
+[111.479878] (-) TimerEvent: {}
+[111.580657] (-) TimerEvent: {}
+[111.681520] (-) TimerEvent: {}
+[111.708768] (main) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[111.781675] (-) TimerEvent: {}
+[111.882495] (-) TimerEvent: {}
+[111.950197] (main) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[111.982646] (-) TimerEvent: {}
+[112.083320] (-) TimerEvent: {}
+[112.184110] (-) TimerEvent: {}
+[112.284838] (-) TimerEvent: {}
+[112.385531] (-) TimerEvent: {}
+[112.486182] (-) TimerEvent: {}
+[112.530598] (main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[112.586340] (-) TimerEvent: {}
+[112.687036] (-) TimerEvent: {}
+[112.787807] (-) TimerEvent: {}
+[112.864644] (main) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[112.877104] (main) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[112.884887] (main) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[112.887952] (-) TimerEvent: {}
+[112.988728] (-) TimerEvent: {}
+[113.089548] (-) TimerEvent: {}
+[113.190312] (-) TimerEvent: {}
+[113.207409] (main) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[113.208374] (main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[113.290484] (-) TimerEvent: {}
+[113.391225] (-) TimerEvent: {}
+[113.492145] (-) TimerEvent: {}
+[113.547455] (main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[113.548411] (main) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[113.592341] (-) TimerEvent: {}
+[113.693424] (-) TimerEvent: {}
+[113.794643] (-) TimerEvent: {}
+[113.821530] (main) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[113.822485] (main) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[113.894848] (-) TimerEvent: {}
+[113.995842] (-) TimerEvent: {}
+[114.096750] (-) TimerEvent: {}
+[114.139358] (main) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[114.143825] (main) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[114.196910] (-) TimerEvent: {}
+[114.297619] (-) TimerEvent: {}
+[114.398357] (-) TimerEvent: {}
+[114.499046] (-) TimerEvent: {}
+[114.599757] (-) TimerEvent: {}
+[114.700448] (-) TimerEvent: {}
+[114.801137] (-) TimerEvent: {}
+[114.899292] (main) StdoutLine: {'line': b'-- Found message_info: 0.0.0 (/home/ubuntu/SSLRasp/install/message_info/share/message_info/cmake)\n'}
+[114.901260] (-) TimerEvent: {}
+[115.001899] (-) TimerEvent: {}
+[115.102546] (-) TimerEvent: {}
+[115.203218] (-) TimerEvent: {}
+[115.303909] (-) TimerEvent: {}
+[115.404579] (-) TimerEvent: {}
+[115.505250] (-) TimerEvent: {}
+[115.605922] (-) TimerEvent: {}
+[115.706585] (-) TimerEvent: {}
+[115.807257] (-) TimerEvent: {}
+[115.902591] (main) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[115.907425] (-) TimerEvent: {}
+[115.933345] (main) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[115.956860] (main) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[116.007591] (-) TimerEvent: {}
+[116.108283] (-) TimerEvent: {}
+[116.208953] (-) TimerEvent: {}
+[116.309646] (-) TimerEvent: {}
+[116.370555] (main) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[116.375503] (main) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[116.376421] (main) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/SSLRasp/src/main/include\n'}
+[116.376934] (main) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[116.380669] (main) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[116.381242] (main) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[116.383919] (main) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[116.388394] (main) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[116.388972] (main) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[116.390766] (main) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[116.409793] (-) TimerEvent: {}
+[116.416005] (main) StdoutLine: {'line': b'-- Configuring done\n'}
+[116.453544] (main) StdoutLine: {'line': b'-- Generating done\n'}
+[116.459856] (main) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/SSLRasp/build/main\n'}
+[116.491198] (main) CommandEnded: {'returncode': 0}
+[116.493156] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[116.494272] (main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/SSLRasp/build/main', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/SSLRasp/build/main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.11 61163 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/SSLRasp/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/SSLRasp/build/main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 61163 192.168.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/SSLRasp/install/message_info:/opt/ros/foxy')]), 'shell': False}
+[116.510010] (-) TimerEvent: {}
+[116.610870] (-) TimerEvent: {}
+[116.685639] (main) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target main\x1b[0m\n'}
+[116.711086] (-) TimerEvent: {}
+[116.812037] (-) TimerEvent: {}
+[116.912907] (-) TimerEvent: {}
+[117.013822] (-) TimerEvent: {}
+[117.114724] (-) TimerEvent: {}
+[117.215578] (-) TimerEvent: {}
+[117.289720] (main) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[117.315780] (-) TimerEvent: {}
+[117.416635] (-) TimerEvent: {}
+[117.517415] (-) TimerEvent: {}
+[117.618122] (-) TimerEvent: {}
+[117.718862] (-) TimerEvent: {}
+[117.819628] (-) TimerEvent: {}
+[117.920396] (-) TimerEvent: {}
+[118.021111] (-) TimerEvent: {}
+[118.121896] (-) TimerEvent: {}
+[118.222612] (-) TimerEvent: {}
+[118.323319] (-) TimerEvent: {}
+[118.424118] (-) TimerEvent: {}
+[118.524866] (-) TimerEvent: {}
+[118.625693] (-) TimerEvent: {}
+[118.726400] (-) TimerEvent: {}
+[118.827117] (-) TimerEvent: {}
+[118.927872] (-) TimerEvent: {}
+[119.028620] (-) TimerEvent: {}
+[119.129420] (-) TimerEvent: {}
+[119.230161] (-) TimerEvent: {}
+[119.330901] (-) TimerEvent: {}
+[119.431668] (-) TimerEvent: {}
+[119.532410] (-) TimerEvent: {}
+[119.633248] (-) TimerEvent: {}
+[119.734018] (-) TimerEvent: {}
+[119.834798] (-) TimerEvent: {}
+[119.935548] (-) TimerEvent: {}
+[120.036267] (-) TimerEvent: {}
+[120.137021] (-) TimerEvent: {}
+[120.237845] (-) TimerEvent: {}
+[120.338593] (-) TimerEvent: {}
+[120.439354] (-) TimerEvent: {}
+[120.540127] (-) TimerEvent: {}
+[120.640893] (-) TimerEvent: {}
+[120.741679] (-) TimerEvent: {}
+[120.842419] (-) TimerEvent: {}
+[120.943184] (-) TimerEvent: {}
+[121.043971] (-) TimerEvent: {}
+[121.144704] (-) TimerEvent: {}
+[121.245439] (-) TimerEvent: {}
+[121.346167] (-) TimerEvent: {}
+[121.446934] (-) TimerEvent: {}
+[121.547722] (-) TimerEvent: {}
+[121.648480] (-) TimerEvent: {}
+[121.749251] (-) TimerEvent: {}
+[121.850014] (-) TimerEvent: {}
+[121.950776] (-) TimerEvent: {}
+[122.051512] (-) TimerEvent: {}
+[122.152348] (-) TimerEvent: {}
+[122.253100] (-) TimerEvent: {}
+[122.353889] (-) TimerEvent: {}
+[122.454634] (-) TimerEvent: {}
+[122.555383] (-) TimerEvent: {}
+[122.656109] (-) TimerEvent: {}
+[122.756878] (-) TimerEvent: {}
+[122.857714] (-) TimerEvent: {}
+[122.958461] (-) TimerEvent: {}
+[123.059182] (-) TimerEvent: {}
+[123.159951] (-) TimerEvent: {}
+[123.260730] (-) TimerEvent: {}
+[123.361522] (-) TimerEvent: {}
+[123.462264] (-) TimerEvent: {}
+[123.563013] (-) TimerEvent: {}
+[123.663794] (-) TimerEvent: {}
+[123.764556] (-) TimerEvent: {}
+[123.865333] (-) TimerEvent: {}
+[123.966074] (-) TimerEvent: {}
+[124.066815] (-) TimerEvent: {}
+[124.167547] (-) TimerEvent: {}
+[124.268319] (-) TimerEvent: {}
+[124.369354] (-) TimerEvent: {}
+[124.393660] (main) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[124.469528] (-) TimerEvent: {}
+[124.570311] (-) TimerEvent: {}
+[124.671458] (-) TimerEvent: {}
+[124.772398] (-) TimerEvent: {}
+[124.822014] (main) StderrLine: {'line': b'/usr/bin/ld: cannot find -lWiringPi\n'}
+[124.827962] (main) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[124.833425] (main) StderrLine: {'line': b'make[2]: *** [CMakeFiles/main.dir/build.make:146: main] Error 1\n'}
+[124.834507] (main) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main.dir/all] Error 2\n'}
+[124.835568] (main) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[124.842646] (main) CommandEnded: {'returncode': 2}
+[124.872707] (-) TimerEvent: {}
+[124.973801] (-) TimerEvent: {}
+[124.980409] (main) JobEnded: {'identifier': 'main', 'rc': 2}
+[124.983933] (-) EventReactorShutdown: {}

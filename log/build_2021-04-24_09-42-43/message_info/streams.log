@@ -1,0 +1,9 @@
+[0.089s] Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4
+[0.380s] [  0%] Built target message_info__cpp
+[0.437s] [ 12%] Built target message_info__rosidl_generator_c
+[0.526s] make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.527s] make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.530s] make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/message_info__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.531s] make[2]: *** [CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/build.make:661: CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+[0.532s] make[1]: *** [CMakeFiles/Makefile2:525: CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.534s] make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,24 @@
+{
+  "package_name": "message_info",
+  "non_idl_tuples": [
+    "/home/ubuntu/SSLRasp/src/message_info:msg/RefereeGameEvent.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/RefereeTeamInfo.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Referee.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/FieldCircularArc.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/FieldLineSegment.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/VisionGeometry.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/DetectionBall.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/DetectionRobot.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/DetectionFrame.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/VisionDetections.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/RobotCommand.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/RobotCommands.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Test.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/BallInfo.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/GoalInfo.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Role.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Attacker.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Goalie.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Info.msg"
+  ]
+}
