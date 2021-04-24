@@ -24,6 +24,7 @@ class RealSender(Node):
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(26,GPIO.OUT)
         self.flag = False
+        self.MY_ID = 0
         self.time_period = 1.0
         self.create_timer(self.time_period, self.timer_callback)
         self._sub_commands = self.create_subscription(
@@ -37,12 +38,12 @@ class RealSender(Node):
 
     def pc_callback(self, msg):
         for command in msg.commands:
-            vel_norm = math.sqrt(
+            if command.robot_id == self.MY_ID:
+                vel_norm = math.sqrt(
                     math.pow(command.vel_surge, 2) + 
-                    math.pow(command.vel_sway,2))
-            vel_norm = int(32767 * (vel_norm/self._MAX_VEL_NORM)+ 32767)
-
-            print(vel_norm)
+                    math.pow(command.vel_sway,2)) * 100
+            
+                print(vel_norm)
 
 def main(args=None):
     rclpy.init(args=args)
