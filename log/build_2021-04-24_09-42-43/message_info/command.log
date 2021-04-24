@@ -1,1 +1,0 @@
-Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/real_sender:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4

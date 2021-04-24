@@ -1,3 +1,0 @@
-[console_scripts]
-real_send = python_programs.real_sender:main
-
