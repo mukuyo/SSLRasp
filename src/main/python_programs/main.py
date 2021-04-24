@@ -18,6 +18,9 @@ GPIO.setwarnings(False)
 class RealSender(Node):
     def __init__(self):
         super().__init__('receiver')
+        self._MAX_VEL_NORM = 4.0 # m/s
+        self._MAX_VEL_ANGULAR = 2.0*math.pi
+
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(26,GPIO.OUT)
         self.flag = False
