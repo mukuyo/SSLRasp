@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/real_sender/real_sender.egg-info
+writing ../../build/real_sender/real_sender.egg-info/PKG-INFO
+writing dependency_links to ../../build/real_sender/real_sender.egg-info/dependency_links.txt
+writing entry points to ../../build/real_sender/real_sender.egg-info/entry_points.txt
+writing requirements to ../../build/real_sender/real_sender.egg-info/requires.txt
+writing top-level names to ../../build/real_sender/real_sender.egg-info/top_level.txt
+writing manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'
+reading manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'
+writing manifest file '../../build/real_sender/real_sender.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/SSLRasp/build/real_sender/build
+creating /home/ubuntu/SSLRasp/build/real_sender/build/lib
+creating /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs
+copying python_programs/__init__.py -> /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs
+copying python_programs/real_sender.py -> /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs
+running install
+running install_lib
+creating /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs
+copying /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs/__init__.py -> /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs
+copying /home/ubuntu/SSLRasp/build/real_sender/build/lib/python_programs/real_sender.py -> /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs
+byte-compiling /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/python_programs/real_sender.py to real_sender.cpython-38.pyc
+running install_egg_info
+Copying ../../build/real_sender/real_sender.egg-info to /home/ubuntu/SSLRasp/install/real_sender/lib/python3.8/site-packages/real_sender-0.0.0-py3.8.egg-info
+running install_scripts
+Installing real_send script to /home/ubuntu/SSLRasp/install/real_sender/lib/real_sender
+writing list of installed files to '/home/ubuntu/SSLRasp/build/real_sender/install.log'

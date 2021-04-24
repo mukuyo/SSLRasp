@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/RefereeTeamInfo.msg
+// generated code does not contain a copyright notice
+
+
+module message_info {
+  module msg {
+    @verbatim (language="comment", text=
+      " This msg file is copied from 'referee.proto'")
+    struct RefereeTeamInfo {
+      @verbatim (language="comment", text=
+        " The team's name (empty string if operator has not typed anything).")
+      string name;
+
+      @verbatim (language="comment", text=
+        " The number of goals scored by the team during normal play and overtime.")
+      uint32 score;
+
+      @verbatim (language="comment", text=
+        " The number of red cards issued to the team since the beginning of the game.")
+      uint32 red_cards;
+
+      @verbatim (language="comment", text=
+        " The amount of time (in microseconds) left on each yellow card issued to the team." "\n"
+        " If no yellow cards are issued, this array has no elements." "\n"
+        " Otherwise, times are ordered from smallest to largest.")
+      sequence<uint32> yellow_card_times;
+
+      @verbatim (language="comment", text=
+        " The total number of yellow cards ever issued to the team.")
+      uint32 yellow_cards;
+
+      @verbatim (language="comment", text=
+        " The number of timeouts this team can still call." "\n"
+        " If in a timeout right now, that timeout is excluded.")
+      uint32 timeouts;
+
+      @verbatim (language="comment", text=
+        " The number of microseconds of timeout this team can use.")
+      uint32 timeout_time;
+
+      @verbatim (language="comment", text=
+        " The pattern number of this team's goalie.")
+      uint32 goalie;
+    };
+  };
+};

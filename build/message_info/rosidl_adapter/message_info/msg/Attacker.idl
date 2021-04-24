@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/Attacker.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module message_info {
+  module msg {
+    struct Attacker {
+      geometry_msgs::msg::Pose2D pose;
+
+      geometry_msgs::msg::Pose2D set_position;
+    };
+  };
+};
