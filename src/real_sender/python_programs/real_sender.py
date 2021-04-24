@@ -14,6 +14,8 @@ from message_info.msg import RobotCommands
 class RealSender(Node):
     def __init__(self):
         super().__init__('real_send')
+        GPIO.setmode(GPIO.BOARD)
+        GPIO.setup(26,GPIO.OUT)
 
         self._sub_commands = self.create_subscription(
                 RobotCommands,
