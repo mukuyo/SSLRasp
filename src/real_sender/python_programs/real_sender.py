@@ -7,7 +7,7 @@ from rclpy.node import Node
 import math
 import socket
 import struct
-import Rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 from message_info.msg import RobotCommands
 
