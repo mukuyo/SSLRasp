@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/GoalInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module message_info {
+  module msg {
+    struct GoalInfo {
+      geometry_msgs::msg::Pose2D their;
+
+      geometry_msgs::msg::Pose2D our;
+
+      int32 field_width;
+
+      int32 field_length;
+
+      double goal_width;
+
+      double goal_depth;
+    };
+  };
+};
