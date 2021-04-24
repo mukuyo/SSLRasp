@@ -37,6 +37,8 @@ class RealSender(Node):
             vel_norm = math.sqrt(
                     math.pow(command.vel_surge, 2) + 
                     math.pow(command.vel_sway,2))
+            vel_norm = int(32767 * (vel_norm/self._MAX_VEL_NORM)+ 32767)
+
             print(vel_norm)
 
 def main(args=None):
