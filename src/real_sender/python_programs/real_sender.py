@@ -10,7 +10,7 @@ import struct
 import RPi.GPIO as GPIO
 
 from message_info.msg import RobotCommands
-
+GPIO.setmode(GPIO.BOARD)
 class RealSender(Node):
     def __init__(self):
         super().__init__('real_send')
