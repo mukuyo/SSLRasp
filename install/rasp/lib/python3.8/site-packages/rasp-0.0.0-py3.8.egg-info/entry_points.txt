@@ -1,0 +1,3 @@
+[console_scripts]
+rasp = python_programs.main:main
+

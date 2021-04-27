@@ -1,0 +1,922 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (message_info) JobQueued: {'identifier': 'message_info', 'dependencies': OrderedDict()}
+[0.000407] (rasp) JobQueued: {'identifier': 'rasp', 'dependencies': OrderedDict()}
+[0.001074] (message_info) JobStarted: {'identifier': 'message_info'}
+[0.010538] (rasp) JobStarted: {'identifier': 'rasp'}
+[0.019024] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'cmake'}
+[0.019425] (message_info) Command: {'cmd': ['/usr/bin/cmake', '/home/rionessl/SSLRasp/src/message_info', '-DCMAKE_INSTALL_PREFIX=/home/rionessl/SSLRasp/install/message_info'], 'cwd': '/home/rionessl/SSLRasp/build/message_info', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rionessl'), ('SSH_AGENT_PID', '1247'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rionessl/RiAI/install/sender/lib:/home/rionessl/RiAI/install/proto_info/lib:/home/rionessl/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rionessl'), ('OLDPWD', '/home/rionessl/SSLRasp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rionessl/RiAI/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rionessl'), ('JOURNAL_STREAM', '8:46100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rionessl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1313,unix/rionessl:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '47d35336edd347dfb26f1e09f440e87c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c19e559_737b_45d9_9c36_cdc0e755726c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/real_sender:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rionessl/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rionessl/RiAI/install/sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/real_sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/proto_info/lib/python3.8/site-packages:/home/rionessl/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[0.099768] (-) TimerEvent: {}
+[0.104832] (message_info) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.175225] (message_info) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.182313] (message_info) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199841] (-) TimerEvent: {}
+[0.237659] (rasp) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rasp', 'build', '--build-base', '/home/rionessl/SSLRasp/build/rasp/build', 'install', '--prefix', '/home/rionessl/SSLRasp/install/rasp', '--record', '/home/rionessl/SSLRasp/build/rasp/install.log', '--single-version-externally-managed'], 'cwd': '/home/rionessl/SSLRasp/src/rasp', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rionessl', 'SSH_AGENT_PID': '1247', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rionessl/RiAI/install/sender/lib:/home/rionessl/RiAI/install/proto_info/lib:/home/rionessl/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rionessl', 'OLDPWD': '/home/rionessl/SSLRasp/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '982', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rionessl/RiAI/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rionessl', 'JOURNAL_STREAM': '8:46100', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rionessl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rionessl:@/tmp/.ICE-unix/1313,unix/rionessl:/tmp/.ICE-unix/1313', 'INVOCATION_ID': '47d35336edd347dfb26f1e09f440e87c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6c19e559_737b_45d9_9c36_cdc0e755726c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.89', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/real_sender:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rionessl/SSLRasp/build/rasp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages:/home/rionessl/RiAI/install/sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/real_sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/proto_info/lib/python3.8/site-packages:/home/rionessl/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info'}, 'shell': False}
+[0.257621] (message_info) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.260503] (message_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299953] (-) TimerEvent: {}
+[0.335506] (message_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.346196] (message_info) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.346727] (message_info) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.349222] (message_info) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400052] (-) TimerEvent: {}
+[0.427966] (rasp) StdoutLine: {'line': b'running egg_info\n'}
+[0.428476] (rasp) StdoutLine: {'line': b'creating ../../build/rasp/rasp.egg-info\n'}
+[0.428768] (rasp) StdoutLine: {'line': b'writing ../../build/rasp/rasp.egg-info/PKG-INFO\n'}
+[0.428980] (rasp) StdoutLine: {'line': b'writing dependency_links to ../../build/rasp/rasp.egg-info/dependency_links.txt\n'}
+[0.429220] (rasp) StdoutLine: {'line': b'writing entry points to ../../build/rasp/rasp.egg-info/entry_points.txt\n'}
+[0.429390] (rasp) StdoutLine: {'line': b'writing requirements to ../../build/rasp/rasp.egg-info/requires.txt\n'}
+[0.429548] (rasp) StdoutLine: {'line': b'writing top-level names to ../../build/rasp/rasp.egg-info/top_level.txt\n'}
+[0.430282] (rasp) StdoutLine: {'line': b"writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'\n"}
+[0.438451] (message_info) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.439403] (message_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.458382] (rasp) StderrLine: {'line': b'file python_programs/rasp.py (for module python_programs.rasp) not found\n'}
+[0.458712] (rasp) StdoutLine: {'line': b"reading manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'\n"}
+[0.459166] (rasp) StdoutLine: {'line': b"writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'\n"}
+[0.459471] (rasp) StdoutLine: {'line': b'running build\n'}
+[0.459689] (rasp) StdoutLine: {'line': b'running build_py\n'}
+[0.459834] (rasp) StderrLine: {'line': b'file python_programs/rasp.py (for module python_programs.rasp) not found\n'}
+[0.459986] (rasp) StdoutLine: {'line': b'creating /home/rionessl/SSLRasp/build/rasp/build\n'}
+[0.460127] (rasp) StdoutLine: {'line': b'creating /home/rionessl/SSLRasp/build/rasp/build/lib\n'}
+[0.460266] (rasp) StdoutLine: {'line': b'creating /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs\n'}
+[0.460436] (rasp) StdoutLine: {'line': b'copying python_programs/__init__.py -> /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs\n'}
+[0.460623] (rasp) StderrLine: {'line': b'file python_programs/rasp.py (for module python_programs.rasp) not found\n'}
+[0.460767] (rasp) StdoutLine: {'line': b'running install\n'}
+[0.460904] (rasp) StdoutLine: {'line': b'running install_lib\n'}
+[0.461299] (rasp) StdoutLine: {'line': b'creating /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs\n'}
+[0.461509] (rasp) StdoutLine: {'line': b'copying /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs/__init__.py -> /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs\n'}
+[0.461888] (rasp) StdoutLine: {'line': b'byte-compiling /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs/__init__.py to __init__.cpython-38.pyc\n'}
+[0.462981] (rasp) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.464576] (rasp) StdoutLine: {'line': b'Copying ../../build/rasp/rasp.egg-info to /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info\n'}
+[0.465295] (rasp) StdoutLine: {'line': b'running install_scripts\n'}
+[0.481655] (rasp) StdoutLine: {'line': b'Installing rasp script to /home/rionessl/SSLRasp/install/rasp/lib/rasp\n'}
+[0.482060] (rasp) StderrLine: {'line': b'file python_programs/rasp.py (for module python_programs.rasp) not found\n'}
+[0.482291] (rasp) StdoutLine: {'line': b"writing list of installed files to '/home/rionessl/SSLRasp/build/rasp/install.log'\n"}
+[0.500170] (-) TimerEvent: {}
+[0.509230] (rasp) CommandEnded: {'returncode': 0}
+[0.528149] (rasp) JobEnded: {'identifier': 'rasp', 'rc': 0}
+[0.538864] (message_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.553060] (message_info) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.553488] (message_info) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.555501] (message_info) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.585580] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.585892] (message_info) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600304] (-) TimerEvent: {}
+[0.700771] (-) TimerEvent: {}
+[0.778670] (message_info) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.783632] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.793251] (message_info) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800866] (-) TimerEvent: {}
+[0.901210] (-) TimerEvent: {}
+[0.915762] (message_info) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.946557] (message_info) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.001307] (-) TimerEvent: {}
+[1.018916] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.044619] (message_info) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[1.057253] (message_info) StdoutLine: {'line': b'-- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.073551] (message_info) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101381] (-) TimerEvent: {}
+[1.185846] (message_info) StdoutLine: {'line': b'-- OpenSSL Version: 1.1.1f /usr/include /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so\n'}
+[1.201472] (-) TimerEvent: {}
+[1.214452] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.301575] (-) TimerEvent: {}
+[1.401953] (-) TimerEvent: {}
+[1.502440] (-) TimerEvent: {}
+[1.519238] (message_info) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.602559] (-) TimerEvent: {}
+[1.702893] (-) TimerEvent: {}
+[1.803224] (-) TimerEvent: {}
+[1.824950] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.903341] (-) TimerEvent: {}
+[1.984141] (message_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003459] (-) TimerEvent: {}
+[2.011378] (message_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.014554] (message_info) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.052061] (message_info) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.052483] (message_info) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.052719] (message_info) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.052931] (message_info) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.080845] (message_info) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.103584] (-) TimerEvent: {}
+[2.195440] (message_info) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.203660] (-) TimerEvent: {}
+[2.213852] (message_info) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.216018] (message_info) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.217227] (message_info) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.221521] (message_info) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.303787] (-) TimerEvent: {}
+[2.313796] (message_info) StdoutLine: {'line': b'-- Generating done\n'}
+[2.316620] (message_info) StdoutLine: {'line': b'-- Build files have been written to: /home/rionessl/SSLRasp/build/message_info\n'}
+[2.326337] (message_info) CommandEnded: {'returncode': 0}
+[2.327170] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'build'}
+[2.328464] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rionessl/SSLRasp/build/message_info', '--', '-j8', '-l8'], 'cwd': '/home/rionessl/SSLRasp/build/message_info', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rionessl'), ('SSH_AGENT_PID', '1247'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rionessl/RiAI/install/sender/lib:/home/rionessl/RiAI/install/proto_info/lib:/home/rionessl/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rionessl'), ('OLDPWD', '/home/rionessl/SSLRasp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rionessl/RiAI/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rionessl'), ('JOURNAL_STREAM', '8:46100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rionessl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1313,unix/rionessl:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '47d35336edd347dfb26f1e09f440e87c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c19e559_737b_45d9_9c36_cdc0e755726c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/real_sender:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rionessl/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rionessl/RiAI/install/sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/real_sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/proto_info/lib/python3.8/site-packages:/home/rionessl/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[2.389234] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__cpp\x1b[0m\n'}
+[2.393516] (message_info) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.402449] (message_info) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.403892] (-) TimerEvent: {}
+[2.504304] (-) TimerEvent: {}
+[2.604750] (-) TimerEvent: {}
+[2.705064] (-) TimerEvent: {}
+[2.805382] (-) TimerEvent: {}
+[2.905760] (-) TimerEvent: {}
+[3.006109] (-) TimerEvent: {}
+[3.106395] (-) TimerEvent: {}
+[3.206751] (-) TimerEvent: {}
+[3.307101] (-) TimerEvent: {}
+[3.407449] (-) TimerEvent: {}
+[3.507797] (-) TimerEvent: {}
+[3.608151] (-) TimerEvent: {}
+[3.708486] (-) TimerEvent: {}
+[3.782075] (message_info) StdoutLine: {'line': b'[  1%] Built target message_info__cpp\n'}
+[3.793399] (message_info) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.797866] (message_info) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.799958] (message_info) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.808588] (-) TimerEvent: {}
+[3.909017] (-) TimerEvent: {}
+[4.009361] (-) TimerEvent: {}
+[4.022597] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_generator_c\x1b[0m\n'}
+[4.044015] (message_info) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_game_event__functions.c.o\x1b[0m\n'}
+[4.044368] (message_info) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee__functions.c.o\x1b[0m\n'}
+[4.044683] (message_info) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_line_segment__functions.c.o\x1b[0m\n'}
+[4.045131] (message_info) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/referee_team_info__functions.c.o\x1b[0m\n'}
+[4.054466] (message_info) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/field_circular_arc__functions.c.o\x1b[0m\n'}
+[4.088217] (message_info) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_geometry__functions.c.o\x1b[0m\n'}
+[4.093086] (message_info) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_ball__functions.c.o\x1b[0m\n'}
+[4.097271] (message_info) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_robot__functions.c.o\x1b[0m\n'}
+[4.109504] (-) TimerEvent: {}
+[4.110014] (message_info) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/detection_frame__functions.c.o\x1b[0m\n'}
+[4.123269] (message_info) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/vision_detections__functions.c.o\x1b[0m\n'}
+[4.143077] (message_info) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_command__functions.c.o\x1b[0m\n'}
+[4.146077] (message_info) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/robot_commands__functions.c.o\x1b[0m\n'}
+[4.155929] (message_info) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/test__functions.c.o\x1b[0m\n'}
+[4.164017] (message_info) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/ball_info__functions.c.o\x1b[0m\n'}
+[4.178607] (message_info) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goal_info__functions.c.o\x1b[0m\n'}
+[4.196776] (message_info) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/role__functions.c.o\x1b[0m\n'}
+[4.201694] (message_info) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/attacker__functions.c.o\x1b[0m\n'}
+[4.205913] (message_info) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/goalie__functions.c.o\x1b[0m\n'}
+[4.209624] (-) TimerEvent: {}
+[4.215519] (message_info) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_generator_c.dir/rosidl_generator_c/message_info/msg/detail/info__functions.c.o\x1b[0m\n'}
+[4.265594] (message_info) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmessage_info__rosidl_generator_c.so\x1b[0m\n'}
+[4.305466] (message_info) StdoutLine: {'line': b'[ 14%] Built target message_info__rosidl_generator_c\n'}
+[4.309722] (-) TimerEvent: {}
+[4.319972] (message_info) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.320603] (message_info) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.409834] (-) TimerEvent: {}
+[4.510258] (-) TimerEvent: {}
+[4.611561] (-) TimerEvent: {}
+[4.711926] (-) TimerEvent: {}
+[4.812247] (-) TimerEvent: {}
+[4.912589] (-) TimerEvent: {}
+[5.012903] (-) TimerEvent: {}
+[5.113209] (-) TimerEvent: {}
+[5.147834] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.171728] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[5.171968] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee__type_support.cpp.o\x1b[0m\n'}
+[5.172189] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[5.173056] (message_info) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[5.213326] (-) TimerEvent: {}
+[5.313775] (-) TimerEvent: {}
+[5.414101] (-) TimerEvent: {}
+[5.514483] (-) TimerEvent: {}
+[5.599577] (message_info) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[5.614608] (-) TimerEvent: {}
+[5.616871] (message_info) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[5.628642] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[5.646074] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[5.714728] (-) TimerEvent: {}
+[5.739683] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_c\x1b[0m\n'}
+[5.773963] (message_info) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[5.814846] (-) TimerEvent: {}
+[5.826734] (message_info) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[5.869412] (message_info) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/referee__type_support.cpp.o\x1b[0m\n'}
+[5.914966] (-) TimerEvent: {}
+[5.917237] (message_info) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[5.965079] (message_info) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[5.987231] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.008726] (message_info) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[6.015085] (-) TimerEvent: {}
+[6.019833] (message_info) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[6.044171] (message_info) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[6.053905] (message_info) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[6.066586] (message_info) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[6.067444] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.077282] (message_info) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[6.084735] (message_info) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[6.094310] (message_info) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[6.115192] (-) TimerEvent: {}
+[6.126919] (message_info) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_game_event__type_support.cpp.o\x1b[0m\n'}
+[6.131578] (message_info) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[6.182569] (message_info) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[6.215323] (-) TimerEvent: {}
+[6.225042] (message_info) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_command__type_support.cpp.o\x1b[0m\n'}
+[6.265325] (message_info) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[6.312300] (message_info) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/test__type_support.cpp.o\x1b[0m\n'}
+[6.315469] (-) TimerEvent: {}
+[6.357615] (message_info) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/ball_info__type_support.cpp.o\x1b[0m\n'}
+[6.401143] (message_info) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goal_info__type_support.cpp.o\x1b[0m\n'}
+[6.415599] (-) TimerEvent: {}
+[6.442681] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/role__type_support.cpp.o\x1b[0m\n'}
+[6.483049] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/attacker__type_support.cpp.o\x1b[0m\n'}
+[6.487672] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[6.500101] (message_info) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/test__type_support.cpp.o\x1b[0m\n'}
+[6.515742] (-) TimerEvent: {}
+[6.523995] (message_info) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/goalie__type_support.cpp.o\x1b[0m\n'}
+[6.529233] (message_info) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/ball_info__type_support.cpp.o\x1b[0m\n'}
+[6.541326] (message_info) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goal_info__type_support.cpp.o\x1b[0m\n'}
+[6.541610] (message_info) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_info/msg/info__type_support.cpp.o\x1b[0m\n'}
+[6.573342] (message_info) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/role__type_support.cpp.o\x1b[0m\n'}
+[6.595253] (message_info) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.615869] (-) TimerEvent: {}
+[6.646869] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.670398] (message_info) StdoutLine: {'line': b'[ 38%] Built target message_info__rosidl_typesupport_c\n'}
+[6.689314] (message_info) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/referee__type_support.cpp.o\x1b[0m\n'}
+[6.695628] (message_info) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_game_event__type_support.c.o\x1b[0m\n'}
+[6.716015] (-) TimerEvent: {}
+[6.742513] (message_info) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee_team_info__type_support.c.o\x1b[0m\n'}
+[6.791413] (message_info) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/referee__type_support.c.o\x1b[0m\n'}
+[6.816136] (-) TimerEvent: {}
+[6.840618] (message_info) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee_team_info__type_support.cpp.o\x1b[0m\n'}
+[6.846321] (message_info) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_circular_arc__type_support.c.o\x1b[0m\n'}
+[6.898964] (message_info) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/field_line_segment__type_support.c.o\x1b[0m\n'}
+[6.916277] (-) TimerEvent: {}
+[6.948735] (message_info) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_geometry__type_support.c.o\x1b[0m\n'}
+[6.957930] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/attacker__type_support.cpp.o\x1b[0m\n'}
+[6.994426] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/goalie__type_support.cpp.o\x1b[0m\n'}
+[7.007142] (message_info) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[7.007731] (message_info) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_info/msg/info__type_support.cpp.o\x1b[0m\n'}
+[7.016408] (-) TimerEvent: {}
+[7.018231] (message_info) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_ball__type_support.c.o\x1b[0m\n'}
+[7.060781] (message_info) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_robot__type_support.c.o\x1b[0m\n'}
+[7.063590] (message_info) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/detection_frame__type_support.c.o\x1b[0m\n'}
+[7.112332] (message_info) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/vision_detections__type_support.c.o\x1b[0m\n'}
+[7.116554] (-) TimerEvent: {}
+[7.125440] (message_info) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[7.167127] (message_info) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[7.175114] (message_info) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/robot_commands__type_support.c.o\x1b[0m\n'}
+[7.216842] (-) TimerEvent: {}
+[7.217298] (message_info) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[7.225701] (message_info) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/test__type_support.c.o\x1b[0m\n'}
+[7.274393] (message_info) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/ball_info__type_support.c.o\x1b[0m\n'}
+[7.316945] (-) TimerEvent: {}
+[7.333835] (message_info) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goal_info__type_support.c.o\x1b[0m\n'}
+[7.380785] (message_info) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/role__type_support.c.o\x1b[0m\n'}
+[7.417066] (-) TimerEvent: {}
+[7.425086] (message_info) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/attacker__type_support.c.o\x1b[0m\n'}
+[7.434611] (message_info) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/goalie__type_support.c.o\x1b[0m\n'}
+[7.452399] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_info/msg/detail/info__type_support.c.o\x1b[0m\n'}
+[7.452735] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.482353] (message_info) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[7.492324] (message_info) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[7.495159] (message_info) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[7.503452] (message_info) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libmessage_info__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.517196] (-) TimerEvent: {}
+[7.530222] (message_info) StdoutLine: {'line': b'[ 55%] Built target message_info__rosidl_typesupport_cpp\n'}
+[7.544581] (message_info) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[7.554681] (message_info) StdoutLine: {'line': b'[ 56%] Built target message_info__rosidl_typesupport_introspection_c\n'}
+[7.567995] (message_info) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_command__type_support.cpp.o\x1b[0m\n'}
+[7.587475] (message_info) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/referee__type_support.cpp.o\x1b[0m\n'}
+[7.587767] (message_info) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_circular_arc__type_support.cpp.o\x1b[0m\n'}
+[7.617317] (-) TimerEvent: {}
+[7.717699] (-) TimerEvent: {}
+[7.818204] (-) TimerEvent: {}
+[7.868175] (message_info) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[7.918774] (-) TimerEvent: {}
+[7.939748] (message_info) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/test__type_support.cpp.o\x1b[0m\n'}
+[7.979682] (message_info) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/ball_info__type_support.cpp.o\x1b[0m\n'}
+[8.018793] (message_info) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goal_info__type_support.cpp.o\x1b[0m\n'}
+[8.019670] (-) TimerEvent: {}
+[8.120033] (-) TimerEvent: {}
+[8.157303] (message_info) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/role__type_support.cpp.o\x1b[0m\n'}
+[8.161082] (message_info) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/attacker__type_support.cpp.o\x1b[0m\n'}
+[8.220177] (-) TimerEvent: {}
+[8.267936] (message_info) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/field_line_segment__type_support.cpp.o\x1b[0m\n'}
+[8.297659] (message_info) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_geometry__type_support.cpp.o\x1b[0m\n'}
+[8.320419] (-) TimerEvent: {}
+[8.333315] (message_info) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/goalie__type_support.cpp.o\x1b[0m\n'}
+[8.410310] (message_info) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_info/msg/detail/info__type_support.cpp.o\x1b[0m\n'}
+[8.420449] (-) TimerEvent: {}
+[8.465437] (message_info) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_ball__type_support.cpp.o\x1b[0m\n'}
+[8.469750] (message_info) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_robot__type_support.cpp.o\x1b[0m\n'}
+[8.520586] (-) TimerEvent: {}
+[8.621125] (-) TimerEvent: {}
+[8.628761] (message_info) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/detection_frame__type_support.cpp.o\x1b[0m\n'}
+[8.630829] (message_info) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/vision_detections__type_support.cpp.o\x1b[0m\n'}
+[8.721191] (-) TimerEvent: {}
+[8.778978] (message_info) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[8.821316] (-) TimerEvent: {}
+[8.921754] (-) TimerEvent: {}
+[8.942268] (message_info) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/robot_commands__type_support.cpp.o\x1b[0m\n'}
+[9.021893] (-) TimerEvent: {}
+[9.084434] (message_info) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.122030] (-) TimerEvent: {}
+[9.197533] (message_info) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[9.197952] (message_info) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/ball_info__type_support.cpp.o\x1b[0m\n'}
+[9.202903] (message_info) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o\x1b[0m\n'}
+[9.222166] (-) TimerEvent: {}
+[9.283646] (message_info) StdoutLine: {'line': b'[ 70%] Built target message_info__rosidl_typesupport_introspection_cpp\n'}
+[9.298046] (message_info) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/role__type_support.cpp.o\x1b[0m\n'}
+[9.322380] (-) TimerEvent: {}
+[9.422907] (-) TimerEvent: {}
+[9.484247] (message_info) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/attacker__type_support.cpp.o\x1b[0m\n'}
+[9.497264] (message_info) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/goalie__type_support.cpp.o\x1b[0m\n'}
+[9.511699] (message_info) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_info/msg/detail/dds_fastrtps/info__type_support.cpp.o\x1b[0m\n'}
+[9.523046] (-) TimerEvent: {}
+[9.623644] (-) TimerEvent: {}
+[9.742733] (-) TimerEvent: {}
+[9.843167] (-) TimerEvent: {}
+[9.943560] (-) TimerEvent: {}
+[10.044000] (-) TimerEvent: {}
+[10.144355] (-) TimerEvent: {}
+[10.208599] (message_info) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.244490] (-) TimerEvent: {}
+[10.324268] (message_info) StdoutLine: {'line': b'[ 72%] Built target message_info__rosidl_typesupport_fastrtps_cpp\n'}
+[10.341610] (message_info) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.344583] (-) TimerEvent: {}
+[10.444907] (-) TimerEvent: {}
+[10.545273] (-) TimerEvent: {}
+[10.645659] (-) TimerEvent: {}
+[10.746015] (-) TimerEvent: {}
+[10.846711] (-) TimerEvent: {}
+[10.947343] (-) TimerEvent: {}
+[11.047696] (-) TimerEvent: {}
+[11.148256] (-) TimerEvent: {}
+[11.248818] (-) TimerEvent: {}
+[11.349419] (-) TimerEvent: {}
+[11.449798] (-) TimerEvent: {}
+[11.550260] (-) TimerEvent: {}
+[11.633712] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.650371] (-) TimerEvent: {}
+[11.685354] (message_info) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_circular_arc__type_support_c.cpp.o\x1b[0m\n'}
+[11.686099] (message_info) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_geometry__type_support_c.cpp.o\x1b[0m\n'}
+[11.688047] (message_info) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_team_info__type_support_c.cpp.o\x1b[0m\n'}
+[11.689051] (message_info) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_ball__type_support_c.cpp.o\x1b[0m\n'}
+[11.689508] (message_info) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee__type_support_c.cpp.o\x1b[0m\n'}
+[11.690557] (message_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/field_line_segment__type_support_c.cpp.o\x1b[0m\n'}
+[11.691446] (message_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_robot__type_support_c.cpp.o\x1b[0m\n'}
+[11.691766] (message_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/referee_game_event__type_support_c.cpp.o\x1b[0m\n'}
+[11.750491] (-) TimerEvent: {}
+[11.850843] (-) TimerEvent: {}
+[11.951219] (-) TimerEvent: {}
+[12.051588] (-) TimerEvent: {}
+[12.151994] (-) TimerEvent: {}
+[12.241936] (message_info) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/detection_frame__type_support_c.cpp.o\x1b[0m\n'}
+[12.252143] (-) TimerEvent: {}
+[12.252559] (message_info) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/vision_detections__type_support_c.cpp.o\x1b[0m\n'}
+[12.254642] (message_info) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[12.259346] (message_info) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/robot_commands__type_support_c.cpp.o\x1b[0m\n'}
+[12.266173] (message_info) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[12.270275] (message_info) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/ball_info__type_support_c.cpp.o\x1b[0m\n'}
+[12.286436] (message_info) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goal_info__type_support_c.cpp.o\x1b[0m\n'}
+[12.299542] (message_info) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/role__type_support_c.cpp.o\x1b[0m\n'}
+[12.352257] (-) TimerEvent: {}
+[12.452613] (-) TimerEvent: {}
+[12.553044] (-) TimerEvent: {}
+[12.653555] (-) TimerEvent: {}
+[12.753937] (-) TimerEvent: {}
+[12.817132] (message_info) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/attacker__type_support_c.cpp.o\x1b[0m\n'}
+[12.824656] (message_info) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/goalie__type_support_c.cpp.o\x1b[0m\n'}
+[12.828021] (message_info) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_info/msg/detail/info__type_support_c.cpp.o\x1b[0m\n'}
+[12.854038] (-) TimerEvent: {}
+[12.954353] (-) TimerEvent: {}
+[13.054754] (-) TimerEvent: {}
+[13.155204] (-) TimerEvent: {}
+[13.202662] (message_info) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_info__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.255333] (-) TimerEvent: {}
+[13.322794] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info__rosidl_typesupport_fastrtps_c\n'}
+[13.336375] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info\x1b[0m\n'}
+[13.353452] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info\n'}
+[13.355408] (-) TimerEvent: {}
+[13.369274] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__py\x1b[0m\n'}
+[13.384780] (message_info) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.455534] (-) TimerEvent: {}
+[13.555909] (-) TimerEvent: {}
+[13.656251] (-) TimerEvent: {}
+[13.756601] (-) TimerEvent: {}
+[13.857019] (-) TimerEvent: {}
+[13.957380] (-) TimerEvent: {}
+[14.057743] (-) TimerEvent: {}
+[14.158107] (-) TimerEvent: {}
+[14.258450] (-) TimerEvent: {}
+[14.358801] (-) TimerEvent: {}
+[14.459165] (-) TimerEvent: {}
+[14.559535] (-) TimerEvent: {}
+[14.659884] (-) TimerEvent: {}
+[14.760255] (-) TimerEvent: {}
+[14.860686] (-) TimerEvent: {}
+[14.961039] (-) TimerEvent: {}
+[15.061385] (-) TimerEvent: {}
+[15.161740] (-) TimerEvent: {}
+[15.262101] (-) TimerEvent: {}
+[15.362459] (-) TimerEvent: {}
+[15.462848] (-) TimerEvent: {}
+[15.563274] (-) TimerEvent: {}
+[15.663629] (-) TimerEvent: {}
+[15.764084] (-) TimerEvent: {}
+[15.864449] (-) TimerEvent: {}
+[15.964812] (-) TimerEvent: {}
+[16.065171] (-) TimerEvent: {}
+[16.165547] (-) TimerEvent: {}
+[16.265982] (-) TimerEvent: {}
+[16.278074] (message_info) StdoutLine: {'line': b'[ 85%] Built target message_info__py\n'}
+[16.292412] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__python\x1b[0m\n'}
+[16.346057] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_geometry_s.c.o\x1b[0m\n'}
+[16.346356] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_circular_arc_s.c.o\x1b[0m\n'}
+[16.349100] (message_info) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_game_event_s.c.o\x1b[0m\n'}
+[16.350222] (message_info) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_team_info_s.c.o\x1b[0m\n'}
+[16.350543] (message_info) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_ball_s.c.o\x1b[0m\n'}
+[16.351016] (message_info) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_field_line_segment_s.c.o\x1b[0m\n'}
+[16.351520] (message_info) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_robot_s.c.o\x1b[0m\n'}
+[16.351946] (message_info) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_s.c.o\x1b[0m\n'}
+[16.366143] (-) TimerEvent: {}
+[16.466544] (-) TimerEvent: {}
+[16.478011] (message_info) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_vision_detections_s.c.o\x1b[0m\n'}
+[16.478514] (message_info) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_detection_frame_s.c.o\x1b[0m\n'}
+[16.479771] (message_info) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_command_s.c.o\x1b[0m\n'}
+[16.482038] (message_info) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_robot_commands_s.c.o\x1b[0m\n'}
+[16.484891] (message_info) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_test_s.c.o\x1b[0m\n'}
+[16.488050] (message_info) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_ball_info_s.c.o\x1b[0m\n'}
+[16.490254] (message_info) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goal_info_s.c.o\x1b[0m\n'}
+[16.505610] (message_info) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_role_s.c.o\x1b[0m\n'}
+[16.566673] (-) TimerEvent: {}
+[16.607696] (message_info) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_attacker_s.c.o\x1b[0m\n'}
+[16.611608] (message_info) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goalie_s.c.o\x1b[0m\n'}
+[16.617716] (message_info) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_info_s.c.o\x1b[0m\n'}
+[16.666778] (-) TimerEvent: {}
+[16.722960] (message_info) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/libmessage_info__python.so\x1b[0m\n'}
+[16.766905] (-) TimerEvent: {}
+[16.775824] (message_info) StdoutLine: {'line': b'[ 96%] Built target message_info__python\n'}
+[16.788425] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.789759] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[16.791313] (message_info) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message_info__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.810945] (message_info) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.812422] (message_info) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.819951] (message_info) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/message_info__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.867010] (-) TimerEvent: {}
+[16.946740] (message_info) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.958732] (message_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.958970] (message_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.967112] (-) TimerEvent: {}
+[16.995073] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_c__pyext\n'}
+[17.012646] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_introspection_c__pyext\n'}
+[17.035782] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.046435] (message_info) CommandEnded: {'returncode': 0}
+[17.067286] (-) TimerEvent: {}
+[17.167799] (-) TimerEvent: {}
+[17.268311] (-) TimerEvent: {}
+[17.316291] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'install'}
+[17.331984] (message_info) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rionessl/SSLRasp/build/message_info'], 'cwd': '/home/rionessl/SSLRasp/build/message_info', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rionessl'), ('SSH_AGENT_PID', '1247'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rionessl/RiAI/install/sender/lib:/home/rionessl/RiAI/install/proto_info/lib:/home/rionessl/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rionessl'), ('OLDPWD', '/home/rionessl/SSLRasp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rionessl/RiAI/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rionessl'), ('JOURNAL_STREAM', '8:46100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rionessl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1313,unix/rionessl:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '47d35336edd347dfb26f1e09f440e87c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c19e559_737b_45d9_9c36_cdc0e755726c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/real_sender:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rionessl/SSLRasp/build/message_info'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rionessl/RiAI/install/sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/real_sender/lib/python3.8/site-packages:/home/rionessl/RiAI/install/proto_info/lib/python3.8/site-packages:/home/rionessl/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rionessl/RiAI/install/sender:/home/rionessl/RiAI/install/reciever:/home/rionessl/RiAI/install/proto_info:/home/rionessl/RiAI/install/main:/home/rionessl/RiAI/install/gui:/home/rionessl/RiAI/install/message_info:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy')]), 'shell': False}
+[17.342754] (message_info) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.343266] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/ament_index/resource_index/rosidl_interfaces/message_info\n'}
+[17.343629] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.343957] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.344273] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/info.h\n'}
+[17.344627] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/vision_detections.h\n'}
+[17.344970] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.h\n'}
+[17.345277] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.345615] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.h\n'}
+[17.345917] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.h\n'}
+[17.346277] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.h\n'}
+[17.346535] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.h\n'}
+[17.346730] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.h\n'}
+[17.347069] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.h\n'}
+[17.347309] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.c\n'}
+[17.347549] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.h\n'}
+[17.347797] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.h\n'}
+[17.348034] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.h\n'}
+[17.348301] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.h\n'}
+[17.348559] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.h\n'}
+[17.348803] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__functions.c\n'}
+[17.349050] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.c\n'}
+[17.349302] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.h\n'}
+[17.349543] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.c\n'}
+[17.349787] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.h\n'}
+[17.350016] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.h\n'}
+[17.350222] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.h\n'}
+[17.350439] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.h\n'}
+[17.350618] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.h\n'}
+[17.350870] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.h\n'}
+[17.351107] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.h\n'}
+[17.351359] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.h\n'}
+[17.351592] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.h\n'}
+[17.351828] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.h\n'}
+[17.352039] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__functions.h\n'}
+[17.352162] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.h\n'}
+[17.352262] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.h\n'}
+[17.352355] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.h\n'}
+[17.352444] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.h\n'}
+[17.352526] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.h\n'}
+[17.352604] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.h\n'}
+[17.352675] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__functions.c\n'}
+[17.352745] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.h\n'}
+[17.352814] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.c\n'}
+[17.352884] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__functions.c\n'}
+[17.352990] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.h\n'}
+[17.353107] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.c\n'}
+[17.353199] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.c\n'}
+[17.353305] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.h\n'}
+[17.353402] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__functions.c\n'}
+[17.353495] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.h\n'}
+[17.353586] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.h\n'}
+[17.353658] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.h\n'}
+[17.353786] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.h\n'}
+[17.353916] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__functions.h\n'}
+[17.354009] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__functions.c\n'}
+[17.354113] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.h\n'}
+[17.354205] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.h\n'}
+[17.354296] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.h\n'}
+[17.354399] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.h\n'}
+[17.354492] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.h\n'}
+[17.354584] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.h\n'}
+[17.354673] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__functions.c\n'}
+[17.354743] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.h\n'}
+[17.354834] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.c\n'}
+[17.354902] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__functions.h\n'}
+[17.354968] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__functions.h\n'}
+[17.355037] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.h\n'}
+[17.355115] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__functions.h\n'}
+[17.355194] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.h\n'}
+[17.355263] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.h\n'}
+[17.355332] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__functions.c\n'}
+[17.355426] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.c\n'}
+[17.355555] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.h\n'}
+[17.355643] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__functions.c\n'}
+[17.355733] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__functions.h\n'}
+[17.355826] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.c\n'}
+[17.355923] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__functions.c\n'}
+[17.356016] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.h\n'}
+[17.356107] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.h\n'}
+[17.356211] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__functions.c\n'}
+[17.356302] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.h\n'}
+[17.356388] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.h\n'}
+[17.356478] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.h\n'}
+[17.356618] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/robot_commands.h\n'}
+[17.356712] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_robot.h\n'}
+[17.356817] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/goalie.h\n'}
+[17.356910] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/test.h\n'}
+[17.357002] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_ball.h\n'}
+[17.357092] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_frame.h\n'}
+[17.357197] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/role.h\n'}
+[17.357289] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.357381] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/ball_info.h\n'}
+[17.357483] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.h\n'}
+[17.357577] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.h\n'}
+[17.357668] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/attacker.h\n'}
+[17.357759] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/robot_command.h\n'}
+[17.357866] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee.h\n'}
+[17.357959] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.h\n'}
+[17.358050] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.h\n'}
+[17.358138] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/goal_info.h\n'}
+[17.358227] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/library_path.sh\n'}
+[17.358340] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/library_path.dsv\n'}
+[17.358434] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so\n'}
+[17.358522] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_generator_c.so" to ""\n'}
+[17.358593] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.358683] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.358754] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.358836] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[17.358907] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h\n'}
+[17.358995] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359081] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359153] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359223] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359293] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359383] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359499] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359591] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359699] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359790] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359891] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[17.359982] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360086] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360179] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360283] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360382] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360484] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_c.h\n'}
+[17.360589] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.360680] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so\n'}
+[17.360773] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.360868] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.360979] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.361072] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.361165] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361272] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361364] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361453] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361562] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361655] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361763] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361840] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361916] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.361992] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362181] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/dds_fastrtps\n'}
+[17.362303] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362401] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362498] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362648] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362772] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362871] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.362995] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.363087] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.363212] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.363328] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.363424] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.363522] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.363639] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.363737] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.363836] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.363956] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_c.h\n'}
+[17.364077] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.c\n'}
+[17.364174] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.c\n'}
+[17.364295] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.c\n'}
+[17.364393] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.c\n'}
+[17.364523] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_c.h\n'}
+[17.364633] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_c.h\n'}
+[17.364755] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h\n'}
+[17.364849] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.c\n'}
+[17.364969] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.c\n'}
+[17.365084] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_c.h\n'}
+[17.365161] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.c\n'}
+[17.365293] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_c.h\n'}
+[17.365391] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_c.h\n'}
+[17.365492] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.c\n'}
+[17.365625] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.c\n'}
+[17.365740] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_c.h\n'}
+[17.365841] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.c\n'}
+[17.365941] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_c.h\n'}
+[17.366059] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.c\n'}
+[17.366157] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_c.h\n'}
+[17.366276] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_c.h\n'}
+[17.366350] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.c\n'}
+[17.366476] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.c\n'}
+[17.366579] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.c\n'}
+[17.366698] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_c.h\n'}
+[17.366797] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[17.366895] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_c.h\n'}
+[17.367016] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[17.367110] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.c\n'}
+[17.367210] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.c\n'}
+[17.367328] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.c\n'}
+[17.367446] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.c\n'}
+[17.367542] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.c\n'}
+[17.367636] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h\n'}
+[17.367734] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_c.h\n'}
+[17.367855] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h\n'}
+[17.367971] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h\n'}
+[17.368073] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.368187] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so\n'}
+[17.368258] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.368324] (-) TimerEvent: {}
+[17.368481] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so\n'}
+[17.368577] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_c.so" to ""\n'}
+[17.368650] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.368732] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.368804] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/attacker.hpp\n'}
+[17.368874] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_robot.hpp\n'}
+[17.368944] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/vision_geometry.hpp\n'}
+[17.369014] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/ball_info.hpp\n'}
+[17.369084] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_frame.hpp\n'}
+[17.369153] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/goal_info.hpp\n'}
+[17.369260] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/goalie.hpp\n'}
+[17.369357] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/robot_commands.hpp\n'}
+[17.369427] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/robot_command.hpp\n'}
+[17.369497] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.hpp\n'}
+[17.369566] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee.hpp\n'}
+[17.369667] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.369763] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.hpp\n'}
+[17.369844] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__traits.hpp\n'}
+[17.369920] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__traits.hpp\n'}
+[17.369993] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__traits.hpp\n'}
+[17.370068] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.hpp\n'}
+[17.370205] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__traits.hpp\n'}
+[17.370275] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__struct.hpp\n'}
+[17.370345] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__builder.hpp\n'}
+[17.370416] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__builder.hpp\n'}
+[17.370496] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.hpp\n'}
+[17.370567] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__struct.hpp\n'}
+[17.370635] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__builder.hpp\n'}
+[17.370704] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__builder.hpp\n'}
+[17.370775] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__traits.hpp\n'}
+[17.370843] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__struct.hpp\n'}
+[17.370912] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__struct.hpp\n'}
+[17.370982] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__traits.hpp\n'}
+[17.371051] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__builder.hpp\n'}
+[17.371120] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__builder.hpp\n'}
+[17.371189] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__builder.hpp\n'}
+[17.371259] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__builder.hpp\n'}
+[17.371328] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__struct.hpp\n'}
+[17.371399] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__struct.hpp\n'}
+[17.371469] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__struct.hpp\n'}
+[17.371549] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__builder.hpp\n'}
+[17.371622] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__struct.hpp\n'}
+[17.371691] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__struct.hpp\n'}
+[17.371760] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__builder.hpp\n'}
+[17.371832] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__builder.hpp\n'}
+[17.371901] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__traits.hpp\n'}
+[17.371970] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__traits.hpp\n'}
+[17.372039] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__traits.hpp\n'}
+[17.372109] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__builder.hpp\n'}
+[17.372178] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__builder.hpp\n'}
+[17.372247] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__builder.hpp\n'}
+[17.372315] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__builder.hpp\n'}
+[17.372385] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__traits.hpp\n'}
+[17.372453] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__traits.hpp\n'}
+[17.372537] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__traits.hpp\n'}
+[17.372611] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__traits.hpp\n'}
+[17.372680] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__traits.hpp\n'}
+[17.372757] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__struct.hpp\n'}
+[17.372827] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__traits.hpp\n'}
+[17.372896] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__traits.hpp\n'}
+[17.372965] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__struct.hpp\n'}
+[17.373042] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__traits.hpp\n'}
+[17.373112] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__builder.hpp\n'}
+[17.373181] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__builder.hpp\n'}
+[17.373250] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__traits.hpp\n'}
+[17.373325] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__struct.hpp\n'}
+[17.373393] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__builder.hpp\n'}
+[17.373462] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__struct.hpp\n'}
+[17.373530] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__builder.hpp\n'}
+[17.373599] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__traits.hpp\n'}
+[17.373670] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__struct.hpp\n'}
+[17.373738] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__struct.hpp\n'}
+[17.373807] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__struct.hpp\n'}
+[17.373877] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/role.hpp\n'}
+[17.373945] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/info.hpp\n'}
+[17.374014] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.hpp\n'}
+[17.374092] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detection_ball.hpp\n'}
+[17.374161] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/field_circular_arc.hpp\n'}
+[17.374230] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/vision_detections.hpp\n'}
+[17.374299] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/test.hpp\n'}
+[17.374368] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/field_line_segment.hpp\n'}
+[17.374437] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info\n'}
+[17.374506] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg\n'}
+[17.374574] (message_info) StdoutLine: {'line': b'-- Up-to-date: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail\n'}
+[17.374643] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__type_support.cpp\n'}
+[17.374713] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__type_support.cpp\n'}
+[17.374782] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__type_support.cpp\n'}
+[17.374852] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__type_support.cpp\n'}
+[17.374921] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.374992] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__type_support.cpp\n'}
+[17.375066] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375141] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375212] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/attacker__type_support.cpp\n'}
+[17.375281] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375351] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375421] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375490] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.cpp\n'}
+[17.375559] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.cpp\n'}
+[17.375628] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__type_support.cpp\n'}
+[17.375697] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375766] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375835] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/test__type_support.cpp\n'}
+[17.375904] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.375973] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.cpp\n'}
+[17.376043] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.cpp\n'}
+[17.376113] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__type_support.cpp\n'}
+[17.376182] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.cpp\n'}
+[17.376250] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.cpp\n'}
+[17.376319] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_commands__type_support.cpp\n'}
+[17.376400] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376470] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376560] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/ball_info__type_support.cpp\n'}
+[17.376638] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376707] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/role__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376777] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376846] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376915] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.376984] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.377054] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.cpp\n'}
+[17.377128] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.377198] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__type_support.cpp\n'}
+[17.377268] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.377338] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so\n'}
+[17.377408] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.377478] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so\n'}
+[17.377547] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.so" to ""\n'}
+[17.377616] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/pythonpath.sh\n'}
+[17.377685] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/pythonpath.dsv\n'}
+[17.377754] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py\n'}
+[17.404399] (message_info) StdoutLine: {'line': b"Compiling '/home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/__init__.py'...\n"}
+[17.408222] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg\n'}
+[17.408501] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker_s.c\n'}
+[17.408753] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info_s.c\n'}
+[17.408961] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball_s.c\n'}
+[17.409192] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py\n'}
+[17.409377] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py\n'}
+[17.409595] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball.py\n'}
+[17.409800] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc_s.c\n'}
+[17.410036] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections.py\n'}
+[17.410244] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame.py\n'}
+[17.410476] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections_s.c\n'}
+[17.410685] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info_s.c\n'}
+[17.410920] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot.py\n'}
+[17.411151] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry_s.c\n'}
+[17.411356] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test.py\n'}
+[17.411582] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_test_s.c\n'}
+[17.411790] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event_s.c\n'}
+[17.412020] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command.py\n'}
+[17.412230] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie_s.c\n'}
+[17.412458] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment_s.c\n'}
+[17.412726] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands_s.c\n'}
+[17.412938] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py\n'}
+[17.413185] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame_s.c\n'}
+[17.413467] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc.py\n'}
+[17.413684] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info_s.c\n'}
+[17.413912] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry.py\n'}
+[17.414056] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info_s.c\n'}
+[17.414198] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie.py\n'}
+[17.414349] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info.py\n'}
+[17.414524] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_s.c\n'}
+[17.414664] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/__init__.py\n'}
+[17.414801] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info.py\n'}
+[17.414938] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot_s.c\n'}
+[17.415075] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role_s.c\n'}
+[17.415212] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command_s.c\n'}
+[17.415390] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands.py\n'}
+[17.415530] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment.py\n'}
+[17.415668] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_attacker.py\n'}
+[17.415846] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_role.py\n'}
+[17.415986] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py\n'}
+[17.416126] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.416266] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[17.416407] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.416647] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[17.417017] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[17.417841] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[17.418035] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__python.so\n'}
+[17.418741] (message_info) StdoutLine: {'line': b'-- Set runtime path of "/home/rionessl/SSLRasp/install/message_info/lib/libmessage_info__python.so" to ""\n'}
+[17.418938] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.idl\n'}
+[17.419286] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.idl\n'}
+[17.419617] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Referee.idl\n'}
+[17.419942] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.idl\n'}
+[17.420278] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.idl\n'}
+[17.420640] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.idl\n'}
+[17.420984] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.idl\n'}
+[17.421209] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.idl\n'}
+[17.421407] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.idl\n'}
+[17.421598] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.idl\n'}
+[17.421780] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.idl\n'}
+[17.421976] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.idl\n'}
+[17.422156] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Test.idl\n'}
+[17.422332] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/BallInfo.idl\n'}
+[17.422510] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.idl\n'}
+[17.422706] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Role.idl\n'}
+[17.422879] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Attacker.idl\n'}
+[17.423058] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Goalie.idl\n'}
+[17.423235] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Info.idl\n'}
+[17.423410] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.msg\n'}
+[17.423607] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.msg\n'}
+[17.423787] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Referee.msg\n'}
+[17.423963] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/FieldCircularArc.msg\n'}
+[17.424142] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/FieldLineSegment.msg\n'}
+[17.424335] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/VisionGeometry.msg\n'}
+[17.424510] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionBall.msg\n'}
+[17.424712] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionRobot.msg\n'}
+[17.424888] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/DetectionFrame.msg\n'}
+[17.425060] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/VisionDetections.msg\n'}
+[17.425266] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RobotCommand.msg\n'}
+[17.425445] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/RobotCommands.msg\n'}
+[17.425622] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Test.msg\n'}
+[17.425794] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/BallInfo.msg\n'}
+[17.425971] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/GoalInfo.msg\n'}
+[17.426144] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Role.msg\n'}
+[17.426331] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Attacker.msg\n'}
+[17.426507] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Goalie.msg\n'}
+[17.426698] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/msg/Info.msg\n'}
+[17.426878] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info\n'}
+[17.427065] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info\n'}
+[17.427247] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.sh\n'}
+[17.427444] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.dsv\n'}
+[17.427612] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/path.sh\n'}
+[17.427757] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/environment/path.dsv\n'}
+[17.427934] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/local_setup.bash\n'}
+[17.428106] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/local_setup.sh\n'}
+[17.428281] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/local_setup.zsh\n'}
+[17.428451] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/local_setup.dsv\n'}
+[17.428660] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/package.dsv\n'}
+[17.428825] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/ament_index/resource_index/packages/message_info\n'}
+[17.428985] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport.cmake\n'}
+[17.429147] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.429314] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.429456] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.429610] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport.cmake\n'}
+[17.429769] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.429927] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cppExport.cmake\n'}
+[17.430174] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.430402] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.430600] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport.cmake\n'}
+[17.430803] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.431019] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake-extras.cmake\n'}
+[17.431167] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.431290] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.431411] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.431519] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.431593] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.431655] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.431717] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig.cmake\n'}
+[17.431787] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/cmake/message_infoConfig-version.cmake\n'}
+[17.431853] (message_info) StdoutLine: {'line': b'-- Installing: /home/rionessl/SSLRasp/install/message_info/share/message_info/package.xml\n'}
+[17.433482] (message_info) CommandEnded: {'returncode': 0}
+[17.468451] (-) TimerEvent: {}
+[17.568781] (-) TimerEvent: {}
+[17.669047] (-) TimerEvent: {}
+[17.702768] (message_info) JobEnded: {'identifier': 'message_info', 'rc': 0}
+[17.703835] (-) EventReactorShutdown: {}

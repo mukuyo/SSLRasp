@@ -1,3 +1,0 @@
-[console_scripts]
-main = python_programs.main:main
-

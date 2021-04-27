@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/rasp/rasp.egg-info
+writing ../../build/rasp/rasp.egg-info/PKG-INFO
+writing dependency_links to ../../build/rasp/rasp.egg-info/dependency_links.txt
+writing entry points to ../../build/rasp/rasp.egg-info/entry_points.txt
+writing requirements to ../../build/rasp/rasp.egg-info/requires.txt
+writing top-level names to ../../build/rasp/rasp.egg-info/top_level.txt
+writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+reading manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rionessl/SSLRasp/build/rasp/build
+creating /home/rionessl/SSLRasp/build/rasp/build/lib
+creating /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs
+copying python_programs/__init__.py -> /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs
+running install
+running install_lib
+creating /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs
+copying /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs/__init__.py -> /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs
+byte-compiling /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying ../../build/rasp/rasp.egg-info to /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rasp script to /home/rionessl/SSLRasp/install/rasp/lib/rasp
+writing list of installed files to '/home/rionessl/SSLRasp/build/rasp/install.log'
