@@ -1,0 +1,22 @@
+[0.387s] Invoking command in '/home/rionessl/SSLRasp/src/rasp': PYTHONPATH=/home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasp build --build-base /home/rionessl/SSLRasp/build/rasp/build install --prefix /home/rionessl/SSLRasp/install/rasp --record /home/rionessl/SSLRasp/build/rasp/install.log --single-version-externally-managed
+[1.394s] running egg_info
+[1.394s] writing ../../build/rasp/rasp.egg-info/PKG-INFO
+[1.394s] writing dependency_links to ../../build/rasp/rasp.egg-info/dependency_links.txt
+[1.395s] writing entry points to ../../build/rasp/rasp.egg-info/entry_points.txt
+[1.395s] writing requirements to ../../build/rasp/rasp.egg-info/requires.txt
+[1.395s] writing top-level names to ../../build/rasp/rasp.egg-info/top_level.txt
+[2.938s] reading manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+[2.938s] writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+[2.939s] running build
+[2.939s] running build_py
+[2.939s] copying python_programs/__init__.py -> /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs
+[2.939s] copying python_programs/main.py -> /home/rionessl/SSLRasp/build/rasp/build/lib/python_programs
+[2.939s] running install
+[3.131s] running install_lib
+[3.186s] running install_egg_info
+[3.273s] removing '/home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info' (and everything under it)
+[3.273s] Copying ../../build/rasp/rasp.egg-info to /home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info
+[3.274s] running install_scripts
+[3.646s] Installing rasp script to /home/rionessl/SSLRasp/install/rasp/lib/rasp
+[3.646s] writing list of installed files to '/home/rionessl/SSLRasp/build/rasp/install.log'
+[3.659s] Invoked command in '/home/rionessl/SSLRasp/src/rasp' returned '0': PYTHONPATH=/home/rionessl/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasp build --build-base /home/rionessl/SSLRasp/build/rasp/build install --prefix /home/rionessl/SSLRasp/install/rasp --record /home/rionessl/SSLRasp/build/rasp/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+Invoking command in '/home/rionessl/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy /usr/bin/cmake --build /home/rionessl/SSLRasp/build/message_info -- -j16 -l16
+Invoked command in '/home/rionessl/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy /usr/bin/cmake --build /home/rionessl/SSLRasp/build/message_info -- -j16 -l16
+Invoking command in '/home/rionessl/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy /usr/bin/cmake --install /home/rionessl/SSLRasp/build/message_info
+Invoked command in '/home/rionessl/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rionessl/RiAI/install/real_sender:/opt/ros/foxy /usr/bin/cmake --install /home/rionessl/SSLRasp/build/message_info
