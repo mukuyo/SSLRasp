@@ -1,0 +1,23 @@
+[1.243s] Invoking command in '/home/ubuntu/SSLRasp/src/rasp': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasp build --build-base /home/ubuntu/SSLRasp/build/rasp/build install --prefix /home/ubuntu/SSLRasp/install/rasp --record /home/ubuntu/SSLRasp/build/rasp/install.log --single-version-externally-managed
+[2.256s] running egg_info
+[2.258s] writing ../../build/rasp/rasp.egg-info/PKG-INFO
+[2.260s] writing dependency_links to ../../build/rasp/rasp.egg-info/dependency_links.txt
+[2.261s] writing entry points to ../../build/rasp/rasp.egg-info/entry_points.txt
+[2.261s] writing requirements to ../../build/rasp/rasp.egg-info/requires.txt
+[2.262s] writing top-level names to ../../build/rasp/rasp.egg-info/top_level.txt
+[2.407s] reading manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+[2.411s] writing manifest file '../../build/rasp/rasp.egg-info/SOURCES.txt'
+[2.411s] running build
+[2.412s] running build_py
+[2.412s] copying python_programs/main.py -> /home/ubuntu/SSLRasp/build/rasp/build/lib/python_programs
+[2.413s] running install
+[2.416s] running install_lib
+[2.420s] copying /home/ubuntu/SSLRasp/build/rasp/build/lib/python_programs/main.py -> /home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs
+[2.423s] byte-compiling /home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages/python_programs/main.py to main.cpython-38.pyc
+[2.430s] running install_egg_info
+[2.437s] removing '/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info' (and everything under it)
+[2.438s] Copying ../../build/rasp/rasp.egg-info to /home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp-0.0.0-py3.8.egg-info
+[2.444s] running install_scripts
+[2.515s] Installing rasp script to /home/ubuntu/SSLRasp/install/rasp/lib/rasp
+[2.517s] writing list of installed files to '/home/ubuntu/SSLRasp/build/rasp/install.log'
+[2.620s] Invoked command in '/home/ubuntu/SSLRasp/src/rasp' returned '0': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasp build --build-base /home/ubuntu/SSLRasp/build/rasp/build install --prefix /home/ubuntu/SSLRasp/install/rasp --record /home/ubuntu/SSLRasp/build/rasp/install.log --single-version-externally-managed

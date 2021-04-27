@@ -33,48 +33,76 @@ class RealSender(Node):
                 RobotCommands,
                 'robot_commands',
                 self.pc_callback, 10)
+        self.M = [0, 0, 0, 0]
         
     def timer_callback(self):
         GPIO.output(26, self.flag)
         self.flag = not self.flag
         self.ser.write(b"hello")
-        print(self.ser.read())
 
     def pc_callback(self, msg):
-        self.ser.write(77)
+        packet = bytearray()
+
+        packet.append(0xFF)
+
         for command in msg.commands:
             if command.robot_id == self.MY_ID:
-                vel_norm = math.sqrt(
-                    math.pow(command.vel_surge, 2) + 
-                    math.pow(command.vel_sway,2)) * 100
+                vel_norm = math.sqrt(math.pow(command.vel_surge, 2) + math.pow(command.vel_sway, 2))
                 
-                vel_theta = math.atan2(command.vel_surge, -command.vel_sway)
-                vel_theta = math.degrees(vel_theta)
+                if vel_norm > self._MAX_VEL_NORM:
+                    vel_norm =self._MAX_VEL_NORM
+                elif vel_norm < 0:
+                    vel_norm = 0
+                
+                vel_norm *= 100
+
+                vel_theta = math.atan2(command.vel_surge, -command.vel_sway)    
+
+                if vel_theta < 0:
+                    vel_theta += 2.0 * math.pi
+                vel_theta =math.degrees(vel_theta)
+                vel_theta += 0
 
                 vel_angular = command.vel_angular
-
+                
                 if math.fabs(vel_angular) > self._MAX_VEL_ANGULAR:
                     vel_angular = math.copysign(self._MAX_VEL_ANGULAR, vel_angular)
+                vel_angular /= self._MAX_VEL_ANGULAR
 
-                dribble_power = 0
-                if command.dribble_power > 0:
-                    dribble_power = command.dribble_power
-                    if dribble_power >= 1:
-                        dribble_power = 1
-                    elif dribble_power < 0:
-                        dribble_power = 0
-                
-                kick_power = 0
-                if command.kick_power > 0:
-                    kick_power = command.kick_power
-                    if kick_power >= 1:
-                        kick_power = 1
-                    elif kick_power < 0:
-                        kick_power = 0
-                
-                print(vel_norm)
+                dribble_power = command.dribble_power
+
+                kick_power = command.kick_power
+
+                self.M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
+                self.M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
+                self.M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
+                self.M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
+               
+                break
+
+        max_pow = 1
+        pid = vel_angular * 1
+
+        for i in range(4):
+            self.M[i] *= vel_norm / max_pow
+            self.M[i] += pid
+
+            if self.M[i] > 100:
+                self.M[i] = 100
+            elif self.M[i] < -100:
+                self.M[i] = -100
+            
+            self.M[i] += 100
+
+            packet.append(int(self.M[i]))
+
+        print(int(self.M[0]))
+
+
+
     def serial_close(self):
         self.ser.close()
+
 def main(args=None):
     rclpy.init(args=args)
     try:
