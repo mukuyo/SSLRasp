@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rionessl/SSLRasp/src/message_info
+CMAKE_SOURCE_DIR = /home/ubuntu/SSLRasp/src/message_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rionessl/SSLRasp/build/message_info
+CMAKE_BINARY_DIR = /home/ubuntu/SSLRasp/build/message_info
 
 # Utility rule file for message_info_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rionessl/SSLRasp/build/message_info
 include CMakeFiles/message_info_uninstall.dir/progress.make
 
 CMakeFiles/message_info_uninstall:
-	/usr/bin/cmake -P /home/rionessl/SSLRasp/build/message_info/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/SSLRasp/build/message_info/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 message_info_uninstall: CMakeFiles/message_info_uninstall
 message_info_uninstall: CMakeFiles/message_info_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/message_info_uninstall.dir/clean:
 .PHONY : CMakeFiles/message_info_uninstall.dir/clean
 
 CMakeFiles/message_info_uninstall.dir/depend:
-	cd /home/rionessl/SSLRasp/build/message_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rionessl/SSLRasp/src/message_info /home/rionessl/SSLRasp/src/message_info /home/rionessl/SSLRasp/build/message_info /home/rionessl/SSLRasp/build/message_info /home/rionessl/SSLRasp/build/message_info/CMakeFiles/message_info_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/SSLRasp/build/message_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SSLRasp/src/message_info /home/ubuntu/SSLRasp/src/message_info /home/ubuntu/SSLRasp/build/message_info /home/ubuntu/SSLRasp/build/message_info /home/ubuntu/SSLRasp/build/message_info/CMakeFiles/message_info_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/message_info_uninstall.dir/depend
 

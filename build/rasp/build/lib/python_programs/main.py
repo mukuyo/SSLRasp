@@ -24,6 +24,7 @@ class RealSender(Node):
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(26,GPIO.OUT)
+        self.ser = serial.Serial("/dev/ttyS0", 115200)
         self.flag = False
         self.MY_ID = 0
         self.time_period = 1.0
