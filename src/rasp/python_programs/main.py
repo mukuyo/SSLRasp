@@ -41,9 +41,60 @@ class RealSender(Node):
         print(self.ser.read())
 
     def pc_callback(self, msg):
-        
+        packet = bytearray()
+
+        packet.append(0xFF)
+
+        for commad in msg.commands:
+            if commad.robot_id == self.MY_ID:
+                vel_norm = math.sqrt(math.pow(command.vel_surge, 2) + math.pow(command.vel_sway, 2))
+                
+                if vel_norm > self._MAX_VEL_NORM:
+                    vel_norm =self._MAX_VEL_NORM
+                elif vel_norm < 0:
+                    vel_norm = 0
+
+                vel_theta = math.atan2(command.vel_surge, -command.vel_sway)    
+
+                if vel_theta < 0:
+                    vel_theta += 2.0 * math.pi
+                vel_theta =math.degrees(vel_theta)
+                vel_theta += 0
+
+                vel_angular = command.vel_angular
+                
+                if math.fabs(vel_angular) > self._MAX_VEL_ANGULAR:
+                    vel_angular = math.copysign(self._MAX_VEL_ANGULAR, vel_angular)
+                vel_angular /= self._MAX_VEL_ANGULAR
+
+                dribble_power = comand.dribble_power
+
+                kick_power = command.kick_power
+
+        M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
+        M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
+        M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
+        M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
+
+        max_pow = 1
+        pid = vel_angular * 1
+
+        for i in range(4):
+            M[i] *= vel_norm / max_pow
+            M[i] += pid
+
+            if M[i] > 100:
+                M[i] = 100
+            elif M[i] < -100:
+                M[i] = -100
+            
+            packet.append(M[i])
+
+
+
     def serial_close(self):
         self.ser.close()
+
 def main(args=None):
     rclpy.init(args=args)
     try:
