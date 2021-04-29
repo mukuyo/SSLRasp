@@ -39,7 +39,7 @@ class RealSender(Node):
         GPIO.output(26, self.flag)
         self.flag = not self.flag
         self.ser.write(b"hello")
-        print(self.ser.read())
+        
 
     def pc_callback(self, msg):
         packet = bytearray()
@@ -90,6 +90,7 @@ class RealSender(Node):
                 self.M[i] = -100
             
             packet.append(self.M[i])
+        print(self.M[0])
 
 
 
