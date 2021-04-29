@@ -33,6 +33,7 @@ class RealSender(Node):
                 RobotCommands,
                 'robot_commands',
                 self.pc_callback, 10)
+        self.M = [0, 0, 0, 0]
         
     def timer_callback(self):
         GPIO.output(26, self.flag)
@@ -71,24 +72,24 @@ class RealSender(Node):
 
                 kick_power = command.kick_power
 
-        M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
-        M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
-        M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
-        M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
+        self.M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
+        self.M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
+        self.M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
+        self.M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
 
         max_pow = 1
         pid = vel_angular * 1
 
         for i in range(4):
-            M[i] *= vel_norm / max_pow
-            M[i] += pid
+            self.M[i] *= vel_norm / max_pow
+            self.M[i] += pid
 
-            if M[i] > 100:
-                M[i] = 100
-            elif M[i] < -100:
-                M[i] = -100
+            if self.M[i] > 100:
+                self.M[i] = 100
+            elif self.M[i] < -100:
+                self.M[i] = -100
             
-            packet.append(M[i])
+            packet.append(self.M[i])
 
 
 
