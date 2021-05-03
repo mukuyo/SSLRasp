@@ -11,6 +11,7 @@ import struct
 import RPi.GPIO as GPIO
 import time
 import serial
+import  struct
 
 from message_info.msg import RobotCommands
 
@@ -24,10 +25,10 @@ class RealSender(Node):
 
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(26,GPIO.OUT)
-        self.ser = serial.Serial("/dev/ttyACM0", 9600, timeout=0.5)
+        self.ser = serial.Serial("/dev/ttyACM0", 115200, timeout=0.5)
         self.flag = False
         self.MY_ID = 0
-        self.time_period = 1.0
+        self.time_period = 0.016
         self.create_timer(self.time_period, self.timer_callback)
         self._sub_commands = self.create_subscription(
                 RobotCommands,
@@ -38,12 +39,16 @@ class RealSender(Node):
     def timer_callback(self):
         GPIO.output(26, self.flag)
         self.flag = not self.flag
-        self.ser.write(b"hello")
+        
+        #print(self.M)
 
     def pc_callback(self, msg):
         packet = bytearray()
 
         packet.append(0xFF)
+        
+        motor_limit = 40
+        packet.append(motor_limit)
 
         for command in msg.commands:
             if command.robot_id == self.MY_ID:
@@ -54,10 +59,9 @@ class RealSender(Node):
                 elif vel_norm < 0:
                     vel_norm = 0
                 
-                vel_norm *= 100
+                vel_norm*=100
 
-                vel_theta = math.atan2(command.vel_surge, -command.vel_sway)    
-
+                vel_theta = math.atan2(command.vel_surge, -command.vel_sway) - math.radians(90)    
                 if vel_theta < 0:
                     vel_theta += 2.0 * math.pi
                 vel_theta =math.degrees(vel_theta)
@@ -68,7 +72,7 @@ class RealSender(Node):
                 if math.fabs(vel_angular) > self._MAX_VEL_ANGULAR:
                     vel_angular = math.copysign(self._MAX_VEL_ANGULAR, vel_angular)
                 vel_angular /= self._MAX_VEL_ANGULAR
-
+                #print(vel_angular)
                 dribble_power = command.dribble_power
 
                 kick_power = command.kick_power
@@ -77,7 +81,8 @@ class RealSender(Node):
                 self.M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
                 self.M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
                 self.M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
-               
+                
+                print(vel_theta)
                 break
 
         max_pow = 1
@@ -95,10 +100,8 @@ class RealSender(Node):
             self.M[i] += 100
 
             packet.append(int(self.M[i]))
-
-        print(int(self.M[0]))
-
-
+        
+        self.ser.write(packet)
 
     def serial_close(self):
         self.ser.close()
