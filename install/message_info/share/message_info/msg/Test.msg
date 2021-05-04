@@ -1,2 +1,1 @@
-int64 a
-int64 b
+/home/ubuntu/SSLRasp/src/message_info/msg/Test.msg

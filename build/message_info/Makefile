@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rionessl/SSLRasp/src/message_info
+CMAKE_SOURCE_DIR = /home/ubuntu/SSLRasp/src/message_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rionessl/SSLRasp/build/message_info
+CMAKE_BINARY_DIR = /home/ubuntu/SSLRasp/build/message_info
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rionessl/SSLRasp/build/message_info/CMakeFiles /home/rionessl/SSLRasp/build/message_info/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SSLRasp/build/message_info/CMakeFiles /home/ubuntu/SSLRasp/build/message_info/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rionessl/SSLRasp/build/message_info/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SSLRasp/build/message_info/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

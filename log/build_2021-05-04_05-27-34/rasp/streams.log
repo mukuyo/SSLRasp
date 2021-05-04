@@ -1,0 +1,17 @@
+[1.197s] Invoking command in '/home/ubuntu/SSLRasp/build/rasp': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/SSLRasp/install/rasp --editable --build-directory /home/ubuntu/SSLRasp/build/rasp/build --no-deps
+[2.303s] running develop
+[2.946s] running egg_info
+[2.947s] writing rasp.egg-info/PKG-INFO
+[2.947s] writing dependency_links to rasp.egg-info/dependency_links.txt
+[2.948s] writing entry points to rasp.egg-info/entry_points.txt
+[2.948s] writing requirements to rasp.egg-info/requires.txt
+[2.950s] writing top-level names to rasp.egg-info/top_level.txt
+[3.083s] package init file 'python_programs/__init__.py' not found (or not a regular file)
+[3.084s] reading manifest file 'rasp.egg-info/SOURCES.txt'
+[3.088s] writing manifest file 'rasp.egg-info/SOURCES.txt'
+[3.272s] running build_ext
+[3.274s] Creating /home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages/rasp.egg-link (link to .)
+[3.277s] Installing rasp script to /home/ubuntu/SSLRasp/install/rasp/lib/rasp
+[3.280s] 
+[3.281s] Installed /home/ubuntu/SSLRasp/build/rasp
+[3.405s] Invoked command in '/home/ubuntu/SSLRasp/build/rasp' returned '0': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/SSLRasp/install/rasp --editable --build-directory /home/ubuntu/SSLRasp/build/rasp/build --no-deps
