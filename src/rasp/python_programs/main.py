@@ -28,21 +28,34 @@ class RealSender(Node):
         self.ser = serial.Serial("/dev/ttyACM0", 115200, timeout=0.5)
         self.flag = False
         self.MY_ID = 0
-        self.time_period = 0.016
+        self.time_period = 2
         self.create_timer(self.time_period, self.timer_callback)
         self._sub_commands = self.create_subscription(
                 RobotCommands,
                 'robot_commands',
                 self.pc_callback, 10)
         self.M = [0, 0, 0, 0]
+        self.flag = False
         
     def timer_callback(self):
-        GPIO.output(26, self.flag)
-        self.flag = not self.flag
+        if self.flag == False:
+            for i in range(4):
+                self.M[i] = 0
+
+            packet = bytearray()
+            packet.append(0xFF)
+            packet.append(motor_limit)
+            packet.append(int(self.M[i]))
+
+            self.ser.write(packet)
+
+        self.flag = False
         
         #print(self.M)
 
     def pc_callback(self, msg):
+        self.flag = True;
+
         packet = bytearray()
 
         packet.append(0xFF)
@@ -72,7 +85,7 @@ class RealSender(Node):
                 if math.fabs(vel_angular) > self._MAX_VEL_ANGULAR:
                     vel_angular = math.copysign(self._MAX_VEL_ANGULAR, vel_angular)
                 vel_angular /= self._MAX_VEL_ANGULAR
-                #print(vel_angular)
+
                 dribble_power = command.dribble_power
 
                 kick_power = command.kick_power
@@ -104,6 +117,16 @@ class RealSender(Node):
         self.ser.write(packet)
 
     def serial_close(self):
+        for i in range(4):
+            self.M[i] = 0
+
+        packet = bytearray()
+        packet.append(0xFF)
+        packet.append(motor_limit)
+        packet.append(int(self.M[i]))
+
+        self.ser.write(packet)
+
         self.ser.close()
 
 def main(args=None):
