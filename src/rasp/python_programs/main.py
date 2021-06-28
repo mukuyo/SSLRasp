@@ -35,12 +35,17 @@ class RealSender(Node):
                 RobotCommands,
                 'robot_commands',
                 self.pc_callback, 10)
+        self._pub_commands = self.create_publisher(
+            RealCommands,
+            'real_commands', 10)
         self.M = [0, 0, 0, 0]
         self.flag = False
         self.angular_rem = 0
         self.angular_rem2 = 0
         
     def timer_callback(self):
+        self._pub_commands.publish()  
+
         if self.flag == False:
             packet = bytearray()
             packet.append(0xFF)
@@ -87,7 +92,6 @@ class RealSender(Node):
                 vel_angular /= self._MAX_VEL_ANGULAR
 
                 dribble_power = command.dribble_power
-                print(command.dribble_power)
                 kick_power = command.kick_power
 
                 self.M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
