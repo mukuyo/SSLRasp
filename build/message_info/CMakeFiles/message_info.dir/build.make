@@ -53,25 +53,8 @@ CMAKE_BINARY_DIR = /home/ubuntu/SSLRasp/build/message_info
 # Include the progress variables for this target.
 include CMakeFiles/message_info.dir/progress.make
 
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RefereeGameEvent.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RefereeTeamInfo.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Referee.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/FieldCircularArc.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/FieldLineSegment.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/VisionGeometry.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/DetectionBall.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/DetectionRobot.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/DetectionFrame.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/VisionDetections.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RobotCommand.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RobotCommands.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Test.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/BallInfo.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/GoalInfo.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Role.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Attacker.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Goalie.msg
-CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Info.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RealCommands.msg
 CMakeFiles/message_info: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/message_info: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl

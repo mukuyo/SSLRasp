@@ -351,46 +351,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RefereeGameEvent.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RefereeTeamInfo.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Referee.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/FieldCircularArc.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/FieldLineSegment.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/VisionGeometry.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/DetectionBall.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/DetectionRobot.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/DetectionFrame.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/VisionDetections.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RobotCommand.idl")
 endif()
 
@@ -399,75 +359,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Test.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/BallInfo.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/GoalInfo.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Role.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Attacker.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Goalie.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Info.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RealCommands.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RefereeGameEvent.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RefereeTeamInfo.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Referee.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/FieldCircularArc.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/FieldLineSegment.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/VisionGeometry.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/DetectionBall.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/DetectionRobot.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/DetectionFrame.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/VisionDetections.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -476,34 +368,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RobotCommands.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Test.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/BallInfo.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/GoalInfo.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Role.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Attacker.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Goalie.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_info/msg" TYPE FILE FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Info.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

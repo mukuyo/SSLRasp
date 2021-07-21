@@ -56,46 +56,12 @@ include message_info__py/CMakeFiles/message_info__py.dir/progress.make
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_field_circular_arc.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_field_line_segment.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_vision_geometry.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_ball.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_robot.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_frame.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_vision_detections.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_robot_command.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_robot_commands.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_test.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_ball_info.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goal_info.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_role.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_attacker.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goalie.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_info.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_real_commands.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/__init__.py
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_field_circular_arc_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_field_line_segment_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_vision_geometry_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_ball_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_robot_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_detection_frame_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_vision_detections_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_robot_command_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_robot_commands_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_test_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_ball_info_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goal_info_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_role_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_attacker_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goalie_s.c
-message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_info_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_real_commands_s.c
 
 
@@ -112,25 +78,8 @@ rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RefereeGameEvent.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RefereeTeamInfo.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Referee.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/FieldCircularArc.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/FieldLineSegment.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/VisionGeometry.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/DetectionBall.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/DetectionRobot.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/DetectionFrame.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/VisionDetections.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RobotCommand.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RobotCommands.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Test.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/BallInfo.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/GoalInfo.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Role.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Attacker.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Goalie.idl
-rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Info.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RealCommands.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
@@ -230,62 +179,11 @@ rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspec
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/message_info/msg/_referee_game_event.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee_game_event.py
-
-rosidl_generator_py/message_info/msg/_referee_team_info.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee_team_info.py
-
-rosidl_generator_py/message_info/msg/_referee.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee.py
-
-rosidl_generator_py/message_info/msg/_field_circular_arc.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_field_circular_arc.py
-
-rosidl_generator_py/message_info/msg/_field_line_segment.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_field_line_segment.py
-
-rosidl_generator_py/message_info/msg/_vision_geometry.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_vision_geometry.py
-
-rosidl_generator_py/message_info/msg/_detection_ball.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_ball.py
-
-rosidl_generator_py/message_info/msg/_detection_robot.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_robot.py
-
-rosidl_generator_py/message_info/msg/_detection_frame.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_frame.py
-
-rosidl_generator_py/message_info/msg/_vision_detections.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_vision_detections.py
-
 rosidl_generator_py/message_info/msg/_robot_command.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_robot_command.py
 
 rosidl_generator_py/message_info/msg/_robot_commands.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_robot_commands.py
-
-rosidl_generator_py/message_info/msg/_test.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_test.py
-
-rosidl_generator_py/message_info/msg/_ball_info.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_ball_info.py
-
-rosidl_generator_py/message_info/msg/_goal_info.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_goal_info.py
-
-rosidl_generator_py/message_info/msg/_role.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_role.py
-
-rosidl_generator_py/message_info/msg/_attacker.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_attacker.py
-
-rosidl_generator_py/message_info/msg/_goalie.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_goalie.py
-
-rosidl_generator_py/message_info/msg/_info.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_info.py
 
 rosidl_generator_py/message_info/msg/_real_commands.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_real_commands.py
@@ -293,62 +191,11 @@ rosidl_generator_py/message_info/msg/_real_commands.py: rosidl_generator_py/mess
 rosidl_generator_py/message_info/msg/__init__.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/__init__.py
 
-rosidl_generator_py/message_info/msg/_referee_game_event_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee_game_event_s.c
-
-rosidl_generator_py/message_info/msg/_referee_team_info_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee_team_info_s.c
-
-rosidl_generator_py/message_info/msg/_referee_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_referee_s.c
-
-rosidl_generator_py/message_info/msg/_field_circular_arc_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_field_circular_arc_s.c
-
-rosidl_generator_py/message_info/msg/_field_line_segment_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_field_line_segment_s.c
-
-rosidl_generator_py/message_info/msg/_vision_geometry_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_vision_geometry_s.c
-
-rosidl_generator_py/message_info/msg/_detection_ball_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_ball_s.c
-
-rosidl_generator_py/message_info/msg/_detection_robot_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_robot_s.c
-
-rosidl_generator_py/message_info/msg/_detection_frame_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_detection_frame_s.c
-
-rosidl_generator_py/message_info/msg/_vision_detections_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_vision_detections_s.c
-
 rosidl_generator_py/message_info/msg/_robot_command_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_robot_command_s.c
 
 rosidl_generator_py/message_info/msg/_robot_commands_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_robot_commands_s.c
-
-rosidl_generator_py/message_info/msg/_test_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_test_s.c
-
-rosidl_generator_py/message_info/msg/_ball_info_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_ball_info_s.c
-
-rosidl_generator_py/message_info/msg/_goal_info_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_goal_info_s.c
-
-rosidl_generator_py/message_info/msg/_role_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_role_s.c
-
-rosidl_generator_py/message_info/msg/_attacker_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_attacker_s.c
-
-rosidl_generator_py/message_info/msg/_goalie_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_goalie_s.c
-
-rosidl_generator_py/message_info/msg/_info_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_info_s.c
 
 rosidl_generator_py/message_info/msg/_real_commands_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_real_commands_s.c
@@ -357,46 +204,12 @@ message_info__py: message_info__py/CMakeFiles/message_info__py
 message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c
 message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_c.c
-message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event.py
-message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info.py
-message_info__py: rosidl_generator_py/message_info/msg/_referee.py
-message_info__py: rosidl_generator_py/message_info/msg/_field_circular_arc.py
-message_info__py: rosidl_generator_py/message_info/msg/_field_line_segment.py
-message_info__py: rosidl_generator_py/message_info/msg/_vision_geometry.py
-message_info__py: rosidl_generator_py/message_info/msg/_detection_ball.py
-message_info__py: rosidl_generator_py/message_info/msg/_detection_robot.py
-message_info__py: rosidl_generator_py/message_info/msg/_detection_frame.py
-message_info__py: rosidl_generator_py/message_info/msg/_vision_detections.py
 message_info__py: rosidl_generator_py/message_info/msg/_robot_command.py
 message_info__py: rosidl_generator_py/message_info/msg/_robot_commands.py
-message_info__py: rosidl_generator_py/message_info/msg/_test.py
-message_info__py: rosidl_generator_py/message_info/msg/_ball_info.py
-message_info__py: rosidl_generator_py/message_info/msg/_goal_info.py
-message_info__py: rosidl_generator_py/message_info/msg/_role.py
-message_info__py: rosidl_generator_py/message_info/msg/_attacker.py
-message_info__py: rosidl_generator_py/message_info/msg/_goalie.py
-message_info__py: rosidl_generator_py/message_info/msg/_info.py
 message_info__py: rosidl_generator_py/message_info/msg/_real_commands.py
 message_info__py: rosidl_generator_py/message_info/msg/__init__.py
-message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_referee_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_field_circular_arc_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_field_line_segment_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_vision_geometry_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_detection_ball_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_detection_robot_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_detection_frame_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_vision_detections_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_robot_command_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_robot_commands_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_test_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_ball_info_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_goal_info_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_role_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_attacker_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_goalie_s.c
-message_info__py: rosidl_generator_py/message_info/msg/_info_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_real_commands_s.c
 message_info__py: message_info__py/CMakeFiles/message_info__py.dir/build.make
 

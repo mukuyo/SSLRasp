@@ -53,25 +53,8 @@ endif()
 
 
 set(msg_files
-  "msg/RefereeGameEvent.msg"
-  "msg/RefereeTeamInfo.msg"
-  "msg/Referee.msg"
-  "msg/FieldCircularArc.msg"
-  "msg/FieldLineSegment.msg"
-  "msg/VisionGeometry.msg"
-  "msg/DetectionBall.msg"
-  "msg/DetectionRobot.msg"
-  "msg/DetectionFrame.msg"
-  "msg/VisionDetections.msg"
   "msg/RobotCommand.msg"
   "msg/RobotCommands.msg"
-  "msg/Test.msg"
-  "msg/BallInfo.msg"
-  "msg/GoalInfo.msg"
-  "msg/Role.msg"
-  "msg/Attacker.msg"
-  "msg/Goalie.msg"
-  "msg/Info.msg"
   "msg/RealCommands.msg"
 )
 
