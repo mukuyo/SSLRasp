@@ -26,9 +26,12 @@ class RealSender(Node):
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(26,GPIO.OUT)
-        GPIO.setup(21,GPIO.IN)
-        
-        self.ser = serial.Serial("/dev/ttyACM0", 115200, timeout=0.5)
+        GPIO.setup(18,GPIO.IN)
+        GPIO.setup(12,GPIO.OUT)
+        kick = GPIO.PWM(12, 0.001)
+        pi.start(0)
+
+        self.ser = serial.Serial("/dev/ttyS0", 115200, timeout=0.5)
         self.MY_ID = 0
         self.realcommands = RealCommands()
         self.time_period = 0.016
@@ -43,7 +46,7 @@ class RealSender(Node):
         self.M = [0, 0, 0, 0]
         
     def timer_callback(self):
-        self.realcommands.ball_catch = GPIO.input(21)
+        self.realcommands.ball_catch = GPIO.input(18)
         self.pub_commands.publish(self.realcommands)
 
     def pc_callback(self, msg):
@@ -69,6 +72,7 @@ class RealSender(Node):
 
                 dribble_power = command.dribble_power
                 kick_power = command.kick_power*10
+                pi.ChangeDutyCycle(kick_power)
 
                 self.M[0] = math.sin(math.radians(vel_theta - 60)) * vel_norm
                 self.M[1] = math.sin(math.radians(vel_theta - 135)) * vel_norm
@@ -103,6 +107,7 @@ class RealSender(Node):
             for i in range(4):
                 self.M[i] = 100
                 packet.append(int(self.M[i]))          
+            
             packet.append(0)
             packet.append(0)
             self.ser.write(packet)
