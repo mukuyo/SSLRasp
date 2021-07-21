@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/message_info/msg/_goalie_s.c"
   "../rosidl_generator_py/message_info/msg/_info.py"
   "../rosidl_generator_py/message_info/msg/_info_s.c"
+  "../rosidl_generator_py/message_info/msg/_real_commands.py"
+  "../rosidl_generator_py/message_info/msg/_real_commands_s.c"
   "../rosidl_generator_py/message_info/msg/_referee.py"
   "../rosidl_generator_py/message_info/msg/_referee_game_event.py"
   "../rosidl_generator_py/message_info/msg/_referee_game_event_s.c"

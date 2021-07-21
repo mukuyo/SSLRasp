@@ -72,6 +72,7 @@ set(msg_files
   "msg/Attacker.msg"
   "msg/Goalie.msg"
   "msg/Info.msg"
+  "msg/RealCommands.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

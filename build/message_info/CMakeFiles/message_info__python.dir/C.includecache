@@ -170,6 +170,20 @@ rosidl_runtime_c/string.h
 rosidl_runtime_c/string_functions.h
 /home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/rosidl_runtime_c/string_functions.h
 
+/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/_real_commands_s.c
+Python.h
+-
+stdbool.h
+-
+numpy/ndarrayobject.h
+/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/numpy/ndarrayobject.h
+rosidl_runtime_c/visibility_control.h
+/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/rosidl_runtime_c/visibility_control.h
+message_info/msg/detail/real_commands__struct.h
+/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/message_info/msg/detail/real_commands__struct.h
+message_info/msg/detail/real_commands__functions.h
+/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/message_info/msg/detail/real_commands__functions.h
+
 /home/ubuntu/SSLRasp/build/message_info/rosidl_generator_py/message_info/msg/_referee_game_event_s.c
 Python.h
 -
@@ -1205,6 +1219,26 @@ message_info/msg/detail/vision_geometry__struct.h
 rosidl_generator_c/message_info/msg/detail/message_info/msg/detail/vision_geometry__struct.h
 message_info/msg/detail/role__struct.h
 rosidl_generator_c/message_info/msg/detail/message_info/msg/detail/role__struct.h
+
+rosidl_generator_c/message_info/msg/detail/real_commands__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/message_info/msg/detail/rosidl_runtime_c/visibility_control.h
+message_info/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/message_info/msg/detail/message_info/msg/rosidl_generator_c__visibility_control.h
+message_info/msg/detail/real_commands__struct.h
+rosidl_generator_c/message_info/msg/detail/message_info/msg/detail/real_commands__struct.h
+
+rosidl_generator_c/message_info/msg/detail/real_commands__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/message_info/msg/detail/referee__functions.h
 stdbool.h

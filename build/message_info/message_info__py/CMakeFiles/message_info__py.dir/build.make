@@ -75,6 +75,7 @@ message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/m
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_attacker.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goalie.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_info.py
+message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_real_commands.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/__init__.py
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info_s.c
@@ -95,6 +96,7 @@ message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/m
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_attacker_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_goalie_s.c
 message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_info_s.c
+message_info__py/CMakeFiles/message_info__py: rosidl_generator_py/message_info/msg/_real_commands_s.c
 
 
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -129,6 +131,7 @@ rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Attacker.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Goalie.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/Info.idl
+rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_info/msg/RealCommands.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
@@ -284,6 +287,9 @@ rosidl_generator_py/message_info/msg/_goalie.py: rosidl_generator_py/message_inf
 rosidl_generator_py/message_info/msg/_info.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_info.py
 
+rosidl_generator_py/message_info/msg/_real_commands.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_real_commands.py
+
 rosidl_generator_py/message_info/msg/__init__.py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/__init__.py
 
@@ -344,6 +350,9 @@ rosidl_generator_py/message_info/msg/_goalie_s.c: rosidl_generator_py/message_in
 rosidl_generator_py/message_info/msg/_info_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_info_s.c
 
+rosidl_generator_py/message_info/msg/_real_commands_s.c: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_info/msg/_real_commands_s.c
+
 message_info__py: message_info__py/CMakeFiles/message_info__py
 message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_fastrtps_c.c
 message_info__py: rosidl_generator_py/message_info/_message_info_s.ep.rosidl_typesupport_introspection_c.c
@@ -367,6 +376,7 @@ message_info__py: rosidl_generator_py/message_info/msg/_role.py
 message_info__py: rosidl_generator_py/message_info/msg/_attacker.py
 message_info__py: rosidl_generator_py/message_info/msg/_goalie.py
 message_info__py: rosidl_generator_py/message_info/msg/_info.py
+message_info__py: rosidl_generator_py/message_info/msg/_real_commands.py
 message_info__py: rosidl_generator_py/message_info/msg/__init__.py
 message_info__py: rosidl_generator_py/message_info/msg/_referee_game_event_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_referee_team_info_s.c
@@ -387,6 +397,7 @@ message_info__py: rosidl_generator_py/message_info/msg/_role_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_attacker_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_goalie_s.c
 message_info__py: rosidl_generator_py/message_info/msg/_info_s.c
+message_info__py: rosidl_generator_py/message_info/msg/_real_commands_s.c
 message_info__py: message_info__py/CMakeFiles/message_info__py.dir/build.make
 
 .PHONY : message_info__py

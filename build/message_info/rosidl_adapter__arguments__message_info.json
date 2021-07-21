@@ -19,6 +19,7 @@
     "/home/ubuntu/SSLRasp/src/message_info:msg/Role.msg",
     "/home/ubuntu/SSLRasp/src/message_info:msg/Attacker.msg",
     "/home/ubuntu/SSLRasp/src/message_info:msg/Goalie.msg",
-    "/home/ubuntu/SSLRasp/src/message_info:msg/Info.msg"
+    "/home/ubuntu/SSLRasp/src/message_info:msg/Info.msg",
+    "/home/ubuntu/SSLRasp/src/message_info:msg/RealCommands.msg"
   ]
 }

@@ -18,6 +18,8 @@ msg/Goalie.idl
 msg/Goalie.msg
 msg/Info.idl
 msg/Info.msg
+msg/RealCommands.idl
+msg/RealCommands.msg
 msg/Referee.idl
 msg/Referee.msg
 msg/RefereeGameEvent.idl

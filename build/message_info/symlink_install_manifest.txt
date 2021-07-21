@@ -31,6 +31,9 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__functions.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__type_support.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__functions.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__struct.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__type_support.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__functions.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__type_support.h
@@ -66,6 +69,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/real_commands.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.h
@@ -88,6 +92,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_c.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__rosidl_typesupport_fastrtps_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h
@@ -109,6 +114,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp
@@ -130,6 +136,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_c.h
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__rosidl_typesupport_introspection_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h
@@ -172,6 +179,9 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__builder.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__struct.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__traits.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__builder.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__struct.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__traits.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__builder.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__struct.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__traits.hpp
@@ -207,6 +217,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goal_info.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/goalie.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/info.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/real_commands.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_game_event.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/referee_team_info.hpp
@@ -226,6 +237,7 @@
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/goalie__rosidl_typesupport_introspection_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp
+/home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/real_commands__rosidl_typesupport_introspection_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp
 /home/ubuntu/SSLRasp/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp
@@ -249,6 +261,7 @@
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_goalie.py
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_info.py
+/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_real_commands.py
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py
 /home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py
@@ -281,6 +294,7 @@
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.idl
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.idl
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.idl
+/home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RealCommands.idl
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeGameEvent.msg
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RefereeTeamInfo.msg
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Referee.msg
@@ -300,6 +314,7 @@
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Attacker.msg
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Goalie.msg
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/Info.msg
+/home/ubuntu/SSLRasp/install/message_info/share/message_info/msg/RealCommands.msg
 /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info
 /home/ubuntu/SSLRasp/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info
 /home/ubuntu/SSLRasp/install/message_info/share/message_info/environment/ament_prefix_path.sh

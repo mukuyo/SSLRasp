@@ -129,6 +129,10 @@ CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/info.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__builder.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/real_commands.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
 
 
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -165,6 +169,7 @@ rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/mes
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Attacker.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Goalie.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Info.idl
+rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/RealCommands.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
@@ -482,6 +487,18 @@ rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp: rosidl_generator_
 rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
 
+rosidl_generator_cpp/message_info/msg/real_commands.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/real_commands.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
+
 message_info__cpp: CMakeFiles/message_info__cpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/referee_game_event__builder.hpp
@@ -559,6 +576,10 @@ message_info__cpp: rosidl_generator_cpp/message_info/msg/info.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__builder.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/real_commands.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
 message_info__cpp: CMakeFiles/message_info__cpp.dir/build.make
 
 .PHONY : message_info__cpp

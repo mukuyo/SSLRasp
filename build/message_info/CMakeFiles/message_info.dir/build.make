@@ -72,6 +72,7 @@ CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Role.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Attacker.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Goalie.msg
 CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/Info.msg
+CMakeFiles/message_info: /home/ubuntu/SSLRasp/src/message_info/msg/RealCommands.msg
 CMakeFiles/message_info: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/message_info: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/message_info: /opt/ros/foxy/share/std_msgs/msg/Bool.idl

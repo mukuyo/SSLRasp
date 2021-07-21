@@ -8,6 +8,7 @@ from message_info.msg._field_line_segment import FieldLineSegment  # noqa: F401
 from message_info.msg._goal_info import GoalInfo  # noqa: F401
 from message_info.msg._goalie import Goalie  # noqa: F401
 from message_info.msg._info import Info  # noqa: F401
+from message_info.msg._real_commands import RealCommands  # noqa: F401
 from message_info.msg._referee import Referee  # noqa: F401
 from message_info.msg._referee_game_event import RefereeGameEvent  # noqa: F401
 from message_info.msg._referee_team_info import RefereeTeamInfo  # noqa: F401

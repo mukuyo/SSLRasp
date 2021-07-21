@@ -424,6 +424,9 @@ ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES 
 # install(FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Info.idl" "DESTINATION" "share/message_info/msg")
 ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/Info.idl" "DESTINATION" "share/message_info/msg")
 
+# install(FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RealCommands.idl" "DESTINATION" "share/message_info/msg")
+ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/RealCommands.idl" "DESTINATION" "share/message_info/msg")
+
 # install(FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RefereeGameEvent.msg" "DESTINATION" "share/message_info/msg")
 ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RefereeGameEvent.msg" "DESTINATION" "share/message_info/msg")
 
@@ -480,6 +483,9 @@ ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES 
 
 # install(FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Info.msg" "DESTINATION" "share/message_info/msg")
 ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/src/message_info/msg/Info.msg" "DESTINATION" "share/message_info/msg")
+
+# install(FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RealCommands.msg" "DESTINATION" "share/message_info/msg")
+ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/src/message_info/msg/RealCommands.msg" "DESTINATION" "share/message_info/msg")
 
 # install(FILES "/home/ubuntu/SSLRasp/build/message_info/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/message_info" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ubuntu/SSLRasp/src/message_info" FILES "/home/ubuntu/SSLRasp/build/message_info/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/message_info" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
