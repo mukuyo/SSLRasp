@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # coding: UTF-8
 
@@ -26,7 +25,7 @@ class RealSender(Node):
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(26,GPIO.OUT)
         self.ser = serial.Serial("/dev/ttyACM0", 115200, timeout=0.5)
-        self.flag = False
+        self.flag = False   
         self.MY_ID = 0
         self.time_period = 2
         self.create_timer(self.time_period, self.timer_callback)
@@ -71,8 +70,6 @@ class RealSender(Node):
                     vel_norm =self._MAX_VEL_NORM
                 elif vel_norm < 0:
                     vel_norm = 0
-                
-                vel_norm*=100
 
                 vel_theta = math.atan2(command.vel_surge, -command.vel_sway) - math.radians(90)    
                 if vel_theta < 0:
@@ -90,12 +87,11 @@ class RealSender(Node):
 
                 kick_power = command.kick_power
 
-                self.M[0] = math.sin(math.radians(vel_theta - 60))*vel_norm
-                self.M[1] = math.sin(math.radians(vel_theta - 135))*vel_norm
-                self.M[2] = math.sin(math.radians(vel_theta - 225))*vel_norm
-                self.M[3] = math.sin(math.radians(vel_theta - 300))*vel_norm
+                self.M[0] = math.sin(math.radians(vel_theta - 60))
+                self.M[1] = math.sin(math.radians(vel_theta - 135))
+                self.M[2] = math.sin(math.radians(vel_theta - 225))
+                self.M[3] = math.sin(math.radians(vel_theta - 300))
                 
-                print(vel_theta)
                 break
 
         max_pow = 1
