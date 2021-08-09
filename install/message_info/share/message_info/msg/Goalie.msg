@@ -1,1 +1,1 @@
-/home/ubuntu/SSLRasp/src/message_info/msg/Goalie.msg
+geometry_msgs/Pose2D   pose

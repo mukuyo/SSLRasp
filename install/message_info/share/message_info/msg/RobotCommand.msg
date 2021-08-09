@@ -1,1 +1,19 @@
-/home/ubuntu/SSLRasp/src/message_info/msg/RobotCommand.msg
+
+int64   robot_id
+# /forwardback, m/s
+float64 vel_surge
+# left/right, m/s
+float64 vel_sway
+# rotation, rad/s
+float64 vel_angular
+
+# 0.0 ~ 1.0
+float64 kick_power
+# True/False
+bool    chip_enable
+# 0.0 ~ 1.0
+float64 dribble_power
+
+bool is_yellow
+
+bool finish

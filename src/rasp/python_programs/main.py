@@ -10,7 +10,8 @@ import struct
 import RPi.GPIO as GPIO
 import time
 import serial
-import  struct
+import struct
+import camera
 
 from message_info.msg import RobotCommands
 
@@ -134,7 +135,6 @@ class RealSender(Node):
           
         packet.append(0)
         self.ser.write(packet)
-
         self.ser.close()
 
 def main(args=None):

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/SSLRasp/build/message_info/message_info__py
+# Install script for directory: /home/rionessl/SSLRasp/build/message_info/message_info__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/SSLRasp/install/message_info")
+  set(CMAKE_INSTALL_PREFIX "/home/rionessl/SSLRasp/install/message_info")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,1 +1,4 @@
-/home/ubuntu/SSLRasp/src/message_info/msg/VisionDetections.msg
+
+std_msgs/Header     header
+DetectionFrame[]    frames
+int64 				test 

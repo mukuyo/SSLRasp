@@ -1,1 +1,5 @@
-/home/ubuntu/SSLRasp/src/message_info/msg/DetectionRobot.msg
+# This msg file is copied from 'messages_robocup_ssl_detection.proto'
+geometry_msgs/Pose2D pose
+uint8              robot_id
+bool               is_yellow
+bool               empty

@@ -1,1 +1,4 @@
-/home/ubuntu/SSLRasp/build/message_info/ament_cmake_environment_hooks/local_setup.dsv
+source;share/message_info/environment/ament_prefix_path.sh
+source;share/message_info/environment/library_path.sh
+source;share/message_info/environment/path.sh
+source;share/message_info/environment/pythonpath.sh

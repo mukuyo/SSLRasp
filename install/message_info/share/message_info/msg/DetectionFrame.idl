@@ -1,1 +1,34 @@
-/home/ubuntu/SSLRasp/build/message_info/rosidl_adapter/message_info/msg/DetectionFrame.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/DetectionFrame.msg
+// generated code does not contain a copyright notice
+
+#include "message_info/msg/DetectionBall.idl"
+#include "message_info/msg/DetectionRobot.idl"
+
+module message_info {
+  module msg {
+    typedef message_info::msg::DetectionRobot message_info__msg__DetectionRobot;
+    typedef message_info__msg__DetectionRobot message_info__msg__DetectionRobot__16[16];
+    @verbatim (language="comment", text=
+      " This msg file is copied from 'messages_robocup_ssl_detection.proto'")
+    struct DetectionFrame {
+      double t_capture;
+
+      double t_sent;
+
+      uint32 camera_id;
+
+      sequence<message_info::msg::DetectionBall> balls;
+
+      sequence<message_info::msg::DetectionRobot> robots_yellow;
+
+      sequence<message_info::msg::DetectionRobot> robots_blue;
+
+      message_info__msg__DetectionRobot__16 our_robots;
+
+      message_info__msg__DetectionRobot__16 their_robots;
+
+      message_info::msg::DetectionBall ball;
+    };
+  };
+};
