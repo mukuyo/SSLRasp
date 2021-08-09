@@ -1,4 +1,1 @@
-string[] name
-DetectionFrame frame
-VisionGeometry geometry
-Role role
+/home/ubuntu/SSLRasp/src/message_info/msg/Info.msg

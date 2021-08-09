@@ -1,0 +1,210 @@
+[1.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.236s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb1b87700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb1b87700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb1b87c40>)
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/SSLRasp'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['ignore', 'ignore_ament_install']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ignore'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ignore_ament_install'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['colcon_pkg']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'colcon_pkg'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['colcon_meta']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'colcon_meta'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['ros']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ros'
+[1.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message_info' with type 'ros.ament_cmake' and name 'message_info'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extension 'ignore_ament_install'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extensions ['colcon_pkg']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extension 'colcon_pkg'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extensions ['colcon_meta']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extension 'colcon_meta'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extensions ['ros']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/rasp) by extension 'ros'
+[1.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rasp' with type 'ros.ament_python' and name 'rasp'
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_args' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_target' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_clean_cache' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_clean_first' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_force_configure' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'ament_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'catkin_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.411s] DEBUG:colcon.colcon_core.verb:Building package 'message_info' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/SSLRasp/build/message_info', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/SSLRasp/install/message_info', 'merge_install': False, 'path': '/home/ubuntu/SSLRasp/src/message_info', 'symlink_install': True, 'test_result_base': None}
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_args' from command line to 'None'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_target' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_clean_first' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'cmake_force_configure' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'ament_cmake_args' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'rasp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.422s] DEBUG:colcon.colcon_core.verb:Building package 'rasp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/SSLRasp/build/rasp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/SSLRasp/install/rasp', 'merge_install': False, 'path': '/home/ubuntu/SSLRasp/src/rasp', 'symlink_install': True, 'test_result_base': None}
+[1.424s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/SSLRasp/src/message_info' with build type 'ament_cmake'
+[1.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/SSLRasp/src/message_info'
+[1.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.460s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/SSLRasp/src/rasp' with build type 'ament_python'
+[1.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('rasp', 'ament_prefix_path')
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/ament_prefix_path.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/ament_prefix_path.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/ament_prefix_path.sh'
+[1.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.494s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/rasp:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4
+[2.671s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rasp' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.673s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rasp' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.673s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/SSLRasp/src/rasp'
+[2.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.692s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/SSLRasp/build/rasp': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/SSLRasp/install/rasp --editable --build-directory /home/ubuntu/SSLRasp/build/rasp/build --no-deps
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/rasp:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/SSLRasp/build/message_info -- -j4 -l4
+[4.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/SSLRasp/build/message_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/rasp:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/message_info
+[4.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('rasp', 'pythonpath_develop')
+[4.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/build/rasp/share/rasp/hook/pythonpath_develop.ps1'
+[4.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/SSLRasp/build/rasp' returned '0': PYTHONPATH=/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/SSLRasp/install/rasp --editable --build-directory /home/ubuntu/SSLRasp/build/rasp/build --no-deps
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/build/rasp/share/rasp/hook/pythonpath_develop.dsv'
+[4.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/build/rasp/share/rasp/hook/pythonpath_develop.sh'
+[4.975s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp' for CMake module files
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp' for CMake config files
+[4.987s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp/lib'
+[4.989s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp/bin'
+[4.989s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp/lib/pkgconfig/rasp.pc'
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/rasp/lib/python3.8/site-packages'
+[4.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('rasp', 'pythonpath')
+[4.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/pythonpath.ps1'
+[4.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/pythonpath.dsv'
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/rasp/share/rasp/hook/pythonpath.sh'
+[5.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rasp)
+[5.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/rasp/share/rasp/package.ps1'
+[5.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/SSLRasp/install/rasp/share/rasp/package.dsv'
+[5.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/rasp/share/rasp/package.sh'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/rasp/share/rasp/package.bash'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/rasp/share/rasp/package.zsh'
+[5.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/SSLRasp/install/rasp/share/colcon-core/packages/rasp)
+[5.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_info)
+[5.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info' for CMake module files
+[5.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/SSLRasp/build/message_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/SSLRasp/install/rasp:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/SSLRasp/build/message_info
+[5.458s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info' for CMake config files
+[5.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'cmake_prefix_path')
+[5.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.ps1'
+[5.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.sh'
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib'
+[5.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'ld_library_path_lib')
+[5.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.ps1'
+[5.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.dsv'
+[5.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.sh'
+[5.481s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/bin'
+[5.482s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib/pkgconfig/message_info.pc'
+[5.482s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages'
+[5.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'pythonpath')
+[5.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.ps1'
+[5.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.dsv'
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.sh'
+[5.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.ps1'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.sh'
+[5.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.bash'
+[5.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.zsh'
+[5.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/SSLRasp/install/message_info/share/colcon-core/packages/message_info)
+[7.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_info)
+[7.563s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info' for CMake module files
+[7.568s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info' for CMake config files
+[7.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'cmake_prefix_path')
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.ps1'
+[7.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.dsv'
+[7.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/cmake_prefix_path.sh'
+[7.584s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib'
+[7.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'ld_library_path_lib')
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.dsv'
+[7.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/ld_library_path_lib.sh'
+[7.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/bin'
+[7.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib/pkgconfig/message_info.pc'
+[7.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/SSLRasp/install/message_info/lib/python3.8/site-packages'
+[7.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'pythonpath')
+[7.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.ps1'
+[7.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.dsv'
+[7.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/SSLRasp/install/message_info/share/message_info/hook/pythonpath.sh'
+[7.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.ps1'
+[7.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.dsv'
+[7.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.sh'
+[7.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.bash'
+[7.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/SSLRasp/install/message_info/share/message_info/package.zsh'
+[7.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/SSLRasp/install/message_info/share/colcon-core/packages/message_info)
+[7.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.615s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.639s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.640s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.643s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.643s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/SSLRasp/install/local_setup.ps1'
+[7.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/SSLRasp/install/_local_setup_util_ps1.py'
+[7.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/SSLRasp/install/setup.ps1'
+[7.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/SSLRasp/install/local_setup.sh'
+[7.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/SSLRasp/install/_local_setup_util_sh.py'
+[7.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/SSLRasp/install/setup.sh'
+[7.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/SSLRasp/install/local_setup.bash'
+[7.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/SSLRasp/install/setup.bash'
+[7.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/SSLRasp/install/local_setup.zsh'
+[7.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/SSLRasp/install/setup.zsh'
