@@ -1,6 +1,12 @@
+#!/usr/bin/env python3
+# coding: UTF-8
+
 import cv2
 import numpy as np
 import math
+
+def hi():
+    print("HI")
 
 class Camera:
   def __init__(self):

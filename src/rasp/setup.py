@@ -7,7 +7,7 @@ setup(
     version='0.0.0',
     packages=[],
     py_modules=[
-        'python_programs.main'
+        'python_programs.main', 'python_programs.camera'
     ],
     install_requires=['setuptools'],
     zip_safe=True,

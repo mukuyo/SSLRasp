@@ -8,4 +8,5 @@ setup.py
 ../../build/rasp/rasp.egg-info/top_level.txt
 ../../build/rasp/rasp.egg-info/zip-safe
 python_programs/__init__.py
+python_programs/camera.py
 python_programs/main.py
