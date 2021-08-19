@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goal_info_s.c.o"
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_goalie_s.c.o"
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_info_s.c.o"
+  "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_real_commands_s.c.o"
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_game_event_s.c.o"
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_s.c.o"
   "CMakeFiles/message_info__python.dir/rosidl_generator_py/message_info/msg/_referee_team_info_s.c.o"

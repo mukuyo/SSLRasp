@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -Wall -Wextra -Wpedantic -std=gnu++
 
 CXX_DEFINES = -DFOONATHAN_MEMORY=1 -DFOONATHAN_MEMORY_VERSION_MAJOR=0 -DFOONATHAN_MEMORY_VERSION_MINOR=6 -DFOONATHAN_MEMORY_VERSION_PATCH=2 -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"message_info\" -Dmessage_info__rosidl_typesupport_fastrtps_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/ubuntu/ssl_ws/SSLRasp/build/message_info/rosidl_generator_cpp -I/home/ubuntu/ssl_ws/SSLRasp/build/message_info/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/foxy/include -isystem /opt/ros/foxy/include/foonathan_memory/comp -isystem /opt/ros/foxy/include/foonathan_memory 
+CXX_INCLUDES = -I/home/ubuntu/SSLRasp/build/message_info/rosidl_generator_cpp -I/home/ubuntu/SSLRasp/build/message_info/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/foxy/include -isystem /opt/ros/foxy/include/foonathan_memory/comp -isystem /opt/ros/foxy/include/foonathan_memory 
 

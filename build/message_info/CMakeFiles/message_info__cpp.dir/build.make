@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ssl_ws/SSLRasp/src/message_info
+CMAKE_SOURCE_DIR = /home/ubuntu/SSLRasp/src/message_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ssl_ws/SSLRasp/build/message_info
+CMAKE_BINARY_DIR = /home/ubuntu/SSLRasp/build/message_info
 
 # Utility rule file for message_info__cpp.
 
@@ -129,6 +129,10 @@ CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/info.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__builder.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp
 CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/real_commands.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+CMakeFiles/message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
 
 
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -165,6 +169,7 @@ rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/mes
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Attacker.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Goalie.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/Info.idl
+rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: rosidl_adapter/message_info/msg/RealCommands.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
@@ -254,8 +259,8 @@ rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/shar
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/sensor_msgs/msg/Temperature.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/sensor_msgs/msg/TimeReference.idl
 rosidl_generator_cpp/message_info/msg/referee_game_event.hpp: /opt/ros/foxy/share/sensor_msgs/srv/SetCameraInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ssl_ws/SSLRasp/build/message_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ubuntu/ssl_ws/SSLRasp/build/message_info/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/SSLRasp/build/message_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ubuntu/SSLRasp/build/message_info/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/message_info/msg/detail/referee_game_event__builder.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/referee_game_event__builder.hpp
@@ -482,6 +487,18 @@ rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp: rosidl_generator_
 rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
 
+rosidl_generator_cpp/message_info/msg/real_commands.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/real_commands.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+
+rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
+
 message_info__cpp: CMakeFiles/message_info__cpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/referee_game_event.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/referee_game_event__builder.hpp
@@ -559,6 +576,10 @@ message_info__cpp: rosidl_generator_cpp/message_info/msg/info.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__builder.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__struct.hpp
 message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/info__traits.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/real_commands.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__builder.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__struct.hpp
+message_info__cpp: rosidl_generator_cpp/message_info/msg/detail/real_commands__traits.hpp
 message_info__cpp: CMakeFiles/message_info__cpp.dir/build.make
 
 .PHONY : message_info__cpp
@@ -573,6 +594,6 @@ CMakeFiles/message_info__cpp.dir/clean:
 .PHONY : CMakeFiles/message_info__cpp.dir/clean
 
 CMakeFiles/message_info__cpp.dir/depend:
-	cd /home/ubuntu/ssl_ws/SSLRasp/build/message_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ssl_ws/SSLRasp/src/message_info /home/ubuntu/ssl_ws/SSLRasp/src/message_info /home/ubuntu/ssl_ws/SSLRasp/build/message_info /home/ubuntu/ssl_ws/SSLRasp/build/message_info /home/ubuntu/ssl_ws/SSLRasp/build/message_info/CMakeFiles/message_info__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/SSLRasp/build/message_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SSLRasp/src/message_info /home/ubuntu/SSLRasp/src/message_info /home/ubuntu/SSLRasp/build/message_info /home/ubuntu/SSLRasp/build/message_info /home/ubuntu/SSLRasp/build/message_info/CMakeFiles/message_info__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/message_info__cpp.dir/depend
 
