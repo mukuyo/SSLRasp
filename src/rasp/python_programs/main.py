@@ -23,16 +23,12 @@ GPIO.setwarnings(False)
 class RealSender(Node):
     def __init__(self):
         super().__init__('receiver')
-        self._MAX_VEL_NORM = 4.0 # m/s
-        self._MAX_VEL_ANGULAR = 2.0*math.pi
-        self.motor_limit = 0
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(26,GPIO.OUT)
         GPIO.setup(21,GPIO.IN)
         
         self.ser = serial.Serial("/dev/ttyACM0", 115200, timeout=0.5)
-        self.flag = False   
         self.MY_ID = 0
         self.realcommands = RealCommands()
         self.time_period = 0.016
@@ -45,36 +41,14 @@ class RealSender(Node):
             RealCommands,
             'real_commands', 10)
         self.M = [0, 0, 0, 0]
-        self.flag = False
-        self.angular_rem = 0
-        self.angular_rem2 = 0
         
     def timer_callback(self):
         self.realcommands.ball_catch = GPIO.input(21)
         self.pub_commands.publish(self.realcommands)
-        if self.flag == False:
-            packet = bytearray()
-            packet.append(0xFF)
-            packet.append(self.motor_limit)
-            
-            for i in range(4):
-                self.M[i] = 100
-                packet.append(int(self.M[i]))
-
-            #self.ser.write(packet)
-       
-        self.flag = False
-      
 
     def pc_callback(self, msg):
-        self.flag = True
-
         packet = bytearray()
-
         packet.append(0xFF)
-        
-        self.motor_limit = 40
-        packet.append(self.motor_limit)
 
         for command in msg.commands:
             if command.robot_id == self.MY_ID:
@@ -92,10 +66,6 @@ class RealSender(Node):
                 vel_theta += 0
 
                 vel_angular = command.vel_angular
-                
-                if math.fabs(vel_angular) > self._MAX_VEL_ANGULAR:
-                    vel_angular = math.copysign(self._MAX_VEL_ANGULAR, vel_angular)
-                vel_angular /= self._MAX_VEL_ANGULAR
 
                 dribble_power = command.dribble_power
                 kick_power = command.kick_power*10
@@ -107,15 +77,9 @@ class RealSender(Node):
                 
                 break
 
-        max_pow = 1
-        d = (vel_angular - self.angular_rem) / 0.016
-        self.angular_rem = vel_angular
-        #pid = vel_angular * 1.2 + d * 0.25
-        pid = vel_angular * 1.2 + d * 0.25
-        #pid = vel_angular * 1.6;
         for i in range(4):
             #self.M[i] *= vel_norm / max_pow
-            self.M[i] += pid
+            self.M[i] += vel_angular
             self.M[i]*=100
 
             if self.M[i] > 100:
@@ -133,16 +97,15 @@ class RealSender(Node):
         self.ser.write(packet)
 
     def serial_close(self):
-        packet = bytearray()
-        packet.append(0xFF)
-        packet.append(self.motor_limit)
-        for i in range(4):
-            self.M[i] = 100
-            packet.append(int(self.M[i]))
-          
-        packet.append(0)
-        packet.append(0)
-        self.ser.write(packet)
+        for i in range(20):
+            packet = bytearray()
+            packet.append(0xFF)
+            for i in range(4):
+                self.M[i] = 100
+                packet.append(int(self.M[i]))          
+            packet.append(0)
+            packet.append(0)
+            self.ser.write(packet)
         self.ser.close()
             
 def main(args=None):
