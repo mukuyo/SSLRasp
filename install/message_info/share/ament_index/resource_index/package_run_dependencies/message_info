@@ -1,1 +1,0 @@
-rosidl_default_generators;std_msgs;builtin_interfaces;sensor_msgs;geometry_msgs;tinyxml2;ament_lint_auto;ament_lint_common

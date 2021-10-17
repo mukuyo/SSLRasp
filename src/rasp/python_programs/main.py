@@ -28,8 +28,11 @@ class RealSender(Node):
         GPIO.setup(26,GPIO.OUT)
         GPIO.setup(18,GPIO.IN)
         GPIO.setup(12,GPIO.OUT)
-        kick = GPIO.PWM(12, 0.001)
-        pi.start(0)
+        GPIO.setup(13,GPIO.OUT)
+        DR = GPIO.PWM(12,50)
+        kick = GPIO.PWM(13, 0.001)
+        DR.start(0)
+        kick.start(0)
 
         self.ser = serial.Serial("/dev/ttyS0", 115200, timeout=0.5)
         self.MY_ID = 0
@@ -72,7 +75,7 @@ class RealSender(Node):
 
                 dribble_power = command.dribble_power
                 kick_power = command.kick_power*10
-                pi.ChangeDutyCycle(kick_power)
+                #kick.ChangeDutyCycle(kick_power)
 
                 self.M[0] = math.sin(math.radians(vel_theta - 60)) * vel_norm
                 self.M[1] = math.sin(math.radians(vel_theta - 135)) * vel_norm

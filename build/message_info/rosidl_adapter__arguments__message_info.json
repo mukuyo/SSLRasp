@@ -1,8 +1,0 @@
-{
-  "package_name": "message_info",
-  "non_idl_tuples": [
-    "/home/ubuntu/SSLRasp/src/message_info:msg/RobotCommand.msg",
-    "/home/ubuntu/SSLRasp/src/message_info:msg/RobotCommands.msg",
-    "/home/ubuntu/SSLRasp/src/message_info:msg/RealCommands.msg"
-  ]
-}
