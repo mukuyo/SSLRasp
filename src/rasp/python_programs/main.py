@@ -17,6 +17,8 @@ import math
 
 from message_info.msg import RobotCommands, RealCommands
 
+IR_PIN = 18
+DR_PIN = 12
 
 GPIO.setwarnings(False)
 
@@ -25,14 +27,10 @@ class RealSender(Node):
         super().__init__('receiver')
 
         GPIO.setmode(GPIO.BCM)
-        GPIO.setup(26,GPIO.OUT)
-        GPIO.setup(18,GPIO.IN)
-        GPIO.setup(12,GPIO.OUT)
-        GPIO.setup(13,GPIO.OUT)
-        DR = GPIO.PWM(12,50)
-        kick = GPIO.PWM(13, 0.001)
-        DR.start(0)
-        kick.start(0)
+        GPIO.setup(IR_PIN,GPIO.IN)
+        GPIO.setup(DR_PIN,GPIO.OUT)
+        self.DR = GPIO.PWM(DR_PIN, 50)
+        self.DR.start(0)
 
         self.ser = serial.Serial("/dev/ttyS0", 115200, timeout=0.5)
         self.MY_ID = 0
@@ -47,12 +45,37 @@ class RealSender(Node):
             RealCommands,
             'real_commands', 10)
         self.M = [0, 0, 0, 0]
-        
+        self.stop_flag = False
+        self.loop_flag = False
+        self.stop_count = 0
+        self.loop_flag_before = 0
+        #self.DR.ChangeDutyCycle(4)
+        #time.sleep(1)
+        self.DR.ChangeDutyCycle(0)
+        time.sleep(1)
+        self.DR.ChangeDutyCycle(4)
+        time.sleep(1) 
+
     def timer_callback(self):
-        self.realcommands.ball_catch = GPIO.input(18)
+        if self.loop_flag == self.loop_flag_before:
+            self.stop_count += 1
+            if self.stop_count > 60:
+                self.stop_flag = True
+                self.serial_close()
+            else:
+                self.stop_flag = False
+        else:
+            self.stop_flag = False
+            self.stop_count = 0
+        print(self.stop_count)
+
+        self.loop_flag_before = self.stop_flag
+
+        self.realcommands.ball_catch = GPIO.input(IR_PIN)
         self.pub_commands.publish(self.realcommands)
 
     def pc_callback(self, msg):
+        self.loop_flag = not self.loop_flag
         packet = bytearray()
         packet.append(0xFF)
 
@@ -72,10 +95,18 @@ class RealSender(Node):
                 vel_theta += 0
 
                 vel_angular = command.vel_angular
+                #if vel_angular < 0:
+                #    vel_angular += 2.0 * math.pi
+                #vel_anugular = math.degrees(vel_angular)
+                #print(vel_angular)
 
                 dribble_power = command.dribble_power
-                kick_power = command.kick_power*10
-                #kick.ChangeDutyCycle(kick_power)
+                #command.kick_power = 0.5
+                kick_power = command.kick_power * 10
+                if command.dribble_power > 0:
+                    self.DR.ChangeDutyCycle(8)
+                else:
+                    self.DR.ChangeDutyCycle(4)
 
                 self.M[0] = math.sin(math.radians(vel_theta - 60)) * vel_norm
                 self.M[1] = math.sin(math.radians(vel_theta - 135)) * vel_norm
@@ -87,7 +118,7 @@ class RealSender(Node):
         for i in range(4):
             #self.M[i] *= vel_norm / max_pow
             self.M[i] += vel_angular
-            self.M[i]*=100
+            self.M[i] *= 100
 
             if self.M[i] > 100:
                 self.M[i] = 100
@@ -95,16 +126,15 @@ class RealSender(Node):
                 self.M[i] = -100
             
             self.M[i] += 100
-            #print(self.M[i])
             packet.append(int(self.M[i]))
        
         packet.append(int(dribble_power))
         packet.append(int(kick_power))
-
+        #print(kick_power)
         self.ser.write(packet)
 
     def serial_close(self):
-        for i in range(20):
+        for i in range(10):
             packet = bytearray()
             packet.append(0xFF)
             for i in range(4):
@@ -114,7 +144,11 @@ class RealSender(Node):
             packet.append(0)
             packet.append(0)
             self.ser.write(packet)
-        self.ser.close()
+        self.DR.ChangeDutyCycle(4.5)
+        time.sleep(1)
+        self.DR.ChangeDutyCycle(2)
+        time.sleep(1)
+        #self.ser.close()
             
 def main(args=None):
     rclpy.init(args=args)
